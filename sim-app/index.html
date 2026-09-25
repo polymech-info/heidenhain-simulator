@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="data:," />
-    <title>WS212 wrapper sim</title>
+    <title>Heidenhain</title>
     <style>
       html,
       body {
@@ -34,7 +34,7 @@
         try {
           var params = new URLSearchParams(window.location.search);
           var q = params.get("theme");
-          var stored = localStorage.getItem("pm-3d-wrapper.theme");
+          var stored = localStorage.getItem("pm-heidenhain.theme");
           var dark =
             q === "dark" ? true : q === "light" ? false : stored === "dark" ? true : stored === "light" ? false : window.matchMedia("(prefers-color-scheme: dark)").matches;
           document.documentElement.classList.toggle("dark", dark);
@@ -45,7 +45,7 @@
   </head>
   <body>
     <div id="root">
-      <div class="pm-boot" aria-live="polite">Loading 3D wrapper…</div>
+      <div class="pm-boot" aria-live="polite">Loading Heidenhain…</div>
     </div>
   </body>
 </html>

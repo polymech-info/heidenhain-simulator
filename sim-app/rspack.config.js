@@ -1,10 +1,12 @@
 import path from "path";
-import fs from "fs";
 import { fileURLToPath } from "url";
 import { rspack } from "@rspack/core";
 import { ReactRefreshRspackPlugin } from "@rspack/plugin-react-refresh";
+import { writeSampleIndex } from "./write-sample-index.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const sampleDir = path.resolve(__dirname, "../samples");
+writeSampleIndex();
 
 export default (env = {}, argv = {}) => {
   const isDev = argv.mode !== "production";
@@ -15,9 +17,9 @@ export default (env = {}, argv = {}) => {
     output: {
       path: path.resolve(__dirname, "dist"),
       publicPath: "auto",
-      filename: "3d-wrapper.bundle.js",
-      chunkFilename: "3d-wrapper.[name].js",
-      assetModuleFilename: "3d-wrapper.[name][ext]",
+      filename: "heidenhain.bundle.js",
+      chunkFilename: "heidenhain.[name].js",
+      assetModuleFilename: "heidenhain.[name][ext]",
       clean: true,
     },
     resolve: {
@@ -79,13 +81,14 @@ export default (env = {}, argv = {}) => {
         template: path.resolve(__dirname, "index.html"),
         filename: "index.html",
         inject: "body",
-        title: isDev ? "WS212 wrapper (dev)" : "WS212 wrapper",
+        title: isDev ? "Heidenhain (dev)" : "Heidenhain",
         minify: !isDev,
       }),
-      new rspack.NormalModuleReplacementPlugin(
-        /^zustand$/,
-        path.resolve(__dirname, "src/zustand-compat.js"),
-      ),
+      new rspack.NormalModuleReplacementPlugin(/^zustand$/, path.resolve(__dirname, "src/zustand-compat.js")),
+      !isDev &&
+        new rspack.CopyRspackPlugin({
+          patterns: [{ from: sampleDir, to: "samples", globOptions: { ignore: ["**/.git/**"] } }],
+        }),
       isDev && new ReactRefreshRspackPlugin(),
     ].filter(Boolean),
     devtool: isDev ? "eval-source-map" : false,
@@ -101,34 +104,10 @@ export default (env = {}, argv = {}) => {
           open: "/?theme=dark",
           allowedHosts: "all",
           headers: { "Access-Control-Allow-Origin": "*" },
-          setupMiddlewares: (middlewares, devServer) => {
-            const repoRoot = path.resolve(__dirname, "../..");
-            devServer.app.use("/dev-file", (req, res) => {
-              const qs = req.url.includes("?") ? req.url.slice(req.url.indexOf("?") + 1) : req.url;
-              const raw = new URLSearchParams(qs).get("path") ?? "";
-              if (!raw) {
-                res.statusCode = 400;
-                res.end("Missing ?path=");
-                return;
-              }
-              const abs = path.resolve(repoRoot, raw);
-              const guard = repoRoot + path.sep;
-              if (!abs.startsWith(guard) && abs !== repoRoot) {
-                res.statusCode = 403;
-                res.end("Forbidden");
-                return;
-              }
-              fs.readFile(abs, (err, data) => {
-                if (err) {
-                  res.statusCode = 404;
-                  res.end("Not found");
-                  return;
-                }
-                res.setHeader("Access-Control-Allow-Origin", "*");
-                res.end(data);
-              });
-            });
-            return middlewares;
+          static: {
+            directory: sampleDir,
+            publicPath: "/samples",
+            watch: true,
           },
         }
       : undefined,

@@ -1,0 +1,9 @@
+[
+  { "file": "drill_7_20.h", "title": "Drill 7", "note": "Cycle 200" },
+  { "file": "25d_20_pocket_m10.h", "title": "Pocket 25", "note": "L / CC / CP" },
+  { "file": "logo.h", "title": "Logo", "note": "Contour" },
+  { "file": "probe_35_center.h", "title": "Probe 35", "note": "TCH PROBE" },
+  { "file": "clamp-gl3200/mould-plate-top.h", "title": "Mould plate", "note": "5 tools · drill, mills" },
+  { "file": "hopper-mount/mixer/bottom.h", "title": "Mixer bottom", "note": "3 tools · drill, mills" },
+  { "file": "nema-23/100-100-2x/bottom-complete.h", "title": "NEMA bottom", "note": "4 tools · face, mills, drill" }
+]

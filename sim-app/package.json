@@ -1,5 +1,5 @@
 {
-  "name": "@polymech/3d-wrapper",
+  "name": "@polymech/heidenhain-sim",
   "private": true,
   "version": "0.0.0",
   "packageManager": "npm@10.9.2",

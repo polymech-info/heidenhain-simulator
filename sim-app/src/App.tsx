@@ -1,42 +1,41 @@
-﻿import { useCallback, useEffect, useState, type CSSProperties } from "react";
-import { LoaderCircle, Moon, Pause, Play, RotateCcw, Sun, MousePointer2, Move, Upload, ZoomIn } from "lucide-react";
-import { DEFAULT_LOAD_ID } from "@/objects/registry";
-import { createLoadFromFile } from "@/objects/fromMesh";
-import type { LoadDefinition, LoadTruth } from "@/objects/types";
-import { SimulatorCanvas, type NavMode } from "@/scene/SimulatorCanvas";
-import { emptyScanUi, type ScanUi } from "@/scene/ScanRuntime";
-import { ControlPanel } from "@/ui/ControlPanel";
-import { DEFAULT_SIM_SPEED } from "@/sim/machine";
-import {
-  SCAN_ACT_AUTO,
-  SCAN_CTRL_LAYERS_MAX,
-  SCAN_CTRL_LAYERS_MIN,
-  SCAN_CTRL_START_WRAPS_DEFAULT,
-} from "@/algorithm/scanControl";
-import { DT35 } from "@/sim/sensor";
+﻿import { useCallback, useEffect, useRef, useState, type CSSProperties, type DragEvent } from "react";
+import { Moon, MousePointer2, Move, Pause, Play, RotateCcw, SkipBack, SkipForward, Sun, Upload, ZoomIn } from "lucide-react";
+import { parseKlartext } from "@/lang/parse";
+import type { Vec3 } from "@/machine/machine";
+import type { Trace } from "@/machine/machine";
+import { runProgram } from "@/machine/run";
+import { loadViewPrefs, saveViewPrefs } from "@/prefs";
+import { PathView, blockAt, type NavMode } from "@/scene/PathView";
+import { DEFAULT_SAMPLE, sampleUrl } from "@/samples";
 import { applyTheme } from "@/theme";
+import { BlockPanel } from "@/ui/BlockPanel";
+import { ProgramPanel } from "@/ui/ProgramPanel";
+import { SampleBrowser } from "@/ui/SampleBrowser";
+
+const ORIGIN: Vec3 = { x: 0, y: 0, z: 0 };
 
 export function App() {
-  const [isDark, setIsDark] = useState(() =>
-    typeof document !== "undefined" ? document.documentElement.classList.contains("dark") : true,
-  );
+  const [isDark, setIsDark] = useState(() => document.documentElement.classList.contains("dark"));
   const [navMode, setNavMode] = useState<NavMode>("orbit");
-  const [playing, setPlaying] = useState(true);
-  const [layers, setLayers] = useState(SCAN_CTRL_LAYERS_MIN);
-  const [startWraps, setStartWraps] = useState(SCAN_CTRL_START_WRAPS_DEFAULT);
-  const [fullSim, setFullSim] = useState(true);
-  const [act, setAct] = useState(SCAN_ACT_AUTO);
-  const [actToken, setActToken] = useState(0);
-  const [noise, setNoise] = useState<number>(DT35.repeatabilitySigmaMm);
-  const [dropout, setDropout] = useState(0.01);
-  const [simSpeed, setSimSpeed] = useState<number>(DEFAULT_SIM_SPEED);
-  const [loadId, setLoadId] = useState(DEFAULT_LOAD_ID);
-  const [customLoad, setCustomLoad] = useState<LoadDefinition | null>(null);
-  const [resetToken, setResetToken] = useState(0);
-  const [ui, setUi] = useState<ScanUi>(() => emptyScanUi());
-  const [truth, setTruth] = useState<LoadTruth>({ heightMm: 0, radiusMm: 0 });
-  const [meshState, setMeshState] = useState<"idle" | "loading" | "error">("idle");
-  const [meshMessage, setMeshMessage] = useState("");
+  const [view, setView] = useState(loadViewPrefs);
+  const { pathMode, showMaterial, mesh } = view;
+  const [playing, setPlaying] = useState(false);
+  const [speed, setSpeed] = useState(1);
+  const [trace, setTrace] = useState<Trace | null>(null);
+  const [fileName, setFileName] = useState<string | null>(null);
+  const [sampleFile, setSampleFile] = useState<string | null>(null);
+  const [block, setBlock] = useState(0);
+  const [pose, setPose] = useState<Vec3>(ORIGIN);
+  const [seek, setSeek] = useState<{ block: number; token: number; dist?: number } | null>(null);
+  const [along, setAlong] = useState(0);
+  const [hot, setHot] = useState(false);
+  const [error, setError] = useState("");
+  const seekToken = useRef(0);
+  const scrubbing = useRef(false);
+  const blockRef = useRef(0);
+  const traceRef = useRef<Trace | null>(null);
+  blockRef.current = block;
+  traceRef.current = trace;
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -44,49 +43,121 @@ export function App() {
     if (theme === "dark" || theme === "light") {
       applyTheme(theme);
       setIsDark(theme === "dark");
-    } else if (!document.documentElement.classList.contains("dark")) {
-      applyTheme("dark");
-      setIsDark(true);
     }
   }, []);
 
-  const onUi = useCallback((next: ScanUi) => setUi(next), []);
-  const onTruth = useCallback((next: LoadTruth) => setTruth(next), []);
+  useEffect(() => {
+    saveViewPrefs(view);
+  }, [view]);
 
-  const selectLoad = (id: string) => {
-    setCustomLoad(null);
-    setLoadId(id);
-    setResetToken((n) => n + 1);
+  const seekTo = useCallback((index: number) => {
+    const current = traceRef.current;
+    const count = current?.blocks.length ?? 0;
+    const next = count === 0 ? 0 : Math.min(count - 1, Math.max(0, index));
+    const end = current?.blockEnd[next] ?? 0;
+    seekToken.current += 1;
+    setBlock(next);
+    setAlong(current?.clock[end] ?? 0);
+    setSeek({ block: next, token: seekToken.current });
+  }, []);
+
+  const seekAlong = useCallback((value: number) => {
+    const current = traceRef.current;
+    if (!current) return;
+    const total = current.clock[current.clock.length - 1] ?? 0;
+    const dist = Math.min(total, Math.max(0, value));
+    const index = blockAt(current, dist);
+    seekToken.current += 1;
+    setBlock(index);
+    setAlong(dist);
+    setSeek({ block: index, token: seekToken.current, dist });
+  }, []);
+
+  const loadText = useCallback(
+    (name: string, text: string) => {
+      if (text.includes("\0")) {
+        setError("That file is not Klartext text.");
+        return;
+      }
+      const program = parseKlartext(text);
+      if (program.blocks.length === 0) {
+        setError("No blocks in that file.");
+        return;
+      }
+      const next = runProgram(program);
+      setError("");
+      setFileName(name);
+      traceRef.current = next;
+      setTrace(next);
+      setPlaying(false);
+      setPose(ORIGIN);
+      seekTo(0);
+    },
+    [seekTo],
+  );
+
+  const loadFile = useCallback(
+    async (file: File | undefined) => {
+      if (!file) return;
+      try {
+        setSampleFile(null);
+        loadText(file.name, await file.text());
+      } catch (err) {
+        setError(err instanceof Error ? err.message : String(err));
+      }
+    },
+    [loadText],
+  );
+
+  const loadSample = useCallback(
+    async (file: string) => {
+      try {
+        const res = await fetch(sampleUrl(file), { cache: "no-store" });
+        if (!res.ok) throw new Error(`Could not load ${file}`);
+        setSampleFile(file);
+        loadText(file, await res.text());
+      } catch (err) {
+        setError(err instanceof Error ? err.message : String(err));
+      }
+    },
+    [loadText],
+  );
+
+  useEffect(() => {
+    if (DEFAULT_SAMPLE) void loadSample(DEFAULT_SAMPLE);
+  }, [loadSample]);
+
+  const onDrop = (event: DragEvent) => {
+    event.preventDefault();
+    setHot(false);
+    const file = event.dataTransfer.files[0];
+    void loadFile(file);
   };
-
-  const reset = useCallback(() => setResetToken((n) => n + 1), []);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null;
-      if (target?.matches("input, select, textarea, button") || event.ctrlKey || event.metaKey || event.altKey) return;
+      if (target?.closest(".sim-samples")) return;
+      if (target?.matches("input, select, textarea") || event.ctrlKey || event.metaKey || event.altKey) return;
       if (event.code === "Space") {
         event.preventDefault();
         setPlaying((value) => !value);
+      } else if (event.key === "ArrowRight") {
+        event.preventDefault();
+        setPlaying(false);
+        seekTo(blockRef.current + 1);
+      } else if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        setPlaying(false);
+        seekTo(blockRef.current - 1);
       } else if (event.key.toLowerCase() === "r") {
-        reset();
+        setPlaying(false);
+        seekTo(0);
       }
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [reset]);
-
-  const onPickMesh = async (file: File | undefined) => {
-    if (!file) return;
-    try {
-      const def = await createLoadFromFile(file);
-      setCustomLoad(def);
-      setLoadId(def.id);
-      setResetToken((n) => n + 1);
-    } catch (err) {
-      window.alert(err instanceof Error ? err.message : String(err));
-    }
-  };
+  }, [seekTo]);
 
   const toolBtn = (active: boolean): CSSProperties => ({
     padding: "4px 8px",
@@ -95,42 +166,79 @@ export function App() {
     border: "none",
   });
 
+  const title = trace?.programName ?? fileName;
+  const last = trace ? trace.blocks.length - 1 : 0;
+
   return (
-    <div className="flex h-full min-h-0 w-full flex-1 flex-col overflow-hidden">
+    <div
+      className={`flex h-full min-h-0 w-full flex-1 flex-col overflow-hidden${hot ? " is-hot" : ""}`}
+      onDragEnter={(event) => {
+        event.preventDefault();
+        setHot(true);
+      }}
+      onDragOver={(event) => {
+        event.preventDefault();
+        setHot(true);
+      }}
+      onDragLeave={(event) => {
+        if (event.currentTarget.contains(event.relatedTarget as Node | null)) return;
+        setHot(false);
+      }}
+      onDrop={onDrop}
+    >
       <header className="sim-topbar">
+        <div className="sim-topbar-row">
         <div className="sim-brand">
-          <strong>WS212 wrapper</strong>
-          <span>UP_DOWN_SCAN_GO Â· DT35-B15551</span>
+          <strong>Heidenhain</strong>
+          <span>{title ? `${title}${trace?.unit ? ` · ${trace.unit}` : ""}` : "Drop a .h program"}</span>
         </div>
         <div className="sim-tools" role="toolbar" aria-label="Simulation controls">
           <div className="sim-seg">
             <button type="button" style={toolBtn(navMode === "orbit")} title="Orbit" onClick={() => setNavMode("orbit")}>
               <MousePointer2 size={16} className={navMode === "orbit" ? "text-primary" : "text-muted-foreground"} />
             </button>
-            <button type="button" style={toolBtn(navMode === "pan")} title="Pan camera" aria-label="Pan camera" aria-pressed={navMode === "pan"} onClick={() => setNavMode("pan")}>
+            <button type="button" style={toolBtn(navMode === "pan")} title="Pan" aria-pressed={navMode === "pan"} onClick={() => setNavMode("pan")}>
               <Move size={16} className={navMode === "pan" ? "text-primary" : "text-muted-foreground"} />
             </button>
-            <button type="button" style={toolBtn(navMode === "zoom")} title="Zoom camera" aria-label="Zoom camera" aria-pressed={navMode === "zoom"} onClick={() => setNavMode("zoom")}>
+            <button type="button" style={toolBtn(navMode === "zoom")} title="Zoom" aria-pressed={navMode === "zoom"} onClick={() => setNavMode("zoom")}>
               <ZoomIn size={16} className={navMode === "zoom" ? "text-primary" : "text-muted-foreground"} />
             </button>
           </div>
           <div className="sim-seg">
-            <button type="button" onClick={() => setPlaying((v) => !v)} title={playing ? "Pause" : "Play"}>
+            <button type="button" title="Previous block" aria-label="Previous block" disabled={!trace} onClick={() => { setPlaying(false); seekTo(block - 1); }}>
+              <SkipBack size={16} />
+            </button>
+            <button type="button" title={playing ? "Pause" : "Play"} disabled={!trace} onClick={() => setPlaying((value) => !value)}>
               {playing ? <Pause size={16} /> : <Play size={16} />}
             </button>
-            <button type="button" onClick={reset} title="Reset scan (R)" aria-label="Reset scan">
+            <button type="button" title="Next block" aria-label="Next block" disabled={!trace} onClick={() => { setPlaying(false); seekTo(block + 1); }}>
+              <SkipForward size={16} />
+            </button>
+            <button type="button" title="Rewind (R)" aria-label="Rewind" disabled={!trace} onClick={() => { setPlaying(false); seekTo(0); }}>
               <RotateCcw size={16} />
             </button>
           </div>
+          <label className="sim-field sim-speed">
+            <span>{speed.toFixed(2).replace(/\.00$/, "")}×</span>
+            <input
+              type="range"
+              min={0.25}
+              max={16}
+              step={0.25}
+              value={speed}
+              onChange={(event) => setSpeed(Number(event.target.value))}
+            />
+          </label>
           <label className="sim-file">
-            Meshâ€¦
+            <Upload size={14} />
+            Open
             <input
               type="file"
-              accept=".stl,.obj,.gltf,.glb,.ply"
+              accept=".h,.H,.i,.I,text/plain"
               hidden
-              onChange={(e) => {
-                onPickMesh(e.target.files?.[0]);
-                e.target.value = "";
+              onChange={(event) => {
+                void loadFile(event.target.files?.[0]);
+                event.target.value = "";
               }}
             />
           </label>
@@ -148,56 +256,86 @@ export function App() {
             {isDark ? <Sun size={14} /> : <Moon size={14} />}
           </button>
         </div>
+        </div>
+        <label className="sim-seek">
+          <span>{trace ? block + 1 : 0}</span>
+          <input
+            type="range"
+            min={0}
+            max={trace ? trace.clock[trace.clock.length - 1] || 1 : 1}
+            step="any"
+            value={along}
+            disabled={!trace || (trace.clock[trace.clock.length - 1] ?? 0) <= 0}
+            aria-label="Seek"
+            onPointerDown={() => {
+              scrubbing.current = true;
+              setPlaying(false);
+            }}
+            onPointerUp={() => {
+              scrubbing.current = false;
+            }}
+            onPointerCancel={() => {
+              scrubbing.current = false;
+            }}
+            onChange={(event) => seekAlong(Number(event.target.value))}
+          />
+          <span>{trace?.blocks.length ?? 0}</span>
+        </label>
       </header>
 
-      <div className="relative flex min-h-0 flex-1">
+      <div className="sim-body relative flex min-h-0 flex-1">
+        <SampleBrowser active={sampleFile} onOpen={(file) => void loadSample(file)} />
         <div className="relative min-h-0 min-w-0 flex-1">
-          <SimulatorCanvas
-            loadId={customLoad ? customLoad.id : loadId}
-            customLoad={customLoad}
+          <PathView
+            trace={trace}
             playing={playing}
-            pot01={(layers - SCAN_CTRL_LAYERS_MIN) / (SCAN_CTRL_LAYERS_MAX - SCAN_CTRL_LAYERS_MIN)}
-            startWraps={startWraps}
-            fullSim={fullSim}
-            act={act}
-            actToken={actToken}
-            noiseSigmaMm={noise}
-            dropout={dropout}
-            ui={ui}
+            speed={speed}
+            seek={seek}
             navMode={navMode}
-            resetToken={resetToken}
+            pathMode={pathMode}
+            showMaterial={showMaterial}
+            mesh={mesh}
             isDark={isDark}
-            simSpeed={simSpeed}
-            onUi={onUi}
-            onTruth={onTruth}
+            onBlock={(index) => setBlock(Math.min(last, Math.max(0, index)))}
+            onPose={setPose}
+            onProgress={(value) => {
+              if (!scrubbing.current) setAlong(value);
+            }}
+            onDone={() => setPlaying(false)}
           />
+          {!trace ? (
+            <div className={`sim-drop${hot ? " is-hot" : ""}`}>
+              <strong>Pick a sample or drop a program</strong>
+              <span>.h Klartext</span>
+            </div>
+          ) : null}
+          {error ? <div className="sim-toast is-error">{error}</div> : null}
         </div>
-        <ControlPanel
-          isDark={isDark}
-          simSpeed={simSpeed}
-          onSimSpeed={setSimSpeed}
-          loadId={customLoad ? customLoad.id : loadId}
-          onLoadId={selectLoad}
-          layers={layers}
-          onLayers={setLayers}
-          startWraps={startWraps}
-          onStartWraps={setStartWraps}
-          fullSim={fullSim}
-          onFullSim={setFullSim}
-          onAct={(next) => {
-            setPlaying(true);
-            setAct(next);
-            setActToken((n) => n + 1);
+        <BlockPanel
+          trace={trace}
+          block={block}
+          onSeek={(index) => {
+            setPlaying(false);
+            seekTo(index);
           }}
-          noiseSigmaMm={noise}
-          onNoise={setNoise}
-          dropout={dropout}
-          onDropout={setDropout}
-          ui={ui}
-          truth={truth}
+        />
+        <ProgramPanel
+          trace={trace}
+          fileName={fileName}
+          block={block}
+          pose={pose}
+          pathMode={pathMode}
+          onPathMode={(pathMode) => setView((current) => ({ ...current, pathMode }))}
+          showMaterial={showMaterial}
+          onShowMaterial={(showMaterial) => setView((current) => ({ ...current, showMaterial }))}
+          mesh={mesh}
+          onMesh={(mesh) => setView((current) => ({ ...current, mesh }))}
+          onSeek={(index) => {
+            setPlaying(false);
+            seekTo(index);
+          }}
         />
       </div>
     </div>
   );
 }
-
