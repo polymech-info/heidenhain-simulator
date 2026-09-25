@@ -1,0 +1,24 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Slot1,slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+zoe-drive-shaft,Slot1 (2),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+zoe-drive-shaft - 3.6,Slot1 (13),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+zoe-v34,Slot1 (3),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+lydia-v4.1,Slot1 (6),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+lydia-v4.1,2D Chamfer2,chamfer2d,#9 - Ø10mm 45° chamfer (10mm x 45 Chamfer Tool),8085.07110906828348,4046.87231999604819,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+lydia-v4.1 (2),Slot1 (9),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+lydia-v4.1 (2),2D Chamfer2 (2),chamfer2d,#9 - Ø10mm 45° chamfer (10mm x 45 Chamfer Tool),8085.07110906828348,4046.87231999604819,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+zoe,Slot1 (7),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+shredder-small,Slot1 (8),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Lydia-Mini,Slot1 (4),slot,#3 - Ø6mm flat (6 mm Cleaning),4042.53555453414174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Lydia-Mini,2D Pocket1,pocket2d,#3 - Ø6mm flat (6 mm Cleaning),4042.53555453414174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+ph-2,Slot1 (12),slot,#3 - Ø6mm flat (6 mm Cleaning),4042.53555453414174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+ph-2,2D Pocket1 (3),pocket2d,#3 - Ø5mm flat (5 mm Cleaning),4042.5355545341481,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+elena,Slot1 (10),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453415174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Lydia-Mini (2),Slot1 (5),slot,#3 - Ø5mm flat (5 mm Cleaning),4042.53555453414174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Lydia-Mini (2),2D Pocket1 (2),pocket2d,#3 - Ø5mm flat (5 mm Cleaning),4042.53555453414174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Myriad-25,Slot1 (11),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453415265,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+elz-hub,Slot1 (14),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+elzm-motor,Slot1 (15),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+elzm-motor (2),Slot1 (16),slot,#31 - Ø10mm flat (10mm Roughing),4042.53555453414401,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+elzm-motor (3),Slot1 (17),slot,#12 - Ø10mm flat (10mm Roughing),4042.53555453415129,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+l46,Slot1 (18),slot,#12 - Ø10mm flat (10mm Roughing),4042.53555453415129,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393

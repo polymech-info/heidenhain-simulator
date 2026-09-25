@@ -1,0 +1,97 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Bottom,2D Pocket14,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom,2D Adaptive1,adaptive2d,#6 - Ø8mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Bottom,Flat5,flat,#6 - Ø8mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Bottom,Drill1 (13),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,Drill1 (22),drill,#8 - Ø8x1.25mm right tap,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,Drill1 (15),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,Drill1 (18),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,Pocket2,pocket_clearing,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom,Pocket2 (2),pocket_clearing,#23 - Ø80mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom,2D Contour2 (14),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom,2D Contour2 (16),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom,1/4-20 Thread (13),thread,#11 - Ø12mm form (12mm Threadmill),tool_type == 'probe' ? 0 : 5000rpm,806.4 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+all,2D Contour2 (20),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Up,2D Pocket14 (5),pocket2d,#2 - Ø4mm flat (14 flat),12000.,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Up,2D Pocket14 (6),pocket2d,#2 - Ø4mm flat (14 flat),12000.,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Up,2D Contour2 (19),contour2d,#2 - Ø4mm flat (14 flat),12000.,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Up,2D Adaptive1 (3),adaptive2d,#6 - Ø8mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Up,Flat5 (3),flat,#6 - Ø8mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Up,Drill1 (26),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Up,Drill1 (30),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Up,Drill1 (27),drill,#8 - Ø8x1.25mm right tap,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Up,Drill1 (28),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Up,Drill1 (29),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Up,Pocket2 (5),pocket_clearing,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Up,Pocket2 (6),pocket_clearing,#23 - Ø80mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Up,2D Contour2 (18),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Up,1/4-20 Thread (15),thread,#11 - Ø12mm form (12mm Threadmill),tool_type == 'probe' ? 0 : 5000rpm,806.4 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+inner,2D Contour2 (17),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+inner,Scallop3,scallop,#13 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Top1,Face-Top (4),face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top1,Drill1 (24),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top1,Drill1 (25),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (2),2D Pocket14 (4),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom (2),2D Adaptive1 (2),adaptive2d,#6 - Ø8mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Bottom (2),Flat5 (2),flat,#6 - Ø8mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Bottom (2),Drill1 (16),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (2),Drill1 (17),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (2),Pocket2 (3),pocket_clearing,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom (2),Pocket2 (4),pocket_clearing,#23 - Ø80mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom (2),2D Contour2 (15),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom (2),1/4-20 Thread (14),thread,#11 - Ø12mm form (12mm Threadmill),tool_type == 'probe' ? 0 : 5000rpm,806.4 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,Probe WCS2 (4),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,2D Pocket14 (2),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,Flat1 (3),flat,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,Flat1 (4),flat,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Contour5 (2),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Contour2 (10),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.5355545341431,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Top,1/4-20 Thread (9),thread,#11 - Ø12mm form (12mm Threadmill),tool_type == 'probe' ? 0 : 5000rpm,806.4 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,Drill1 (14),drill,#4 - Ø7mm drill,1247.41097111339286,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,Drill1 (19),drill,#4 - Ø7mm drill,1247.41097111339286,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,Drill1 (20),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,2D Contour3 (9),contour2d,#2 - Ø3.85mm flat (14 flat),10000 rpm,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Top,C-1-Left (2),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Pocket11 (2),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Contour6 (2),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Contour3 (6),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Top,2D Contour3 (10),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Top,2D Contour3 (7),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Top,Flow1,flow2,#15 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,4046.8723199960491,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+Top,Flow1 (2),flow2,#13 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Top,Bore1,bore,#15 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,4046.87231999604955,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+Top,Scallop1,scallop,#13 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,Probe WCS2 (6),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom-CH,2D Pocket14 (3),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom-CH,2D Contour5 (3),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom-CH,Horizontal1,horizontal,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,2D Contour2 (11),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.5355545341431,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,2D Pocket15 (2),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,2D Contour5 (4),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom-CH,2D Contour5 (5),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom-CH,2D Contour3 (14),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Bottom-CH,Pocket1,pocket_clearing,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,2D Pocket11 (3),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom-CH,1/4-20 Thread (10),thread,#11 - Ø12mm form (12mm Threadmill),tool_type == 'probe' ? 0 : 5000rpm,806.4 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom-CH,Drill1 (21),drill,#4 - Ø7mm drill,1247.41097111339286,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom-CH,Drill1 (23),drill,#7 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom-CH,2D Contour3 (11),contour2d,#2 - Ø3.85mm flat (14 flat),10000 rpm,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Bottom-CH,2D Contour6 (3),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Bottom-CH,2D Contour3 (12),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,2D Contour3 (13),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,Flow1 (3),flow2,#15 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,4046.8723199960491,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+Bottom-CH,Flow1 (4),flow2,#13 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Bottom-CH,Bore1 (2),bore,#15 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,4046.87231999604955,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+Bottom-CH,Scallop1 (2),scallop,#13 - Ø10mm ball (10mm Ball Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Plunger-130,2D Pocket36,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Plunger-130,2D Contour5 (27),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Plunger-130,2D Contour5 (28),contour2d,#6 - Ø8mm flat (3mm Flat Endmill),8085.07110906828348,4046.8723199960491,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+Plunger-130,Drill1 (31),drill,#4 - Ø7mm drill,1247.41097111339286,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Plunger-130-Post,Probe WCS16 (2),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Plunger-130-Post,2D Contour5 (30),contour2d,#6 - Ø7.9mm flat (3mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+M30,Adaptive1 (2),adaptive,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+M30,2D Pocket2 (16),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+M30,2D Contour2 (13),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4042.53555453414265,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+M30,1/4-20 Thread (12),thread,#11 - Ø12mm form (12mm Threadmill),tool_type == 'probe' ? 0 : 5000rpm,806.4 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+M30,Probe WCS2 (14),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+M30,2D Pocket14 (8),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.

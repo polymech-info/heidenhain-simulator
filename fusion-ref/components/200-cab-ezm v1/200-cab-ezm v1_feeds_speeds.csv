@@ -1,0 +1,6 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Pocket1,pocket2d,#3 - Ø5mm flat (5mm Flat Endmill),9702.08533088193872,498.96524577248482,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.87496955921747,15.
+Setup1 (2),2D Pocket1 (2),pocket2d,#3 - Ø6mm flat (5mm Flat Endmill),9702.08533088194054,498.96524577248482,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.87496955921747,15.
+Setup1 (2),2D Contour1,contour2d,#31 - Ø10mm flat (5mm Flat Endmill),tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (3),2D Contour1 (2),contour2d,#31 - Ø10mm flat (5mm Flat Endmill),9702.08533088194054,556.25415924287563,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.09369672863057
+Setup1 (4),2D Contour1 (3),contour2d,#31 - Ø10mm flat (5mm Flat Endmill),9702.08533088194054,556.25415924287563,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.09369672863057

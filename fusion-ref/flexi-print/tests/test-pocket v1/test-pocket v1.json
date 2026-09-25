@@ -1,0 +1,3313 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-14T09:18:10",
+  "source": {
+    "documentName": "test-pocket v1",
+    "fusionVersion": "2606.1.36",
+    "hostname": "DESKTOP-QH14L5F",
+    "user": "zx",
+    "exportPlugin": "CAMExporter v2.0",
+    "dateCreated": "2023-05-26T16:25:05Z",
+    "dateModified": "2024-07-13T10:52:08Z",
+    "versionNumber": 1,
+    "latestVersionNumber": 1,
+    "versionId": "urn:adsk.wipprod:fs.file:vf.KTsW4rWxRCOD7pz4it5Yvg?version=1",
+    "dataFileId": "urn:adsk.wipprod:dm.lineage:KTsW4rWxRCOD7pz4it5Yvg",
+    "description": "Item created",
+    "fileExtension": "f3d",
+    "createdBy": "Plastic Hub",
+    "lastUpdatedBy": "Plastic Hub",
+    "fusionWebURL": "https://gmail1832214.autodesk360.com/g/projects/20240713783239801/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28uMm1oMUtrTEtSdFNXWXBxY1UxNFlEQQ/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOktUc1c0cld4UkNPRDdwejRpdDVZdmc",
+    "isMilestone": false,
+    "hasChildReferences": false,
+    "hasParentReferences": false,
+    "isReadOnly": false,
+    "creationId": "4105ae9c-0faf-4f21-9816-8ca10c3d7c49",
+    "lastSavedWithVersion": "2.0.16009",
+    "isUpToDate": true
+  },
+  "output": {
+    "jsonFile": "C:/Users/zx/Desktop/fusion-export\\flexi-print\\tests\\test-pocket v1\\test-pocket v1.json",
+    "setupSheets": "C:/Users/zx/Desktop/fusion-export\\flexi-print\\tests\\test-pocket v1\\setup-sheets",
+    "stepFile": "C:/Users/zx/Desktop/fusion-export\\flexi-print\\tests\\test-pocket v1\\geometry\\test-pocket v1.step",
+    "f3dArchive": "C:/Users/zx/Desktop/fusion-export\\flexi-print\\tests\\test-pocket v1\\geometry\\test-pocket v1.f3d"
+  },
+  "setupCount": 1,
+  "setups": [
+    {
+      "name": "Setup1",
+      "operationId": 2,
+      "strategy": "setup",
+      "isSuppressed": false,
+      "hasWarning": false,
+      "hasError": false,
+      "notes": "",
+      "templateXML": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<template-document xmlns=\"http://www.hsmworks.com/namespace/hsmworks/document/template\" version=\"1.0\">\n\n  <user-description></user-description>\n\n  <user-notes></user-notes>\n\n  <iconID id=\"0\"/>\n\n  <priority value=\"50.000000\"/>\n\n  <doubleSided value=\"false\"/>\n\n  <template description=\"2D Pocket1\" isFallback=\"0\" strategy=\"pocket2d\" toolPresetId=\"{6f8797c3-0472-4ef3-8a46-c652cda48524}\" unit=\"millimeters\" version=\"175\">\n    <tool guid=\"0558f609-9338-46c8-8b48-20763c63e3bd\" tool-library-version=\"36\" type=\"flat end mill\" unit=\"millimeters\" version=\"1.5\">\n      <description>4mm Flat Endmill</description>\n      <nc break-control=\"0\" diameter-offset=\"1\" length-offset=\"1\" live-tool=\"1\" manual-tool-change=\"0\" number=\"1\" turret=\"0\"/>\n      <coolant mode=\"flood\"/>\n      <material name=\"unspecified\"/>\n      <body assembly-gauge-length=\"79.3396\" body-length=\"16.5\" coolant-support=\"no\" diameter=\"4\" flute-length=\"14\" number-of-flutes=\"3\" overall-length=\"63\" shaft-diameter=\"4\" shoulder-diameter=\"4\" shoulder-length=\"14\" thread-pitch=\"0\" thread-profile-angle=\"60\"/>\n      <holder description=\"Maritool CAT40-ER32-2.35\" gauge-length=\"62.8396\" product-id=\"CAT40-ER32-2.35\" vendor=\"Maritool\">\n        <section diameter=\"38.1\" length=\"0\"/>\n        <section diameter=\"50.038\" length=\"3.7592\"/>\n        <section diameter=\"50.038\" length=\"21.2344\"/>\n        <section diameter=\"39.878\" length=\"0\"/>\n        <section diameter=\"39.878\" length=\"4.4704\"/>\n        <section diameter=\"44.45\" length=\"2.286\"/>\n        <section diameter=\"44.45\" length=\"10.795\"/>\n        <section diameter=\"46.99\" length=\"1.27\"/>\n        <section diameter=\"62.0268\" length=\"0\"/>\n        <section diameter=\"63.5508\" length=\"0.762\"/>\n        <section diameter=\"63.5508\" length=\"3.683\"/>\n        <section diameter=\"56.261\" length=\"2.0066\"/>\n        <section diameter=\"56.261\" length=\"2.9972\"/>\n        <section diameter=\"63.5508\" length=\"2.0066\"/>\n        <section diameter=\"63.5508\" length=\"3.6322\"/>\n        <section diameter=\"62.0268\" length=\"0.762\"/>\n        <section diameter=\"44.45\" length=\"0\"/>\n        <section diameter=\"44.45\" length=\"3.175\"/>\n      </holder>\n      <motion clockwise=\"yes\" cutting-feedrate=\"1613.0597938144\" entry-feedrate=\"1613.0597938144\" exit-feedrate=\"1613.0597938144\" feed-mode=\"per-minute\" plunge-feedrate=\"537.68659793814\" ramp-angle=\"2\" ramp-feedrate=\"1613.0597938144\" ramp-spindle-rpm=\"12000\" retract-feedrate=\"0\" spindle-rpm=\"12000\" transition-feedrate=\"1613.0597938144\"/>\n      <presets>\n        <preset description=\"SAMPLE preset for slotting in Aluminum\" id=\"{6f8797c3-0472-4ef3-8a46-c652cda48524}\" name=\"Default preset\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"5000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"5000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1000\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1000\"/>\n          <parameter key=\"tool_feedExit\" value=\"1000\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"333.33333333333331\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1000\"/>\n          <parameter key=\"tool_feedRamp\" value=\"333.33333333333331\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Aluminum\" id=\"{a6c4a00a-2436-4e60-986b-d94595866bce}\" name=\"Aluminum - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedExit\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"533.38144329896909\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.80677003003490499\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Aluminum\" id=\"{a490a179-6509-45dc-a508-a2d2b80b58e1}\" name=\"Aluminum - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedExit\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"533.38144329896909\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1600.1443298969075\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Aluminum\" id=\"{cc7e839a-81c1-4189-b2a7-f0cd154f6ed8}\" name=\"Aluminum - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"2021.9418556701032\"/>\n          <parameter key=\"tool_feedEntry\" value=\"2021.9418556701032\"/>\n          <parameter key=\"tool_feedExit\" value=\"2021.9418556701032\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"673.98061855670107\"/>\n          <parameter key=\"tool_feedTransition\" value=\"2021.9418556701032\"/>\n          <parameter key=\"tool_feedRamp\" value=\"2021.9418556701032\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Brass\" id=\"{a1e2c551-3433-416b-ae4d-9413eabcbacf}\" name=\"Brass - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedExit\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"426.27463917525779\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.80677003003490499\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Brass\" id=\"{9c5b5d7e-bab8-4159-a313-d11258f92baa}\" name=\"Brass - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedExit\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"426.27463917525779\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1278.8239175257738\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Brass\" id=\"{3de76bfa-1d29-4fd7-8f07-dc5b65f645f6}\" name=\"Brass - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1616.2619381443301\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1616.2619381443301\"/>\n          <parameter key=\"tool_feedExit\" value=\"1616.2619381443301\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"538.75397938144329\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1616.2619381443301\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1616.2619381443301\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Copper\" id=\"{ff9e4c33-e186-4e4c-a188-f6595019f6c6}\" name=\"Copper - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"5457.4229986210912\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"5457.4229986210912\"/>\n          <parameter key=\"tool_feedCutting\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedEntry\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedExit\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"193.86341829699657\"/>\n          <parameter key=\"tool_feedTransition\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedRamp\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.80677003003490499\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Copper\" id=\"{54765b75-6383-4d28-8037-80bbb05436c2}\" name=\"Copper - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"5457.4229986210912\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"5457.4229986210912\"/>\n          <parameter key=\"tool_feedCutting\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedEntry\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedExit\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"193.86341829699657\"/>\n          <parameter key=\"tool_feedTransition\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_feedRamp\" value=\"581.59025489098997\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Copper\" id=\"{bbe90ec2-fb6b-4167-8338-3b43631c04be}\" name=\"Copper - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"5457.4229986210912\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"5457.4229986210912\"/>\n          <parameter key=\"tool_feedCutting\" value=\"735.05208941873047\"/>\n          <parameter key=\"tool_feedEntry\" value=\"735.05208941873047\"/>\n          <parameter key=\"tool_feedExit\" value=\"735.05208941873047\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"245.01736313957679\"/>\n          <parameter key=\"tool_feedTransition\" value=\"735.05208941873047\"/>\n          <parameter key=\"tool_feedRamp\" value=\"735.05208941873047\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Low Carbon Steel\" id=\"{531c9ee2-08ec-40b4-8f4a-b906756a3e0b}\" name=\"Low Carbon Steel - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"552.90878350515459\"/>\n          <parameter key=\"tool_feedEntry\" value=\"552.90878350515459\"/>\n          <parameter key=\"tool_feedExit\" value=\"552.90878350515459\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"184.30292783505161\"/>\n          <parameter key=\"tool_feedTransition\" value=\"552.90878350515459\"/>\n          <parameter key=\"tool_feedRamp\" value=\"552.90878350515459\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.80677003003490499\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Low Carbon Steel\" id=\"{97194be0-4fe7-4e00-8453-b469069d4a4c}\" name=\"Low Carbon Steel - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"495.41195876288657\"/>\n          <parameter key=\"tool_feedEntry\" value=\"495.41195876288657\"/>\n          <parameter key=\"tool_feedExit\" value=\"495.41195876288657\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"165.13731958762887\"/>\n          <parameter key=\"tool_feedTransition\" value=\"495.41195876288657\"/>\n          <parameter key=\"tool_feedRamp\" value=\"495.41195876288657\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Low Carbon Steel\" id=\"{4d635ae9-607f-4f0f-a491-c6d85e9f30b2}\" name=\"Low Carbon Steel - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"628.12428865979382\"/>\n          <parameter key=\"tool_feedEntry\" value=\"628.12428865979393\"/>\n          <parameter key=\"tool_feedExit\" value=\"628.12428865979393\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"209.37476288659809\"/>\n          <parameter key=\"tool_feedTransition\" value=\"628.12428865979382\"/>\n          <parameter key=\"tool_feedRamp\" value=\"628.12428865979393\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in High Carbon Steel\" id=\"{9701a371-f216-4e10-b309-2a5c71333252}\" name=\"High Carbon Steel - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_feedCutting\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedEntry\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedExit\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"67.843281987916683\"/>\n          <parameter key=\"tool_feedTransition\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedRamp\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.80677003003490499\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in High Carbon Steel\" id=\"{bd08b375-7f25-4874-a4dc-193402307c24}\" name=\"High Carbon Steel - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_feedCutting\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedEntry\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedExit\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"60.819472315849453\"/>\n          <parameter key=\"tool_feedTransition\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedRamp\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in High Carbon Steel\" id=\"{f825bc5f-5ab3-4e4a-bbfc-23a769f62765}\" name=\"High Carbon Steel - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_feedCutting\" value=\"234.37467563909061\"/>\n          <parameter key=\"tool_feedEntry\" value=\"234.37467563909064\"/>\n          <parameter key=\"tool_feedExit\" value=\"234.37467563909064\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"78.124891879696875\"/>\n          <parameter key=\"tool_feedTransition\" value=\"234.37467563909061\"/>\n          <parameter key=\"tool_feedRamp\" value=\"234.37467563909064\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Plastics\" id=\"{0c6aa5c6-8e35-4c38-b863-3f80d33d818d}\" name=\"Plastics - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1613.0597938144331\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1613.0597938144329\"/>\n          <parameter key=\"tool_feedExit\" value=\"1613.0597938144329\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"537.68659793814459\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1613.0597938144331\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1613.0597938144329\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.97626430716779\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Plastics\" id=\"{466ea417-73be-4ea7-8fae-10b7e90c3d54}\" name=\"Plastics - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"1613.0597938144331\"/>\n          <parameter key=\"tool_feedEntry\" value=\"1613.0597938144329\"/>\n          <parameter key=\"tool_feedExit\" value=\"1613.0597938144329\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"537.68659793814459\"/>\n          <parameter key=\"tool_feedTransition\" value=\"1613.0597938144331\"/>\n          <parameter key=\"tool_feedRamp\" value=\"1613.0597938144329\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Plastics\" id=\"{b697d35a-6f9c-46a6-bc6d-8e93bb673442}\" name=\"Plastics - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"12000\"/>\n          <parameter key=\"tool_feedCutting\" value=\"2002.568659793815\"/>\n          <parameter key=\"tool_feedEntry\" value=\"2002.568659793815\"/>\n          <parameter key=\"tool_feedExit\" value=\"2002.568659793815\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"667.5228865979384\"/>\n          <parameter key=\"tool_feedTransition\" value=\"2002.568659793815\"/>\n          <parameter key=\"tool_feedRamp\" value=\"2002.568659793815\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Stainless Steel\" id=\"{889c6d79-5f57-4318-91db-bc0188c44c07}\" name=\"Stainless Steel - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_feedCutting\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedEntry\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedExit\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"67.843281987916683\"/>\n          <parameter key=\"tool_feedTransition\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_feedRamp\" value=\"203.52984596375009\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"1.3999999999999999\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Stainless Steel\" id=\"{6a482c7c-3ea0-4062-93ac-2d9b4bb2e50b}\" name=\"Stainless Steel - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_feedCutting\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedEntry\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedExit\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"60.819472315849453\"/>\n          <parameter key=\"tool_feedTransition\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_feedRamp\" value=\"182.45841694754844\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Stainless Steel\" id=\"{ed2c4205-b7fd-438f-b1c7-0499db5531b0}\" name=\"Stainless Steel - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"4851.0426654409684\"/>\n          <parameter key=\"tool_feedCutting\" value=\"234.37467563909061\"/>\n          <parameter key=\"tool_feedEntry\" value=\"234.37467563909064\"/>\n          <parameter key=\"tool_feedExit\" value=\"234.37467563909064\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"78.124891879696875\"/>\n          <parameter key=\"tool_feedTransition\" value=\"234.37467563909061\"/>\n          <parameter key=\"tool_feedRamp\" value=\"234.37467563909064\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for slotting in Titanium\" id=\"{f303ed7d-c671-4ba2-9ced-70cc07c62255}\" name=\"Titanium - Slotting\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"3638.281999080727\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"3638.281999080727\"/>\n          <parameter key=\"tool_feedCutting\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedEntry\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedExit\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"84.870016652246917\"/>\n          <parameter key=\"tool_feedTransition\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedRamp\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"0.80677003003490499\"/>\n          <parameter key=\"tool_stepover\" value=\"4\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for roughing in Titanium\" id=\"{01d4aec6-f0be-4511-86fb-86eb9a814165}\" name=\"Titanium - Roughing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"3638.281999080727\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"3638.281999080727\"/>\n          <parameter key=\"tool_feedCutting\" value=\"252.65212912836949\"/>\n          <parameter key=\"tool_feedEntry\" value=\"252.65212912836947\"/>\n          <parameter key=\"tool_feedExit\" value=\"252.65212912836947\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"84.21737637612317\"/>\n          <parameter key=\"tool_feedTransition\" value=\"252.65212912836949\"/>\n          <parameter key=\"tool_feedRamp\" value=\"252.65212912836947\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.66101144573423198\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n        <preset description=\"SAMPLE preset for finishing in Titanium\" id=\"{706f80a4-d625-40b4-b88b-782e79228ae9}\" name=\"Titanium - Finishing\">\n          <parameter key=\"tool_coolant\" value=\"flood\"/>\n          <parameter key=\"tool_spindleSpeed\" value=\"3638.281999080727\"/>\n          <parameter key=\"tool_rampSpindleSpeed\" value=\"3638.281999080727\"/>\n          <parameter key=\"tool_feedCutting\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedEntry\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedExit\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedPlunge\" value=\"84.870016652246917\"/>\n          <parameter key=\"tool_feedTransition\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_feedRamp\" value=\"254.6100499567408\"/>\n          <parameter key=\"tool_presetMaterialCategory\" value=\"all\"/>\n          <parameter key=\"tool_presetMaterialQuery\" value=\"\"/>\n          <parameter key=\"tool_stepdown\" value=\"10.5\"/>\n          <parameter key=\"tool_stepover\" value=\"0.40225667667830201\"/>\n          <parameter key=\"tool_rampAngle\" value=\"2\"/>\n        </preset>\n      </presets>\n    </tool>\n    <parameter expression=\"'specific'\" name=\"tool_selectionMethod\"/>\n    <parameter expression=\"'exact'\" name=\"tool_searchMethod\"/>\n    <parameter expression=\"10mm\" name=\"tool_exactDiameter\"/>\n    <parameter expression=\"1.0\" name=\"tool_diameterRatio\"/>\n    <parameter expression=\"0.1mm\" name=\"tool_searchTolerance\"/>\n    <parameter expression=\"5mm\" name=\"tool_minDiameter\"/>\n    <parameter expression=\"10mm\" name=\"tool_maxDiameter\"/>\n    <parameter expression=\"0.5\" name=\"tool_minDiameterRatio\"/>\n    <parameter expression=\"1.0\" name=\"tool_maxDiameterRatio\"/>\n    <parameter expression=\"false\" name=\"tool_checkLengthBelowHolder\"/>\n    <parameter expression=\"0mm\" name=\"tool_minLengthBelowHolder\"/>\n    <parameter expression=\"30mm\" name=\"tool_maxLengthBelowHolder\"/>\n    <parameter expression=\"'flat end mill'\" name=\"tool_type\"/>\n    <parameter expression=\"'tapered_bull_nose'\" name=\"tool_taperedType\"/>\n    <parameter expression=\"'millimeters'\" name=\"tool_unit\"/>\n    <parameter expression=\"1\" name=\"tool_number\"/>\n    <parameter expression=\"tool_number\" name=\"tool_diameterOffset\"/>\n    <parameter expression=\"tool_number\" name=\"tool_lengthOffset\"/>\n    <parameter expression=\"tool_number\" name=\"tool_compensationOffset\"/>\n    <parameter expression=\"0\" name=\"tool_turret\"/>\n    <parameter expression=\"false\" name=\"tool_manualToolChange\"/>\n    <parameter expression=\"false\" name=\"tool_breakControl\"/>\n    <parameter expression=\"true\" name=\"tool_live\"/>\n    <parameter expression=\"'unspecified'\" name=\"tool_material\"/>\n    <parameter expression=\"'4mm Flat Endmill'\" name=\"tool_description\"/>\n    <parameter expression=\"''\" name=\"tool_comment\"/>\n    <parameter expression=\"''\" name=\"tool_vendor\"/>\n    <parameter expression=\"''\" name=\"tool_productId\"/>\n    <parameter expression=\"''\" name=\"tool_productLink\"/>\n    <parameter expression=\"4.\" name=\"tool_diameter\"/>\n    <parameter expression=\"tool_diameter + 2*tool_fluteLength*Math.tan(tool_taperAngle)\" name=\"tool_maximumCuttingDiameter\"/>\n    <parameter expression=\"4.\" name=\"tool_tipDiameter\"/>\n    <parameter expression=\"0.0\" name=\"tool_tipOffset\"/>\n    <parameter expression=\"0.0\" name=\"tool_cornerRadius\"/>\n    <parameter expression=\"0.0\" name=\"tool_taperAngle\"/>\n    <parameter expression=\"(tool_type == 'counter sink') ? 90.0deg : ((tool_type == 'spot drill') ? 120deg : 118.0deg)\" name=\"tool_tipAngle\"/>\n    <parameter expression=\"tool_type == 'thread mill' ? 'point' : 'round'\" name=\"tool_threadTipType\"/>\n    <parameter expression=\"tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / 8\" name=\"tool_threadTipWidth\"/>\n    <parameter expression=\"(((tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / (tool_internalThread ? 8 : 4))) / 2) / Math.cos(tool_threadProfileAngle / 2 radians)\" name=\"tool_threadTipRadius\"/>\n    <parameter expression=\"60.\" name=\"tool_threadProfileAngle\"/>\n    <parameter expression=\"0.0\" name=\"tool_tipLength\"/>\n    <parameter expression=\"14.\" name=\"tool_fluteLength\"/>\n    <parameter expression=\"tool_fluteLength\" name=\"tool_shoulderLength\"/>\n    <parameter expression=\"16.5\" name=\"tool_bodyLength\"/>\n    <parameter expression=\"63.\" name=\"tool_overallLength\"/>\n    <parameter expression=\"tool_diameter\" name=\"tool_shaftDiameter\"/>\n    <parameter expression=\"0.0\" name=\"tool_threadPitch\"/>\n    <parameter expression=\"1.0mm\" name=\"tool_maximumThreadPitch\"/>\n    <parameter expression=\"1.0mm\" name=\"tool_minimumThreadPitch\"/>\n    <parameter expression=\"1\" name=\"tool_numberOfTeeth\"/>\n    <parameter expression=\"3\" name=\"tool_numberOfFlutes\"/>\n    <parameter expression=\"4.\" name=\"tool_shoulderDiameter\"/>\n    <parameter expression=\"(tool_type == 'circle segment barrel' ? (tool_diameter / 12) : (tool_type == 'circle segment taper' ? (tool_diameter / 2) : 0mm))\" name=\"tool_upperRadius\"/>\n    <parameter expression=\"(tool_type == 'circle segment taper' ? (tool_diameter * 31.25) : (tool_type == 'circle segment oval' ? (tool_diameter * 15) : (tool_type == 'circle segment barrel' ? (tool_diameter * 4) : (tool_diameter * 0.6))))\" name=\"tool_profileRadius\"/>\n    <parameter expression=\"(tool_type == 'circle segment taper' ? (tool_upperRadius / 2) : ((tool_type == 'circle segment barrel' ? tool_upperRadius : ((tool_type == 'circle segment lens' ? (tool_diameter): (tool_diameter / 6))))))\" name=\"tool_lowerRadius\"/>\n    <parameter expression=\"tool_fluteLength / 2\" name=\"tool_axialDistance\"/>\n    <parameter expression=\"1mm\" name=\"tool_chamferWidth\"/>\n    <parameter expression=\"45deg\" name=\"tool_chamferAngle\"/>\n    <parameter expression=\"'Maritool CAT40-ER32-2.35'\" name=\"holder_description\"/>\n    <parameter expression=\"''\" name=\"holder_comment\"/>\n    <parameter expression=\"'Maritool'\" name=\"holder_vendor\"/>\n    <parameter expression=\"'CAT40-ER32-2.35'\" name=\"holder_productId\"/>\n    <parameter expression=\"''\" name=\"holder_productLink\"/>\n    <parameter expression=\"''\" name=\"holder_libraryName\"/>\n    <parameter expression=\"62.8396\" name=\"tool_holderGaugeLength\"/>\n    <parameter expression=\"79.3396\" name=\"tool_assemblyGaugeLength\"/>\n    <parameter expression=\"12000.\" name=\"tool_spindleSpeed\"/>\n    <parameter expression=\"tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter\" name=\"tool_stockDiameter\"/>\n    <parameter expression=\"tool_diameter * Math.PI * tool_spindleSpeed\" name=\"tool_surfaceSpeed\"/>\n    <parameter expression=\"tool_spindleSpeed\" name=\"tool_rampSpindleSpeed\"/>\n    <parameter expression=\"1613.05979381443308\" name=\"tool_feedCutting\"/>\n    <parameter expression=\"tool_spindleSpeed > 0 ? tool_feedCutting/(tool_spindleSpeed * tool_numberOfFlutes) : 0.0\" name=\"tool_feedPerTooth\"/>\n    <parameter expression=\"tool_type == 'probe' || tool_isDepositing ? 1000mmpm : tool_feedCutting\" name=\"tool_feedEntry\"/>\n    <parameter expression=\"tool_isDepositing ? 1000mmpm : tool_feedCutting\" name=\"tool_feedExit\"/>\n    <parameter expression=\"tool_feedCutting\" name=\"tool_feedTransition\"/>\n    <parameter expression=\"1613.05979381443285\" name=\"tool_feedRamp\"/>\n    <parameter expression=\"(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)\" name=\"tool_feedPlunge\"/>\n    <parameter expression=\"tool_spindleSpeed > 0 ? tool_feedPlunge/tool_spindleSpeed : 0.0\" name=\"tool_feedPerRevolution\"/>\n    <parameter expression=\"tool_feedPlunge\" name=\"tool_feedRetract\"/>\n    <parameter expression=\"true\" name=\"tool_clockwise\"/>\n    <parameter expression=\"'flood'\" name=\"tool_coolant\"/>\n    <parameter expression=\"'none'\" name=\"featureOperationId\"/>\n    <parameter expression=\"false\" name=\"tab_5axis\"/>\n    <parameter expression=\"'three_axis'\" name=\"multiAxisMachiningType\"/>\n    <parameter expression=\"false\" name=\"overrideToolView\"/>\n    <parameter expression=\"'axesZX'\" name=\"view_orientation_mode\"/>\n    <parameter expression=\"false\" name=\"view_orientation_axisZ\"/>\n    <parameter expression=\"false\" name=\"view_orientation_flipZ\"/>\n    <parameter expression=\"'wcs'\" name=\"view_orientation_axesZX_unselected_default\"/>\n    <parameter expression=\"'wcs'\" name=\"view_orientation_axesZY_unselected_default\"/>\n    <parameter expression=\"'wcs'\" name=\"view_orientation_axesXY_unselected_default\"/>\n    <parameter expression=\"false\" name=\"view_orientation_cSys\"/>\n    <parameter expression=\"false\" name=\"view_orientation_surfaceNormal\"/>\n    <parameter expression=\"false\" name=\"view_orientation_axisX\"/>\n    <parameter expression=\"false\" name=\"view_orientation_flipX\"/>\n    <parameter expression=\"false\" name=\"view_orientation_axisY\"/>\n    <parameter expression=\"false\" name=\"view_orientation_flipY\"/>\n    <parameter expression=\"false\" name=\"view_align_to_view\"/>\n    <parameter expression=\"false\" name=\"view_align_to_view_direction\"/>\n    <parameter expression=\"'turn_and_tilt'\" name=\"view_select_angles\"/>\n    <parameter expression=\"0.0\" name=\"view_turn_from_recipe\"/>\n    <parameter expression=\"0.0\" name=\"view_tilt_from_recipe\"/>\n    <parameter expression=\"view_select_angles == 'machine_angles'\" name=\"view_machine_angles\"/>\n    <parameter expression=\"(view_orientation_mode == 'surfaceNormalX' || view_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'\" name=\"view_origin_mode\"/>\n    <parameter expression=\"false\" name=\"view_origin_point\"/>\n    <parameter expression=\"'top center'\" name=\"view_origin_boxPoint\"/>\n    <parameter expression=\"true\" name=\"unwrap\"/>\n    <parameter expression=\"false\" name=\"wrap_cylinder\"/>\n    <parameter expression=\"0mm\" name=\"wrap_nominalRadius_offset\"/>\n    <parameter expression=\"false\" name=\"tiltTool\"/>\n    <parameter expression=\"true\" name=\"usePolarWhenNecessary\"/>\n    <parameter expression=\"'automatic'\" name=\"polarMode\"/>\n    <parameter expression=\"0deg\" name=\"polarLineAngle\"/>\n    <parameter expression=\"true\" name=\"pockets\">\n      <CadContours2D name=\"cadobject\">\n        <CadFacePocket>\n          <Parameters>\n            <Parameter expression=\"''\" name=\"userDefinedName\"/>\n            <Parameter expression=\"false\" name=\"selectColoredFaces\"/>\n            <Parameter expression=\"-1\" name=\"selectColoredFacesColor\"/>\n            <Parameter expression=\"false\" name=\"selectCoPlanarFaces\"/>\n            <Parameter expression=\"'tangent'\" name=\"extensionMethod\"/>\n          </Parameters>\n        </CadFacePocket>\n      </CadContours2D>\n    </parameter>\n    <parameter expression=\"true\" name=\"pockets_detectOpenPockets\"/>\n    <parameter expression=\"true\" name=\"pockets_connectOpenPockets\"/>\n    <parameter expression=\"true\" name=\"pockets_errorCheck\"/>\n    <parameter expression=\"false\" name=\"pockets_detectOverlaps\"/>\n    <parameter expression=\"false\" name=\"useRestMachining\"/>\n    <parameter expression=\"tool_diameter * 2\" name=\"restMaterialCutterDiameter\"/>\n    <parameter expression=\"0 mm\" name=\"restMaterialCornerRadius\"/>\n    <parameter expression=\"0deg\" name=\"restMaterialTaperAngle\"/>\n    <parameter expression=\"restMaterialCutterDiameter\" name=\"restMaterialShoulderLength\"/>\n    <parameter expression=\"0mm\" name=\"restMaterialStockToLeave\"/>\n    <parameter expression=\"rampType == 'disabled'\" name=\"useStockContours\"/>\n    <parameter expression=\"false\" name=\"stockContours\"/>\n    <parameter expression=\"'from retract height'\" name=\"clearanceHeight_mode\"/>\n    <parameter expression=\"false\" name=\"clearanceHeight_ref\"/>\n    <parameter expression=\"'top'\" name=\"clearanceHeightFromHighest_checkStock\"/>\n    <parameter expression=\"'bottom'\" name=\"clearanceHeightFromLowest_checkStock\"/>\n    <parameter expression=\"'top'\" name=\"clearanceHeightFromHighest_checkModel\"/>\n    <parameter expression=\"'bottom'\" name=\"clearanceHeightFromLowest_checkModel\"/>\n    <parameter expression=\"'top'\" name=\"clearanceHeightFromHighest_checkFixture\"/>\n    <parameter expression=\"'bottom'\" name=\"clearanceHeightFromLowest_checkFixture\"/>\n    <parameter expression=\"10mm\" name=\"clearanceHeight_offset\"/>\n    <parameter expression=\"15.\" name=\"clearanceHeight_value\"/>\n    <parameter expression=\"'from stock top'\" name=\"retractHeight_mode\"/>\n    <parameter expression=\"false\" name=\"retractHeight_ref\"/>\n    <parameter expression=\"'top'\" name=\"retractHeightFromHighest_checkStock\"/>\n    <parameter expression=\"'bottom'\" name=\"retractHeightFromLowest_checkStock\"/>\n    <parameter expression=\"'top'\" name=\"retractHeightFromHighest_checkModel\"/>\n    <parameter expression=\"'bottom'\" name=\"retractHeightFromLowest_checkModel\"/>\n    <parameter expression=\"'top'\" name=\"retractHeightFromHighest_checkFixture\"/>\n    <parameter expression=\"'bottom'\" name=\"retractHeightFromLowest_checkFixture\"/>\n    <parameter expression=\"5mm\" name=\"retractHeight_offset\"/>\n    <parameter expression=\"5.\" name=\"retractHeight_value\"/>\n    <parameter expression=\"'from top'\" name=\"feedHeight_mode\"/>\n    <parameter expression=\"false\" name=\"feedHeight_ref\"/>\n    <parameter expression=\"'ignore'\" name=\"feedHeightFromHighest_checkStock\"/>\n    <parameter expression=\"'ignore'\" name=\"feedHeightFromLowest_checkStock\"/>\n    <parameter expression=\"'top'\" name=\"feedHeightFromHighest_checkModel\"/>\n    <parameter expression=\"'bottom'\" name=\"feedHeightFromLowest_checkModel\"/>\n    <parameter expression=\"'ignore'\" name=\"feedHeightFromHighest_checkFixture\"/>\n    <parameter expression=\"'ignore'\" name=\"feedHeightFromLowest_checkFixture\"/>\n    <parameter expression=\"5mm\" name=\"feedHeight_offset\"/>\n    <parameter expression=\"5.\" name=\"feedHeight_value\"/>\n    <parameter expression=\"'from stock top'\" name=\"topHeight_mode\"/>\n    <parameter expression=\"false\" name=\"topHeight_ref\"/>\n    <parameter expression=\"'top'\" name=\"topHeightFromHighest_checkStock\"/>\n    <parameter expression=\"'bottom'\" name=\"topHeightFromLowest_checkStock\"/>\n    <parameter expression=\"'ignore'\" name=\"topHeightFromHighest_checkModel\"/>\n    <parameter expression=\"'ignore'\" name=\"topHeightFromLowest_checkModel\"/>\n    <parameter expression=\"'ignore'\" name=\"topHeightFromHighest_checkFixture\"/>\n    <parameter expression=\"'ignore'\" name=\"topHeightFromLowest_checkFixture\"/>\n    <parameter expression=\"0mm\" name=\"topHeight_offset\"/>\n    <parameter expression=\"0.0\" name=\"topHeight_value\"/>\n    <parameter expression=\"'from contour'\" name=\"bottomHeight_mode\"/>\n    <parameter expression=\"false\" name=\"bottomHeight_ref\"/>\n    <parameter expression=\"'bottom'\" name=\"bottomHeightFromHighest_checkStock\"/>\n    <parameter expression=\"'ignore'\" name=\"bottomHeightFromLowest_checkStock\"/>\n    <parameter expression=\"'bottom'\" name=\"bottomHeightFromHighest_checkModel\"/>\n    <parameter expression=\"'bottom'\" name=\"bottomHeightFromLowest_checkModel\"/>\n    <parameter expression=\"'ignore'\" name=\"bottomHeightFromHighest_checkFixture\"/>\n    <parameter expression=\"'ignore'\" name=\"bottomHeightFromLowest_checkFixture\"/>\n    <parameter expression=\"0mm\" name=\"bottomHeight_offset\"/>\n    <parameter expression=\"0.0\" name=\"bottomHeight_value\"/>\n    <parameter expression=\"0.1mm\" name=\"tolerance\"/>\n    <parameter expression=\"tolerance * 0.5\" name=\"contourTolerance\"/>\n    <parameter expression=\"tolerance\" name=\"calculationTolerance\"/>\n    <parameter expression=\"0.01*calculationTolerance\" name=\"thinningTolerance\"/>\n    <parameter expression=\"0.01mm\" name=\"chainingTolerance\"/>\n    <parameter expression=\"'left'\" name=\"compensation\"/>\n    <parameter expression=\"0.0\" name=\"minimumCuttingRadius\"/>\n    <parameter expression=\"0\" name=\"fragmentExtensionDistance\"/>\n    <parameter expression=\"false\" name=\"preserveOrder\"/>\n    <parameter expression=\"false\" name=\"bothWays\"/>\n    <parameter expression=\"2mm\" name=\"maximumStepover\"/>\n    <parameter expression=\"false\" name=\"useMorphedSpiralMachining\"/>\n    <parameter expression=\"false\" name=\"allowStepoverCusps\"/>\n    <parameter expression=\"0.1mm\" name=\"smoothingDeviation\"/>\n    <parameter expression=\"rampType != 'profile'\" name=\"spiralCircularPockets\"/>\n    <parameter expression=\"true\" name=\"doMultipleDepths\"/>\n    <parameter expression=\"5mm\" name=\"maximumStepdown\"/>\n    <parameter expression=\"0\" name=\"numberOfFinishingStepdowns\"/>\n    <parameter expression=\"0.2mm\" name=\"finishingStepdown\"/>\n    <parameter expression=\"tool_taperAngle\" name=\"slopeAngle\"/>\n    <parameter expression=\"false\" name=\"onlyFinishFinal\"/>\n    <parameter expression=\"true\" name=\"roughFinal\"/>\n    <parameter expression=\"true\" name=\"useEvenStepdowns\"/>\n    <parameter expression=\"false\" name=\"orderByDepth\"/>\n    <parameter expression=\"false\" name=\"orderByStep\"/>\n    <parameter expression=\"false\" name=\"doFinishingPasses\"/>\n    <parameter expression=\"'computer'\" name=\"compensationType\"/>\n    <parameter expression=\"(numberOfFinishingStepovers > 0) ? Math.min(tool_diameter * 0.05; finishingStepover * 0.95) : (tool_diameter * 0.05)\" name=\"compensationDeltaRadius\"/>\n    <parameter expression=\"0mm\" name=\"finishingSmoothingDeviation\"/>\n    <parameter expression=\"1\" name=\"numberOfFinishingStepovers\"/>\n    <parameter expression=\"Math.min(tool_diameter * 0.1; maximumStepover)\" name=\"finishingStepover\"/>\n    <parameter expression=\"compensationType != 'computer'\" name=\"leadsForAllFinishingPasses\"/>\n    <parameter expression=\"tool_feedCutting\" name=\"finishFeedrate\"/>\n    <parameter expression=\"false\" name=\"nullPass\"/>\n    <parameter expression=\"0mm\" name=\"finishingOverlap\"/>\n    <parameter expression=\"false\" name=\"useStockToLeave\"/>\n    <parameter expression=\"0.5mm\" name=\"stockToLeave\"/>\n    <parameter expression=\"stockToLeave\" name=\"verticalStockToLeave\"/>\n    <parameter expression=\"false\" name=\"simpleStockToLeave\"/>\n    <parameter expression=\"true\" name=\"smoothingFilter\"/>\n    <parameter expression=\"'fitArcs'\" name=\"smoothingFilterMode\"/>\n    <parameter expression=\"0.5mm\" name=\"smoothingFilterMaxSpacing\"/>\n    <parameter expression=\"3deg\" name=\"smoothingFilterMaxAngle\"/>\n    <parameter expression=\"tolerance * 0.1\" name=\"smoothingFilterTolerance\"/>\n    <parameter expression=\"true\" name=\"useFeedOptimization\"/>\n    <parameter expression=\"25deg\" name=\"reducedFeedChange\"/>\n    <parameter expression=\"tool_diameter * 0.05\" name=\"reducedFeedRadius\"/>\n    <parameter expression=\"tool_diameter * 0.2\" name=\"reducedFeedDistance\"/>\n    <parameter expression=\"tool_feedCutting * 0.25\" name=\"reducedFeedrate\"/>\n    <parameter expression=\"true\" name=\"reduceOnlyInnerCorners\"/>\n    <parameter expression=\"false\" name=\"surfaceSpeedOnArcs\"/>\n    <parameter expression=\"100\" name=\"maximumReducedFeedrateInternalArcFinishing\"/>\n    <parameter expression=\"100\" name=\"maximumIncreasedFeedrateExternalArcFinishing\"/>\n    <parameter expression=\"100\" name=\"maximumReducedFeedrateInternalArc\"/>\n    <parameter expression=\"100\" name=\"maximumIncreasedFeedrateExternalArc\"/>\n    <parameter expression=\"'disabled'\" name=\"highFeedrateMode\"/>\n    <parameter expression=\"'always'\" name=\"highFeedrateModeProxy\"/>\n    <parameter expression=\"machine.defined &amp;&amp; machine.maxFeedrate > 0 ? machine.maxFeedrate : Math.max(tool_feedCutting; Math.max(tool_feedEntry; tool_feedExit))\" name=\"highFeedrate\"/>\n    <parameter expression=\"true\" name=\"allowRapidRetract\"/>\n    <parameter expression=\"4mm\" name=\"safeDistance\"/>\n    <parameter expression=\"true\" name=\"keepToolDown\"/>\n    <parameter expression=\"50mm\" name=\"stayDownDistance\"/>\n    <parameter expression=\"0mm\" name=\"liftHeight\"/>\n    <parameter expression=\"true\" name=\"doLeadIn\"/>\n    <parameter expression=\"tool_diameter * 0.1\" name=\"entry_radius\"/>\n    <parameter expression=\"90.0deg\" name=\"entry_sweep\"/>\n    <parameter expression=\"tool_diameter * 0.1\" name=\"entry_distance\"/>\n    <parameter expression=\"false\" name=\"entry_perpendicular\"/>\n    <parameter expression=\"entry_radius\" name=\"entry_verticalRadius\"/>\n    <parameter expression=\"true\" name=\"doLeadOut\"/>\n    <parameter expression=\"true\" name=\"exit_sameAsEntry\"/>\n    <parameter expression=\"tool_diameter * 0.1\" name=\"exit_radius\"/>\n    <parameter expression=\"90.0deg\" name=\"exit_sweep\"/>\n    <parameter expression=\"tool_diameter * 0.1\" name=\"exit_distance\"/>\n    <parameter expression=\"false\" name=\"exit_perpendicular\"/>\n    <parameter expression=\"exit_radius\" name=\"exit_verticalRadius\"/>\n    <parameter expression=\"'helix'\" name=\"rampType\"/>\n    <parameter expression=\"tool_rampAngle\" name=\"rampAngle\"/>\n    <parameter expression=\"maximumStepdown > 0 ? maximumStepdown : tool_fluteLength\" name=\"maximumRampZStepdown\"/>\n    <parameter expression=\"2.5mm\" name=\"rampClearanceHeight\"/>\n    <parameter expression=\"0\" name=\"rampRadialClearance\"/>\n    <parameter expression=\"Math.max((tool_diameter - 2 * tool_cornerRadius) * 0.95; tool_diameter * 0.25)\" name=\"helicalRampDiameter\"/>\n    <parameter expression=\"Math.max((tool_diameter - 2 * tool_cornerRadius) * 0.5; tool_diameter * 0.25)\" name=\"minimumRampDiameter\"/>\n    <parameter expression=\"false\" name=\"predrillPositions\"/>\n    <parameter expression=\"false\" name=\"entryPositions\"/>\n    <parameter expression=\"false\" name=\"exitPositions\"/>\n    <parameter expression=\"false\" name=\"generate_connections\"/>\n    <parameter expression=\"'full'\" name=\"connections_retraction_type\"/>\n    <parameter expression=\"'plane'\" name=\"connectionMoveClearanceAreaType\"/>\n    <parameter expression=\"'toolAxisZ'\" name=\"connectionMoveClearanceArea_orientation_mode\"/>\n    <parameter expression=\"(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'\" name=\"connectionMoveClearanceArea_origin_mode\"/>\n    <parameter expression=\"false\" name=\"connectionMoveClearanceArea_origin_point\"/>\n    <parameter expression=\"'from stock top'\" name=\"connectionMoveClearanceAreaHeight_mode\"/>\n    <parameter expression=\"false\" name=\"connectionMoveClearanceAreaHeight_ref\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaHeight_offset\"/>\n    <parameter expression=\"10.\" name=\"connectionMoveClearanceAreaHeight_value\"/>\n    <parameter expression=\"'from stock od'\" name=\"connectionMoveClearanceAreaCylinderRadius_mode\"/>\n    <parameter expression=\"false\" name=\"connectionMoveClearanceAreaCylinderRadius_ref\"/>\n    <parameter expression=\"'outer diameter'\" name=\"connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock\"/>\n    <parameter expression=\"'outer diameter'\" name=\"connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel\"/>\n    <parameter expression=\"'outer diameter'\" name=\"connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCylinderRadius_offset\"/>\n    <parameter expression=\"connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2\" name=\"connectionMoveClearanceAreaCylinderRadius_direct\"/>\n    <parameter expression=\"10.\" name=\"connectionMoveClearanceAreaCylinderRadius_value\"/>\n    <parameter expression=\"'from stock od'\" name=\"connectionMoveClearanceAreaSphereRadius_mode\"/>\n    <parameter expression=\"false\" name=\"connectionMoveClearanceAreaSphereRadius_ref\"/>\n    <parameter expression=\"'outer diameter'\" name=\"connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock\"/>\n    <parameter expression=\"'outer diameter'\" name=\"connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel\"/>\n    <parameter expression=\"'outer diameter'\" name=\"connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaSphereRadius_offset\"/>\n    <parameter expression=\"connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2\" name=\"connectionMoveClearanceAreaSphereRadius_direct\"/>\n    <parameter expression=\"10.\" name=\"connectionMoveClearanceAreaSphereRadius_value\"/>\n    <parameter expression=\"'from stock box'\" name=\"connectionMoveClearanceAreaCuboid_mode\"/>\n    <parameter expression=\"true\" name=\"connectionMoveClearanceAreaCuboid_symmetricalOffsets\"/>\n    <parameter expression=\"312.\" name=\"connectionMoveClearanceAreaCuboidPosX_value\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCuboidPosX_offset\"/>\n    <parameter expression=\"10.\" name=\"connectionMoveClearanceAreaCuboidNegX_value\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCuboidNegX_offset\"/>\n    <parameter expression=\"10.\" name=\"connectionMoveClearanceAreaCuboidPosY_value\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCuboidPosY_offset\"/>\n    <parameter expression=\"312.\" name=\"connectionMoveClearanceAreaCuboidNegY_value\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCuboidNegY_offset\"/>\n    <parameter expression=\"10.\" name=\"connectionMoveClearanceAreaCuboidPosZ_value\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCuboidPosZ_offset\"/>\n    <parameter expression=\"111.\" name=\"connectionMoveClearanceAreaCuboidNegZ_value\"/>\n    <parameter expression=\"10mm\" name=\"connectionMoveClearanceAreaCuboidNegZ_offset\"/>\n    <parameter expression=\"true\" name=\"use_tool_stepdown\"/>\n    <parameter expression=\"10.5\" name=\"tool_stepdown\"/>\n    <parameter expression=\"0.2mm\" name=\"tool_finishingStepdown\"/>\n    <parameter expression=\"true\" name=\"use_tool_stepover\"/>\n    <parameter expression=\"0.66101144573423\" name=\"tool_stepover\"/>\n    <parameter expression=\"tool_diameter * 0.1\" name=\"tool_finishingStepover\"/>\n    <parameter expression=\"'helix'\" name=\"tool_rampType\"/>\n    <parameter expression=\"2deg\" name=\"tool_rampAngle\"/>\n    <parameter expression=\"false\" name=\"associatedView\"/>\n  </template>\n\n</template-document>\n",
+      "parameters":       [
+        {
+          "name": "advancedMode",
+          "expression": "false"
+        },
+        {
+          "name": "betaMode",
+          "expression": "false"
+        },
+        {
+          "name": "alphaMode",
+          "expression": "false"
+        },
+        {
+          "name": "isXpress",
+          "expression": "false"
+        },
+        {
+          "name": "licenseMultiaxis",
+          "expression": "true"
+        },
+        {
+          "name": "license3D",
+          "expression": "true"
+        },
+        {
+          "name": "metric",
+          "expression": "true"
+        },
+        {
+          "name": "isAssemblyDocument",
+          "expression": "true"
+        },
+        {
+          "name": "strategy",
+          "expression": "'setup'"
+        },
+        {
+          "name": "operation_description",
+          "expression": "''"
+        },
+        {
+          "name": "isOperationTemplate",
+          "expression": "false"
+        },
+        {
+          "name": "surfaceZHigh",
+          "expression": "-1."
+        },
+        {
+          "name": "surfaceZLow",
+          "expression": "-101."
+        },
+        {
+          "name": "surfaceXLow",
+          "expression": "1."
+        },
+        {
+          "name": "surfaceXHigh",
+          "expression": "301."
+        },
+        {
+          "name": "surfaceYLow",
+          "expression": "-301."
+        },
+        {
+          "name": "surfaceYHigh",
+          "expression": "-1."
+        },
+        {
+          "name": "stockZHigh",
+          "expression": "0.0"
+        },
+        {
+          "name": "stockZLow",
+          "expression": "-101."
+        },
+        {
+          "name": "stockXLow",
+          "expression": "0.0"
+        },
+        {
+          "name": "stockXHigh",
+          "expression": "302."
+        },
+        {
+          "name": "stockYLow",
+          "expression": "-302."
+        },
+        {
+          "name": "stockYHigh",
+          "expression": "0.0"
+        },
+        {
+          "name": "modelDiameter",
+          "expression": "NaN"
+        },
+        {
+          "name": "modelDiameterInner",
+          "expression": "NaN"
+        },
+        {
+          "name": "modelLength",
+          "expression": "100."
+        },
+        {
+          "name": "stockDiameter",
+          "expression": "NaN"
+        },
+        {
+          "name": "stockDiameterInner",
+          "expression": "NaN"
+        },
+        {
+          "name": "stockLength",
+          "expression": "NaN"
+        },
+        {
+          "name": "arrange_checkbox",
+          "expression": "true"
+        },
+        {
+          "name": "job_machine",
+          "expression": "true"
+        },
+        {
+          "name": "job_groupSetup",
+          "expression": "true"
+        },
+        {
+          "name": "job_type",
+          "expression": "'milling'"
+        },
+        {
+          "name": "job_enableWCSForAdditive",
+          "expression": "false"
+        },
+        {
+          "name": "arrange_setup",
+          "expression": "false"
+        },
+        {
+          "name": "job_boolArrange",
+          "expression": "arrange_setup ? false : true"
+        },
+        {
+          "name": "job_spindle",
+          "expression": "'primary'"
+        },
+        {
+          "name": "machineMaxTilt",
+          "expression": "90"
+        },
+        {
+          "name": "machineMaxTiltValidation",
+          "expression": "180"
+        },
+        {
+          "name": "machine_dimension_x",
+          "expression": "-1"
+        },
+        {
+          "name": "machine_dimension_y",
+          "expression": "-1"
+        },
+        {
+          "name": "machine_dimension_z",
+          "expression": "-1"
+        },
+        {
+          "name": "job_groupWCS",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_orientation_mode",
+          "expression": "'axesXY'"
+        },
+        {
+          "name": "job_rotaryAxis",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axisZ",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_flipZ",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axesZX_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_axesZY_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_axesXY_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_axesXZ_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_cSys",
+          "expression": "false"
+        },
+        {
+          "name": "job_axisXPosition",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axisX",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_orientation_flipX",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axisY",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_orientation_flipY",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_origin_turning",
+          "expression": "'stock front'"
+        },
+        {
+          "name": "wcs_origin_mode",
+          "expression": "(job_type == 'additive') ? ('modelOrigin') : 'stockPoint'"
+        },
+        {
+          "name": "wcs_origin_point",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_model_point",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_origin_boxPoint",
+          "expression": "'top 3'"
+        },
+        {
+          "name": "wcs_stock_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_homePosition",
+          "expression": "jobSafeZ_value"
+        },
+        {
+          "name": "job_safeZ_group",
+          "expression": "true"
+        },
+        {
+          "name": "jobSafeZ_mode",
+          "expression": "'stock front'"
+        },
+        {
+          "name": "jobSafeZ_offset",
+          "expression": "stockZHigh + 5mm"
+        },
+        {
+          "name": "jobSafeZ_value",
+          "expression": "5."
+        },
+        {
+          "name": "jobSafeZ_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "chuckFront_mode",
+          "expression": "'model back'"
+        },
+        {
+          "name": "chuckFront_offset",
+          "expression": "-10mm"
+        },
+        {
+          "name": "chuckFront_value",
+          "expression": "-111."
+        },
+        {
+          "name": "chuckFront_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "chuckFront_ref",
+          "expression": "false"
+        },
+        {
+          "name": "job_groupMachine",
+          "expression": "true"
+        },
+        {
+          "name": "job_machine_manufacturer",
+          "expression": "'renishaw'"
+        },
+        {
+          "name": "job_machine_type",
+          "expression": "'renishaw250'"
+        },
+        {
+          "name": "job_machine_configuration",
+          "expression": "'titanium1'"
+        },
+        {
+          "name": "job_machine_configuration_id",
+          "expression": "''"
+        },
+        {
+          "name": "job_machine_build_strategy_id",
+          "expression": "''"
+        },
+        {
+          "name": "job_groupWorkflow",
+          "expression": "true"
+        },
+        {
+          "name": "job_slmOptimized",
+          "expression": "false"
+        },
+        {
+          "name": "job_useModel",
+          "expression": "true"
+        },
+        {
+          "name": "job_workingModel",
+          "expression": "'default'"
+        },
+        {
+          "name": "job_model",
+          "expression": "true"
+        },
+        {
+          "name": "job_useSpunProfile",
+          "expression": "true"
+        },
+        {
+          "name": "job_spunProfileTolerance",
+          "expression": "0.01mm"
+        },
+        {
+          "name": "job_spunProfileSmoothing",
+          "expression": "true"
+        },
+        {
+          "name": "job_spunProfileConvertToSketch",
+          "expression": "false"
+        },
+        {
+          "name": "job_fixtureGroup",
+          "expression": "true"
+        },
+        {
+          "name": "job_fixture",
+          "expression": "false"
+        },
+        {
+          "name": "radialFixtureClearanceSetup",
+          "expression": "5 mm"
+        },
+        {
+          "name": "axialFixtureClearanceSetup",
+          "expression": "5 mm"
+        },
+        {
+          "name": "job_fixtureAttachment",
+          "expression": "false"
+        },
+        {
+          "name": "job_enableStockSimForAdditive",
+          "expression": "false"
+        },
+        {
+          "name": "job_groupStock",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockMode",
+          "expression": "(job_type == 'turning') ? 'fixedcylinder' : (job_type == 'additive' && job_enableStockSimForAdditive) ? 'solid' : 'default'"
+        },
+        {
+          "name": "job_groundStockModelOrigin",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockOffsetMode",
+          "expression": "'simple'"
+        },
+        {
+          "name": "job_isSameComponent",
+          "expression": "true"
+        },
+        {
+          "name": "job_continueMachining",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockSolid",
+          "expression": "false"
+        },
+        {
+          "name": "job_boundingSolid",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockOffsetSides",
+          "expression": "1mm"
+        },
+        {
+          "name": "job_stockOffsetTop",
+          "expression": "1mm"
+        },
+        {
+          "name": "job_stockOffsetBottom",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetXBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetXFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetYBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetYFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetZBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetZFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockFixedX",
+          "expression": "Math.ceilto(surfaceXHigh - surfaceXLow; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockFixedXMode",
+          "expression": "job_groundStockModelOrigin ? 'model' : 'center'"
+        },
+        {
+          "name": "job_stockFixedXOffset",
+          "expression": "(job_stockFixedX - (surfaceXHigh - surfaceXLow)) / 2"
+        },
+        {
+          "name": "job_stockFixedY",
+          "expression": "Math.ceilto(surfaceYHigh - surfaceYLow; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockFixedYMode",
+          "expression": "job_groundStockModelOrigin ? 'model' : 'center'"
+        },
+        {
+          "name": "job_stockFixedYOffset",
+          "expression": "(job_stockFixedY - (surfaceYHigh - surfaceYLow)) / 2"
+        },
+        {
+          "name": "job_stockFixedZ",
+          "expression": "Math.ceilto(surfaceZHigh - surfaceZLow; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockFixedZMode",
+          "expression": "job_groundStockModelOrigin ? 'model' : 'center'"
+        },
+        {
+          "name": "job_stockFixedZOffset",
+          "expression": "(job_stockFixedZ - (surfaceZHigh - surfaceZLow)) / 2"
+        },
+        {
+          "name": "job_stockOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockHeight",
+          "expression": "10mm"
+        },
+        {
+          "name": "job_stockAxisEnabled",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockAxis",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockDiameter",
+          "expression": "Math.ceilto(modelDiameter; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockDiameterInner",
+          "expression": "Math.floorto(modelDiameterInner; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockLength",
+          "expression": "Math.ceilto(modelLength; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockLengthMode",
+          "expression": "'center'"
+        },
+        {
+          "name": "job_stockLengthOffset",
+          "expression": "0"
+        },
+        {
+          "name": "job_stockRadialOffset",
+          "expression": "1mm"
+        },
+        {
+          "name": "job_stockOffsetFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockFixedRoundingValue",
+          "expression": "((job_stockMode == 'default') || (job_stockMode == 'relativecylinder') || (job_stockMode == 'relativetube')) ? 0.0mm : 10mm"
+        },
+        {
+          "name": "job_groupCuttingForce",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockSpecificCuttingForce",
+          "expression": "1500.0"
+        },
+        {
+          "name": "job_stockSpecificCuttingForceUnit",
+          "expression": "'N/mm2'"
+        },
+        {
+          "name": "job_stockInitialToolWear",
+          "expression": "0.0"
+        },
+        {
+          "name": "job_stockInitialToolWearUnit",
+          "expression": "'J'"
+        },
+        {
+          "name": "job_stockCuttingForceOutputFolder",
+          "expression": "''"
+        },
+        {
+          "name": "job_groupStockMaterial",
+          "expression": "true"
+        },
+        {
+          "name": "job_groupStockInfo",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockInfoDiameter",
+          "expression": "stockDiameter"
+        },
+        {
+          "name": "job_stockInfoLength",
+          "expression": "stockLength"
+        },
+        {
+          "name": "job_stockInfoDimensionX",
+          "expression": "stockXHigh - stockXLow"
+        },
+        {
+          "name": "job_stockInfoDimensionY",
+          "expression": "stockYHigh - stockYLow"
+        },
+        {
+          "name": "job_stockInfoDimensionZ",
+          "expression": "stockZHigh - stockZLow"
+        },
+        {
+          "name": "job_groupModelInfo",
+          "expression": "true"
+        },
+        {
+          "name": "job_modelInfoDiameter",
+          "expression": "modelDiameter"
+        },
+        {
+          "name": "job_modelInfoLength",
+          "expression": "modelLength"
+        },
+        {
+          "name": "job_modelInfoDimensionX",
+          "expression": "surfaceXHigh - surfaceXLow"
+        },
+        {
+          "name": "job_modelInfoDimensionY",
+          "expression": "surfaceYHigh - surfaceYLow"
+        },
+        {
+          "name": "job_modelInfoDimensionZ",
+          "expression": "surfaceZHigh - surfaceZLow"
+        },
+        {
+          "name": "job_position",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionReference_origin_mode",
+          "expression": "'fixturePoint'"
+        },
+        {
+          "name": "job_positionReference_origin_point",
+          "expression": "false"
+        },
+        {
+          "name": "job_positionReference_model_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionReference_origin_boxPoint",
+          "expression": "'bottom center'"
+        },
+        {
+          "name": "job_positionReference_fixture_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionReference_stock_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionAttach",
+          "expression": "false"
+        },
+        {
+          "name": "job_positionXOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_positionYOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_positionZOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "connections",
+          "expression": "true"
+        },
+        {
+          "name": "generate_connections",
+          "expression": "false"
+        },
+        {
+          "name": "connections_retraction_type",
+          "expression": "'full'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_group",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaType",
+          "expression": "'plane'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_orientation_mode",
+          "expression": "'toolAxisZ'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_origin_mode",
+          "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_origin_point",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_mode",
+          "expression": "'from stock top'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_ref",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+          "expression": "'from stock od'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+          "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_mode",
+          "expression": "'from stock od'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_ref",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_direct",
+          "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboid_mode",
+          "expression": "'from stock box'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosX_value",
+          "expression": "312."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegX_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosY_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegY_value",
+          "expression": "312."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+          "expression": "111."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "job_groupPostVars",
+          "expression": "true"
+        },
+        {
+          "name": "job_programName",
+          "expression": "'1001'"
+        },
+        {
+          "name": "job_programComment",
+          "expression": "''"
+        },
+        {
+          "name": "job_groupMachineWCS",
+          "expression": "true"
+        },
+        {
+          "name": "job_workOffset",
+          "expression": "0"
+        },
+        {
+          "name": "job_probeWorkOffset",
+          "expression": "job_workOffset"
+        },
+        {
+          "name": "job_multipleWorkOffsets",
+          "expression": "false"
+        },
+        {
+          "name": "job_numberOfWorkDuplicates",
+          "expression": "1"
+        },
+        {
+          "name": "job_workOffsetIncrement",
+          "expression": "1"
+        },
+        {
+          "name": "job_workOrder",
+          "expression": "'default'"
+        },
+        {
+          "name": "platformVisibilityState",
+          "expression": "true"
+        },
+        {
+          "name": "noBuildZoneVisibilityState",
+          "expression": "true"
+        },
+        {
+          "name": "outOfBoundsModels",
+          "expression": "false"
+        },
+        {
+          "name": "lastKnownCollisions",
+          "expression": "false"
+        },
+        {
+          "name": "additiveMachineTechnology",
+          "expression": "'UNKNOWN'"
+        },
+        {
+          "name": "associatedView",
+          "expression": "false"
+        }
+      ],
+      "operations": [
+        {
+          "name": "2D Pocket1",
+          "operationId": 3,
+          "strategy": "pocket2d",
+          "isToolpathValid": true,
+          "hasToolpath": true,
+          "isSuppressed": false,
+          "hasWarning": false,
+          "hasError": false,
+          "notes": "",
+          "toolJson": {"BMC":"unspecified","GRADE":"Mill Generic","description":"4mm Flat Endmill","geometry":{"CSP":false,"DC":4,"HAND":true,"LB":16.5,"LCF":14,"NOF":3,"NT":1,"OAL":63,"RE":0,"SFDM":4,"TA":0,"TP":0,"assemblyGaugeLength":79.3396,"shoulder-diameter":4,"shoulder-length":14,"thread-profile-angle":60,"tip-diameter":4,"tip-length":0,"tip-offset":0},"guid":"0558f609-9338-46c8-8b48-20763c63e3bd","holder":{"description":"Maritool CAT40-ER32-2.35","gaugeLength":62.8396,"guid":"","product-id":"CAT40-ER32-2.35","product-link":"","segments":[{"height":3.7592,"lower-diameter":38.1,"upper-diameter":50.038},{"height":21.2344,"lower-diameter":50.038,"upper-diameter":50.038},{"height":4.4704,"lower-diameter":39.878,"upper-diameter":39.878},{"height":2.286,"lower-diameter":39.878,"upper-diameter":44.45},{"height":10.795,"lower-diameter":44.45,"upper-diameter":44.45},{"height":1.27,"lower-diameter":44.45,"upper-diameter":46.99},{"height":0.762,"lower-diameter":62.0268,"upper-diameter":63.5508},{"height":3.683,"lower-diameter":63.5508,"upper-diameter":63.5508},{"height":2.0066,"lower-diameter":63.5508,"upper-diameter":56.261},{"height":2.9972,"lower-diameter":56.261,"upper-diameter":56.261},{"height":2.0066,"lower-diameter":56.261,"upper-diameter":63.5508},{"height":3.6322,"lower-diameter":63.5508,"upper-diameter":63.5508},{"height":0.762,"lower-diameter":63.5508,"upper-diameter":62.0268},{"height":3.175,"lower-diameter":44.45,"upper-diameter":44.45}],"type":"holder","unit":"millimeters","vendor":"Maritool"},"post-process":{"break-control":false,"comment":"","diameter-offset":1,"length-offset":1,"live":true,"manual-tool-change":false,"number":1,"turret":0},"product-id":"","product-link":"","start-values":{"presets":[{"description":"SAMPLE preset for slotting in Aluminum","f_n":0.06666666666666667,"f_z":0.06666666666666667,"guid":"6f8797c3-0472-4ef3-8a46-c652cda48524","material":{"category":"all","query":"","use-hardness":false},"n":5000,"n_ramp":5000,"name":"Default preset","ramp-angle":2,"tool-coolant":"flood","use-stepdown":false,"use-stepover":false,"v_c":62.83185307179586,"v_f":1000,"v_f_leadIn":1000,"v_f_leadOut":1000,"v_f_plunge":333.3333333333333,"v_f_ramp":333.3333333333333,"v_f_transition":1000},{"description":"SAMPLE preset for slotting in Aluminum","f_n":0.044448453608247424,"f_z":0.04444845360824743,"guid":"a6c4a00a-2436-4e60-986b-d94595866bce","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Slotting","ramp-angle":2,"stepdown":0.806770030034905,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1600.1443298969075,"v_f_leadIn":1600.1443298969075,"v_f_leadOut":1600.1443298969075,"v_f_plunge":533.3814432989691,"v_f_ramp":1600.1443298969075,"v_f_transition":1600.1443298969075},{"description":"SAMPLE preset for roughing in Aluminum","f_n":0.044448453608247424,"f_z":0.04444845360824743,"guid":"a490a179-6509-45dc-a508-a2d2b80b58e1","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1600.1443298969075,"v_f_leadIn":1600.1443298969075,"v_f_leadOut":1600.1443298969075,"v_f_plunge":533.3814432989691,"v_f_ramp":1600.1443298969075,"v_f_transition":1600.1443298969075},{"description":"SAMPLE preset for finishing in Aluminum","f_n":0.05616505154639176,"f_z":0.05616505154639176,"guid":"cc7e839a-81c1-4189-b2a7-f0cd154f6ed8","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":2021.9418556701032,"v_f_leadIn":2021.9418556701032,"v_f_leadOut":2021.9418556701032,"v_f_plunge":673.9806185567011,"v_f_ramp":2021.9418556701032,"v_f_transition":2021.9418556701032},{"description":"SAMPLE preset for slotting in Brass","f_n":0.03552288659793815,"f_z":0.03552288659793816,"guid":"a1e2c551-3433-416b-ae4d-9413eabcbacf","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Slotting","ramp-angle":2,"stepdown":0.806770030034905,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1278.8239175257738,"v_f_leadIn":1278.8239175257738,"v_f_leadOut":1278.8239175257738,"v_f_plunge":426.2746391752578,"v_f_ramp":1278.8239175257738,"v_f_transition":1278.8239175257738},{"description":"SAMPLE preset for roughing in Brass","f_n":0.03552288659793815,"f_z":0.03552288659793816,"guid":"9c5b5d7e-bab8-4159-a313-d11258f92baa","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1278.8239175257738,"v_f_leadIn":1278.8239175257738,"v_f_leadOut":1278.8239175257738,"v_f_plunge":426.2746391752578,"v_f_ramp":1278.8239175257738,"v_f_transition":1278.8239175257738},{"description":"SAMPLE preset for finishing in Brass","f_n":0.04489616494845361,"f_z":0.04489616494845362,"guid":"3de76bfa-1d29-4fd7-8f07-dc5b65f645f6","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1616.26193814433,"v_f_leadIn":1616.26193814433,"v_f_leadOut":1616.26193814433,"v_f_plunge":538.7539793814433,"v_f_ramp":1616.26193814433,"v_f_transition":1616.26193814433},{"description":"SAMPLE preset for slotting in Copper","f_n":0.03552288659793815,"f_z":0.03552288659793816,"guid":"ff9e4c33-e186-4e4c-a188-f6595019f6c6","material":{"category":"all","query":"","use-hardness":false},"n":5457.422998621091,"n_ramp":5457.422998621091,"name":"Copper - Slotting","ramp-angle":2,"stepdown":0.806770030034905,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":68.58,"v_f":581.59025489099,"v_f_leadIn":581.59025489099,"v_f_leadOut":581.59025489099,"v_f_plunge":193.86341829699657,"v_f_ramp":581.59025489099,"v_f_transition":581.59025489099},{"description":"SAMPLE preset for roughing in Copper","f_n":0.03552288659793815,"f_z":0.03552288659793816,"guid":"54765b75-6383-4d28-8037-80bbb05436c2","material":{"category":"all","query":"","use-hardness":false},"n":5457.422998621091,"n_ramp":5457.422998621091,"name":"Copper - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":68.58,"v_f":581.59025489099,"v_f_leadIn":581.59025489099,"v_f_leadOut":581.59025489099,"v_f_plunge":193.86341829699657,"v_f_ramp":581.59025489099,"v_f_transition":581.59025489099},{"description":"SAMPLE preset for finishing in Copper","f_n":0.0448961649484536,"f_z":0.04489616494845361,"guid":"bbe90ec2-fb6b-4167-8338-3b43631c04be","material":{"category":"all","query":"","use-hardness":false},"n":5457.422998621091,"n_ramp":5457.422998621091,"name":"Copper - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":68.58,"v_f":735.0520894187305,"v_f_leadIn":735.0520894187305,"v_f_leadOut":735.0520894187305,"v_f_plunge":245.0173631395768,"v_f_ramp":735.0520894187305,"v_f_transition":735.0520894187305},{"description":"SAMPLE preset for slotting in Low Carbon Steel","f_n":0.015358577319587634,"f_z":0.015358577319587627,"guid":"531c9ee2-08ec-40b4-8f4a-b906756a3e0b","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Slotting","ramp-angle":2,"stepdown":0.806770030034905,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":552.9087835051546,"v_f_leadIn":552.9087835051546,"v_f_leadOut":552.9087835051546,"v_f_plunge":184.3029278350516,"v_f_ramp":552.9087835051546,"v_f_transition":552.9087835051546},{"description":"SAMPLE preset for roughing in Low Carbon Steel","f_n":0.013761443298969072,"f_z":0.013761443298969072,"guid":"97194be0-4fe7-4e00-8453-b469069d4a4c","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":495.41195876288657,"v_f_leadIn":495.41195876288657,"v_f_leadOut":495.41195876288657,"v_f_plunge":165.13731958762887,"v_f_ramp":495.41195876288657,"v_f_transition":495.41195876288657},{"description":"SAMPLE preset for finishing in Low Carbon Steel","f_n":0.017447896907216508,"f_z":0.017447896907216494,"guid":"4d635ae9-607f-4f0f-a491-c6d85e9f30b2","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":628.1242886597938,"v_f_leadIn":628.1242886597939,"v_f_leadOut":628.1242886597939,"v_f_plunge":209.3747628865981,"v_f_ramp":628.1242886597939,"v_f_transition":628.1242886597938},{"description":"SAMPLE preset for slotting in High Carbon Steel","f_n":0.013985298969072168,"f_z":0.013985298969072172,"guid":"9701a371-f216-4e10-b309-2a5c71333252","material":{"category":"all","query":"","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"High Carbon Steel - Slotting","ramp-angle":2,"stepdown":0.806770030034905,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":60.95999999999998,"v_f":203.5298459637501,"v_f_leadIn":203.5298459637501,"v_f_leadOut":203.5298459637501,"v_f_plunge":67.84328198791668,"v_f_ramp":203.5298459637501,"v_f_transition":203.5298459637501},{"description":"SAMPLE preset for roughing in High Carbon Steel","f_n":0.012537402061855676,"f_z":0.012537402061855682,"guid":"bd08b375-7f25-4874-a4dc-193402307c24","material":{"category":"all","query":"","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"High Carbon Steel - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":60.95999999999998,"v_f":182.45841694754844,"v_f_leadIn":182.45841694754844,"v_f_leadOut":182.45841694754844,"v_f_plunge":60.81947231584945,"v_f_ramp":182.45841694754844,"v_f_transition":182.45841694754844},{"description":"SAMPLE preset for finishing in High Carbon Steel","f_n":0.016104762886597943,"f_z":0.016104762886597943,"guid":"f825bc5f-5ab3-4e4a-bbfc-23a769f62765","material":{"category":"all","query":"","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"High Carbon Steel - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":60.95999999999998,"v_f":234.3746756390906,"v_f_leadIn":234.37467563909064,"v_f_leadOut":234.37467563909064,"v_f_plunge":78.12489187969688,"v_f_ramp":234.37467563909064,"v_f_transition":234.3746756390906},{"description":"SAMPLE preset for slotting in Plastics","f_n":0.044807216494845384,"f_z":0.04480721649484536,"guid":"0c6aa5c6-8e35-4c38-b863-3f80d33d818d","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Slotting","ramp-angle":2,"stepdown":0.97626430716779,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1613.059793814433,"v_f_leadIn":1613.0597938144329,"v_f_leadOut":1613.0597938144329,"v_f_plunge":537.6865979381446,"v_f_ramp":1613.0597938144329,"v_f_transition":1613.059793814433},{"description":"SAMPLE preset for roughing in Plastics","f_n":0.044807216494845384,"f_z":0.04480721649484536,"guid":"466ea417-73be-4ea7-8fae-10b7e90c3d54","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":1613.059793814433,"v_f_leadIn":1613.0597938144329,"v_f_leadOut":1613.0597938144329,"v_f_plunge":537.6865979381446,"v_f_ramp":1613.0597938144329,"v_f_transition":1613.059793814433},{"description":"SAMPLE preset for finishing in Plastics","f_n":0.05562690721649487,"f_z":0.05562690721649486,"guid":"b697d35a-6f9c-46a6-bc6d-8e93bb673442","material":{"category":"all","query":"","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":150.79644737231007,"v_f":2002.568659793815,"v_f_leadIn":2002.568659793815,"v_f_leadOut":2002.568659793815,"v_f_plunge":667.5228865979384,"v_f_ramp":2002.568659793815,"v_f_transition":2002.568659793815},{"description":"SAMPLE preset for slotting in Stainless Steel","f_n":0.013985298969072168,"f_z":0.013985298969072172,"guid":"889c6d79-5f57-4318-91db-bc0188c44c07","material":{"category":"all","query":"","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Stainless Steel - Slotting","ramp-angle":2,"stepdown":1.4,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":60.95999999999998,"v_f":203.5298459637501,"v_f_leadIn":203.5298459637501,"v_f_leadOut":203.5298459637501,"v_f_plunge":67.84328198791668,"v_f_ramp":203.5298459637501,"v_f_transition":203.5298459637501},{"description":"SAMPLE preset for roughing in Stainless Steel","f_n":0.012537402061855676,"f_z":0.012537402061855682,"guid":"6a482c7c-3ea0-4062-93ac-2d9b4bb2e50b","material":{"category":"all","query":"","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Stainless Steel - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":60.95999999999998,"v_f":182.45841694754844,"v_f_leadIn":182.45841694754844,"v_f_leadOut":182.45841694754844,"v_f_plunge":60.81947231584945,"v_f_ramp":182.45841694754844,"v_f_transition":182.45841694754844},{"description":"SAMPLE preset for finishing in Stainless Steel","f_n":0.016104762886597943,"f_z":0.016104762886597943,"guid":"ed2c4205-b7fd-438f-b1c7-0499db5531b0","material":{"category":"all","query":"","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Stainless Steel - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":60.95999999999998,"v_f":234.3746756390906,"v_f_leadIn":234.37467563909064,"v_f_leadOut":234.37467563909064,"v_f_plunge":78.12489187969688,"v_f_ramp":234.37467563909064,"v_f_transition":234.3746756390906},{"description":"SAMPLE preset for slotting in Titanium","f_n":0.023326948453608255,"f_z":0.02332694845360826,"guid":"f303ed7d-c671-4ba2-9ced-70cc07c62255","material":{"category":"all","query":"","use-hardness":false},"n":3638.281999080727,"n_ramp":3638.281999080727,"name":"Titanium - Slotting","ramp-angle":2,"stepdown":0.806770030034905,"stepover":4,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":45.71999999999999,"v_f":254.6100499567408,"v_f_leadIn":254.6100499567408,"v_f_leadOut":254.6100499567408,"v_f_plunge":84.87001665224692,"v_f_ramp":254.6100499567408,"v_f_transition":254.6100499567408},{"description":"SAMPLE preset for roughing in Titanium","f_n":0.02314756701030929,"f_z":0.02314756701030929,"guid":"01d4aec6-f0be-4511-86fb-86eb9a814165","material":{"category":"all","query":"","use-hardness":false},"n":3638.281999080727,"n_ramp":3638.281999080727,"name":"Titanium - Roughing","ramp-angle":2,"stepdown":10.5,"stepover":0.661011445734232,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":45.71999999999999,"v_f":252.6521291283695,"v_f_leadIn":252.65212912836947,"v_f_leadOut":252.65212912836947,"v_f_plunge":84.21737637612317,"v_f_ramp":252.65212912836947,"v_f_transition":252.6521291283695},{"description":"SAMPLE preset for finishing in Titanium","f_n":0.023326948453608255,"f_z":0.02332694845360826,"guid":"706f80a4-d625-40b4-b88b-782e79228ae9","material":{"category":"all","query":"","use-hardness":false},"n":3638.281999080727,"n_ramp":3638.281999080727,"name":"Titanium - Finishing","ramp-angle":2,"stepdown":10.5,"stepover":0.402256676678302,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":45.71999999999999,"v_f":254.6100499567408,"v_f_leadIn":254.6100499567408,"v_f_leadOut":254.6100499567408,"v_f_plunge":84.87001665224692,"v_f_ramp":254.6100499567408,"v_f_transition":254.6100499567408}]},"type":"flat end mill","unit":"millimeters","vendor":""},
+          "toolDescription": "#1 - Ø4mm flat (4mm Flat Endmill)",
+          "toolParameters":           [
+            {
+              "name": "advancedMode",
+              "expression": "false"
+            },
+            {
+              "name": "betaMode",
+              "expression": "false"
+            },
+            {
+              "name": "alphaMode",
+              "expression": "false"
+            },
+            {
+              "name": "isXpress",
+              "expression": "false"
+            },
+            {
+              "name": "licenseMultiaxis",
+              "expression": "true"
+            },
+            {
+              "name": "license3D",
+              "expression": "true"
+            },
+            {
+              "name": "metric",
+              "expression": "true"
+            },
+            {
+              "name": "isAssemblyDocument",
+              "expression": "false"
+            },
+            {
+              "name": "context",
+              "expression": "''"
+            },
+            {
+              "name": "strategy",
+              "expression": "'tool'"
+            },
+            {
+              "name": "operation_description",
+              "expression": "''"
+            },
+            {
+              "name": "group_tool",
+              "expression": "true"
+            },
+            {
+              "name": "isOperationTemplate",
+              "expression": "false"
+            },
+            {
+              "name": "tool_type",
+              "expression": "'flat end mill'"
+            },
+            {
+              "name": "undercut",
+              "expression": "true"
+            },
+            {
+              "name": "tool_isTurning",
+              "expression": "tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'"
+            },
+            {
+              "name": "tool_isMill",
+              "expression": "tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill' || tool_type == 'corner chamfer end mill' || tool_type == 'circle segment taper' || tool_type == 'circle segment barrel' || tool_type == 'circle segment oval' || tool_type == 'circle segment lens'"
+            },
+            {
+              "name": "tool_isDrill",
+              "expression": "tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'"
+            },
+            {
+              "name": "tool_isJet",
+              "expression": "tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'"
+            },
+            {
+              "name": "tool_isDepositing",
+              "expression": "tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'"
+            },
+            {
+              "name": "tool_taperedType",
+              "expression": "'tapered_bull_nose'"
+            },
+            {
+              "name": "tool_unit",
+              "expression": "'millimeters'"
+            },
+            {
+              "name": "tool_number",
+              "expression": "1"
+            },
+            {
+              "name": "tool_diameterOffset",
+              "expression": "tool_number"
+            },
+            {
+              "name": "tool_lengthOffset",
+              "expression": "tool_number"
+            },
+            {
+              "name": "tool_compensationOffset",
+              "expression": "tool_number"
+            },
+            {
+              "name": "tool_turret",
+              "expression": "0"
+            },
+            {
+              "name": "tool_manualToolChange",
+              "expression": "false"
+            },
+            {
+              "name": "tool_breakControl",
+              "expression": "false"
+            },
+            {
+              "name": "tool_live",
+              "expression": "true"
+            },
+            {
+              "name": "tool_material",
+              "expression": "'unspecified'"
+            },
+            {
+              "name": "tool_description",
+              "expression": "'4mm Flat Endmill'"
+            },
+            {
+              "name": "tool_comment",
+              "expression": "''"
+            },
+            {
+              "name": "tool_vendor",
+              "expression": "''"
+            },
+            {
+              "name": "tool_productId",
+              "expression": "''"
+            },
+            {
+              "name": "tool_productLink",
+              "expression": "''"
+            },
+            {
+              "name": "tool_diameter",
+              "expression": "4."
+            },
+            {
+              "name": "tool_maximumCuttingDiameter",
+              "expression": "tool_diameter + 2*tool_fluteLength*Math.tan(tool_taperAngle)"
+            },
+            {
+              "name": "tool_tipDiameter",
+              "expression": "4."
+            },
+            {
+              "name": "tool_tipOffset",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_cornerRadius",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_inclusiveAngle",
+              "expression": "tool_taperAngle * 2"
+            },
+            {
+              "name": "tool_taperAngle",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_tipAngle",
+              "expression": "(tool_type == 'counter sink') ? 90.0deg : ((tool_type == 'spot drill') ? 120deg : 118.0deg)"
+            },
+            {
+              "name": "tool_threadTipType",
+              "expression": "tool_type == 'thread mill' ? 'point' : 'round'"
+            },
+            {
+              "name": "tool_threadTipWidth",
+              "expression": "tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / 8"
+            },
+            {
+              "name": "tool_threadTipRadius",
+              "expression": "(((tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / (tool_internalThread ? 8 : 4))) / 2) / Math.cos(tool_threadProfileAngle / 2 radians)"
+            },
+            {
+              "name": "tool_threadProfileAngle",
+              "expression": "60."
+            },
+            {
+              "name": "tool_tipLength",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_fluteLength",
+              "expression": "14."
+            },
+            {
+              "name": "tool_shoulderLength",
+              "expression": "tool_fluteLength"
+            },
+            {
+              "name": "tool_bodyLength",
+              "expression": "16.5"
+            },
+            {
+              "name": "tool_overallLength",
+              "expression": "63."
+            },
+            {
+              "name": "tool_shaftDiameter",
+              "expression": "tool_diameter"
+            },
+            {
+              "name": "tool_segmentHeight",
+              "expression": "tool_shaftDiameter/2"
+            },
+            {
+              "name": "tool_segmentDiameterLower",
+              "expression": "tool_shaftDiameter*2"
+            },
+            {
+              "name": "tool_segmentDiameterUpper",
+              "expression": "tool_shaftDiameter*2"
+            },
+            {
+              "name": "tool_shaftSegmentHeight",
+              "expression": "Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)"
+            },
+            {
+              "name": "tool_shaftSegmentDiameterLower",
+              "expression": "tool_diameter"
+            },
+            {
+              "name": "tool_shaftSegmentDiameterUpper",
+              "expression": "tool_shaftDiameter"
+            },
+            {
+              "name": "tool_threadPitch",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_maximumThreadPitch",
+              "expression": "1.0mm"
+            },
+            {
+              "name": "tool_minimumThreadPitch",
+              "expression": "1.0mm"
+            },
+            {
+              "name": "tool_numberOfTeeth",
+              "expression": "1"
+            },
+            {
+              "name": "tool_numberOfFlutes",
+              "expression": "3"
+            },
+            {
+              "name": "tool_shoulderDiameter",
+              "expression": "4."
+            },
+            {
+              "name": "tool_upperRadius",
+              "expression": "(tool_type == 'circle segment barrel' ? (tool_diameter / 12) : (tool_type == 'circle segment taper' ? (tool_diameter / 2) : 0mm))"
+            },
+            {
+              "name": "tool_profileRadius",
+              "expression": "(tool_type == 'circle segment taper' ? (tool_diameter * 31.25) : (tool_type == 'circle segment oval' ? (tool_diameter * 15) : (tool_type == 'circle segment barrel' ? (tool_diameter * 4) : (tool_diameter * 0.6))))"
+            },
+            {
+              "name": "tool_lowerRadius",
+              "expression": "(tool_type == 'circle segment taper' ? (tool_upperRadius / 2) : ((tool_type == 'circle segment barrel' ? tool_upperRadius : ((tool_type == 'circle segment lens' ? (tool_diameter): (tool_diameter / 6))))))"
+            },
+            {
+              "name": "tool_axialDistance",
+              "expression": "tool_fluteLength / 2"
+            },
+            {
+              "name": "tool_chamferWidth",
+              "expression": "1mm"
+            },
+            {
+              "name": "tool_chamferAngle",
+              "expression": "45deg"
+            },
+            {
+              "name": "tool_kerfWidth",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_nozzleDiameter",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_headClearance",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_machineQualityControl",
+              "expression": "'manual'"
+            },
+            {
+              "name": "holder_attached",
+              "expression": "true"
+            },
+            {
+              "name": "holder_description",
+              "expression": "'Maritool CAT40-ER32-2.35'"
+            },
+            {
+              "name": "holder_comment",
+              "expression": "''"
+            },
+            {
+              "name": "holder_vendor",
+              "expression": "'Maritool'"
+            },
+            {
+              "name": "holder_productId",
+              "expression": "'CAT40-ER32-2.35'"
+            },
+            {
+              "name": "holder_productLink",
+              "expression": "''"
+            },
+            {
+              "name": "holder_libraryName",
+              "expression": "''"
+            },
+            {
+              "name": "tool_holderGaugeLength",
+              "expression": "62.8396"
+            },
+            {
+              "name": "tool_assemblyGaugeLength",
+              "expression": "79.3396"
+            },
+            {
+              "name": "group_feedspeed",
+              "expression": "true"
+            },
+            {
+              "name": "tool_spindleSpeed",
+              "expression": "12000."
+            },
+            {
+              "name": "tool_stockDiameter",
+              "expression": "tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter"
+            },
+            {
+              "name": "tool_surfaceSpeed",
+              "expression": "tool_diameter * Math.PI * tool_spindleSpeed"
+            },
+            {
+              "name": "tool_rampSpindleSpeed",
+              "expression": "tool_spindleSpeed"
+            },
+            {
+              "name": "tool_useFeedPerRevolution",
+              "expression": "tool_isTurning"
+            },
+            {
+              "name": "tool_feedCutting",
+              "expression": "1613.05979381443285"
+            },
+            {
+              "name": "tool_feedPerTooth",
+              "expression": "tool_spindleSpeed > 0 ? tool_feedCutting/(tool_spindleSpeed * tool_numberOfFlutes) : 0.0"
+            },
+            {
+              "name": "tool_feedProbeLink",
+              "expression": "3000mmpm"
+            },
+            {
+              "name": "tool_feedEntry",
+              "expression": "tool_type == 'probe' || tool_isDepositing ? 1000mmpm : tool_feedCutting"
+            },
+            {
+              "name": "tool_feedExit",
+              "expression": "tool_isDepositing ? 1000mmpm : tool_feedCutting"
+            },
+            {
+              "name": "tool_feedTransition",
+              "expression": "tool_feedCutting"
+            },
+            {
+              "name": "tool_feedProbeMeasure",
+              "expression": "102mmpm"
+            },
+            {
+              "name": "tool_feedRamp",
+              "expression": "1613.05979381443285"
+            },
+            {
+              "name": "tool_feedPlunge",
+              "expression": "(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)"
+            },
+            {
+              "name": "tool_feedPerRevolution",
+              "expression": "tool_spindleSpeed > 0 ? tool_feedPlunge/tool_spindleSpeed : 0.0"
+            },
+            {
+              "name": "tool_feedRetract",
+              "expression": "tool_feedPlunge"
+            },
+            {
+              "name": "tool_feedRetractPerRevolution",
+              "expression": "tool_feedPerRevolution"
+            },
+            {
+              "name": "tool_clockwise",
+              "expression": "true"
+            },
+            {
+              "name": "tool_coolant",
+              "expression": "'flood'"
+            },
+            {
+              "name": "tool_coolantSupport",
+              "expression": "'no'"
+            },
+            {
+              "name": "connections",
+              "expression": "true"
+            },
+            {
+              "name": "generate_connections",
+              "expression": "false"
+            },
+            {
+              "name": "connections_retraction_type",
+              "expression": "'full'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_group",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaType",
+              "expression": "'plane'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_orientation_mode",
+              "expression": "'toolAxisZ'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_origin_mode",
+              "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_origin_point",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_mode",
+              "expression": "'from stock top'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_absolute",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+              "expression": "'from stock od'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+              "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_value",
+              "expression": "1mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_mode",
+              "expression": "'from stock od'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_ref",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_direct",
+              "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_value",
+              "expression": "1mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboid_mode",
+              "expression": "'from stock box'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosX_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegX_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosY_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegY_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+              "expression": "0mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "tool_presetMaterialCategory",
+              "expression": "'all'"
+            },
+            {
+              "name": "tool_presetMaterialQuery",
+              "expression": "''"
+            },
+            {
+              "name": "tool_presetMaterialUseHardness",
+              "expression": "false"
+            },
+            {
+              "name": "tool_presetMaterialMinimumHardness",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_presetMaterialMaximumHardness",
+              "expression": "100.0"
+            },
+            {
+              "name": "use_tool_stepdown",
+              "expression": "true"
+            },
+            {
+              "name": "tool_stepdown",
+              "expression": "10.5"
+            },
+            {
+              "name": "tool_finishingStepdown",
+              "expression": "0.2mm"
+            },
+            {
+              "name": "use_tool_stepover",
+              "expression": "true"
+            },
+            {
+              "name": "tool_stepover",
+              "expression": "0.66101144573423"
+            },
+            {
+              "name": "tool_finishingStepover",
+              "expression": "tool_diameter * 0.1"
+            },
+            {
+              "name": "tool_rampType",
+              "expression": "'helix'"
+            },
+            {
+              "name": "tool_rampAngle",
+              "expression": "2."
+            },
+            {
+              "name": "tool_cutHeight",
+              "expression": "(tool_type == 'waterjet' ? 3mm : (tool_type == 'laser cutter' ? 1.0mm : 1.5mm))"
+            },
+            {
+              "name": "tool_cutPower",
+              "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+            },
+            {
+              "name": "tool_pierceHeight",
+              "expression": "(tool_type == 'laser cutter' ? 3.5mm : 4.0mm)"
+            },
+            {
+              "name": "tool_pierceTime",
+              "expression": "1s"
+            },
+            {
+              "name": "tool_piercePower",
+              "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+            },
+            {
+              "name": "tool_assistGas",
+              "expression": "(tool_type == 'laser cutter' ? 'Oxygen' : 'Air')"
+            },
+            {
+              "name": "tool_pressure",
+              "expression": "(tool_type == 'waterjet' ? 4000bar : (tool_type == 'laser cutter' ? 2bar : 4bar))"
+            },
+            {
+              "name": "tool_abrasiveFlowRate",
+              "expression": "1"
+            }
+          ],
+          "parameters":           [
+            {
+              "name": "advancedMode",
+              "expression": "false"
+            },
+            {
+              "name": "betaMode",
+              "expression": "false"
+            },
+            {
+              "name": "alphaMode",
+              "expression": "false"
+            },
+            {
+              "name": "isXpress",
+              "expression": "false"
+            },
+            {
+              "name": "licenseMultiaxis",
+              "expression": "true"
+            },
+            {
+              "name": "license3D",
+              "expression": "true"
+            },
+            {
+              "name": "metric",
+              "expression": "true"
+            },
+            {
+              "name": "isAssemblyDocument",
+              "expression": "true"
+            },
+            {
+              "name": "context",
+              "expression": "'operation'"
+            },
+            {
+              "name": "strategy",
+              "expression": "'pocket2d'"
+            },
+            {
+              "name": "operation_description",
+              "expression": "'2D Pocket'"
+            },
+            {
+              "name": "group_tool",
+              "expression": "true"
+            },
+            {
+              "name": "isOperationTemplate",
+              "expression": "false"
+            },
+            {
+              "name": "isTappingOperation",
+              "expression": "false"
+            },
+            {
+              "name": "isThreadMillingOperation",
+              "expression": "false"
+            },
+            {
+              "name": "isDrillingOperation",
+              "expression": "false"
+            },
+            {
+              "name": "tool_selectionMethod",
+              "expression": "'specific'"
+            },
+            {
+              "name": "tool_searchMethod",
+              "expression": "'exact'"
+            },
+            {
+              "name": "tool_exactDiameter",
+              "expression": "10mm"
+            },
+            {
+              "name": "tool_diameterRatio",
+              "expression": "1.0"
+            },
+            {
+              "name": "tool_searchTolerance",
+              "expression": "0.1mm"
+            },
+            {
+              "name": "tool_minDiameter",
+              "expression": "5mm"
+            },
+            {
+              "name": "tool_maxDiameter",
+              "expression": "10mm"
+            },
+            {
+              "name": "tool_minDiameterRatio",
+              "expression": "0.5"
+            },
+            {
+              "name": "tool_maxDiameterRatio",
+              "expression": "1.0"
+            },
+            {
+              "name": "tool_checkLengthBelowHolder",
+              "expression": "false"
+            },
+            {
+              "name": "tool_minLengthBelowHolder",
+              "expression": "0mm"
+            },
+            {
+              "name": "tool_maxLengthBelowHolder",
+              "expression": "30mm"
+            },
+            {
+              "name": "tool_type",
+              "expression": "'flat end mill'"
+            },
+            {
+              "name": "undercut",
+              "expression": "true"
+            },
+            {
+              "name": "tool_isTurning",
+              "expression": "tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'"
+            },
+            {
+              "name": "tool_isMill",
+              "expression": "tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill' || tool_type == 'corner chamfer end mill' || tool_type == 'circle segment taper' || tool_type == 'circle segment barrel' || tool_type == 'circle segment oval' || tool_type == 'circle segment lens'"
+            },
+            {
+              "name": "tool_isDrill",
+              "expression": "tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'"
+            },
+            {
+              "name": "tool_isJet",
+              "expression": "tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'"
+            },
+            {
+              "name": "tool_isDepositing",
+              "expression": "tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'"
+            },
+            {
+              "name": "tool_taperedType",
+              "expression": "'tapered_bull_nose'"
+            },
+            {
+              "name": "tool_unit",
+              "expression": "'millimeters'"
+            },
+            {
+              "name": "tool_number",
+              "expression": "1"
+            },
+            {
+              "name": "tool_diameterOffset",
+              "expression": "tool_number"
+            },
+            {
+              "name": "tool_lengthOffset",
+              "expression": "tool_number"
+            },
+            {
+              "name": "tool_compensationOffset",
+              "expression": "tool_number"
+            },
+            {
+              "name": "tool_turret",
+              "expression": "0"
+            },
+            {
+              "name": "tool_manualToolChange",
+              "expression": "false"
+            },
+            {
+              "name": "tool_breakControl",
+              "expression": "false"
+            },
+            {
+              "name": "tool_live",
+              "expression": "true"
+            },
+            {
+              "name": "tool_material",
+              "expression": "'unspecified'"
+            },
+            {
+              "name": "tool_description",
+              "expression": "'4mm Flat Endmill'"
+            },
+            {
+              "name": "tool_comment",
+              "expression": "''"
+            },
+            {
+              "name": "tool_vendor",
+              "expression": "''"
+            },
+            {
+              "name": "tool_productId",
+              "expression": "''"
+            },
+            {
+              "name": "tool_productLink",
+              "expression": "''"
+            },
+            {
+              "name": "tool_diameter",
+              "expression": "4."
+            },
+            {
+              "name": "tool_maximumCuttingDiameter",
+              "expression": "tool_diameter + 2*tool_fluteLength*Math.tan(tool_taperAngle)"
+            },
+            {
+              "name": "tool_tipDiameter",
+              "expression": "4."
+            },
+            {
+              "name": "tool_tipOffset",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_cornerRadius",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_inclusiveAngle",
+              "expression": "tool_taperAngle * 2"
+            },
+            {
+              "name": "tool_taperAngle",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_tipAngle",
+              "expression": "(tool_type == 'counter sink') ? 90.0deg : ((tool_type == 'spot drill') ? 120deg : 118.0deg)"
+            },
+            {
+              "name": "tool_threadTipType",
+              "expression": "tool_type == 'thread mill' ? 'point' : 'round'"
+            },
+            {
+              "name": "tool_threadTipWidth",
+              "expression": "tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / 8"
+            },
+            {
+              "name": "tool_threadTipRadius",
+              "expression": "(((tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / (tool_internalThread ? 8 : 4))) / 2) / Math.cos(tool_threadProfileAngle / 2 radians)"
+            },
+            {
+              "name": "tool_threadProfileAngle",
+              "expression": "60."
+            },
+            {
+              "name": "tool_tipLength",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_fluteLength",
+              "expression": "14."
+            },
+            {
+              "name": "tool_shoulderLength",
+              "expression": "tool_fluteLength"
+            },
+            {
+              "name": "tool_bodyLength",
+              "expression": "16.5"
+            },
+            {
+              "name": "tool_overallLength",
+              "expression": "63."
+            },
+            {
+              "name": "tool_shaftDiameter",
+              "expression": "tool_diameter"
+            },
+            {
+              "name": "tool_segmentHeight",
+              "expression": "tool_shaftDiameter/2"
+            },
+            {
+              "name": "tool_segmentDiameterLower",
+              "expression": "tool_shaftDiameter*2"
+            },
+            {
+              "name": "tool_segmentDiameterUpper",
+              "expression": "tool_shaftDiameter*2"
+            },
+            {
+              "name": "tool_shaftSegmentHeight",
+              "expression": "Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)"
+            },
+            {
+              "name": "tool_shaftSegmentDiameterLower",
+              "expression": "tool_diameter"
+            },
+            {
+              "name": "tool_shaftSegmentDiameterUpper",
+              "expression": "tool_shaftDiameter"
+            },
+            {
+              "name": "tool_threadPitch",
+              "expression": "0.0"
+            },
+            {
+              "name": "tool_maximumThreadPitch",
+              "expression": "1.0mm"
+            },
+            {
+              "name": "tool_minimumThreadPitch",
+              "expression": "1.0mm"
+            },
+            {
+              "name": "tool_numberOfTeeth",
+              "expression": "1"
+            },
+            {
+              "name": "tool_numberOfFlutes",
+              "expression": "3"
+            },
+            {
+              "name": "tool_shoulderDiameter",
+              "expression": "4."
+            },
+            {
+              "name": "tool_upperRadius",
+              "expression": "(tool_type == 'circle segment barrel' ? (tool_diameter / 12) : (tool_type == 'circle segment taper' ? (tool_diameter / 2) : 0mm))"
+            },
+            {
+              "name": "tool_profileRadius",
+              "expression": "(tool_type == 'circle segment taper' ? (tool_diameter * 31.25) : (tool_type == 'circle segment oval' ? (tool_diameter * 15) : (tool_type == 'circle segment barrel' ? (tool_diameter * 4) : (tool_diameter * 0.6))))"
+            },
+            {
+              "name": "tool_lowerRadius",
+              "expression": "(tool_type == 'circle segment taper' ? (tool_upperRadius / 2) : ((tool_type == 'circle segment barrel' ? tool_upperRadius : ((tool_type == 'circle segment lens' ? (tool_diameter): (tool_diameter / 6))))))"
+            },
+            {
+              "name": "tool_axialDistance",
+              "expression": "tool_fluteLength / 2"
+            },
+            {
+              "name": "tool_chamferWidth",
+              "expression": "1mm"
+            },
+            {
+              "name": "tool_chamferAngle",
+              "expression": "45deg"
+            },
+            {
+              "name": "holder_attached",
+              "expression": "true"
+            },
+            {
+              "name": "holder_description",
+              "expression": "'Maritool CAT40-ER32-2.35'"
+            },
+            {
+              "name": "holder_comment",
+              "expression": "''"
+            },
+            {
+              "name": "holder_vendor",
+              "expression": "'Maritool'"
+            },
+            {
+              "name": "holder_productId",
+              "expression": "'CAT40-ER32-2.35'"
+            },
+            {
+              "name": "holder_productLink",
+              "expression": "''"
+            },
+            {
+              "name": "holder_libraryName",
+              "expression": "''"
+            },
+            {
+              "name": "tool_holderGaugeLength",
+              "expression": "62.8396"
+            },
+            {
+              "name": "tool_assemblyGaugeLength",
+              "expression": "79.3396"
+            },
+            {
+              "name": "group_feedspeed",
+              "expression": "true"
+            },
+            {
+              "name": "tool_spindleSpeed",
+              "expression": "12000."
+            },
+            {
+              "name": "tool_stockDiameter",
+              "expression": "tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter"
+            },
+            {
+              "name": "tool_surfaceSpeed",
+              "expression": "tool_diameter * Math.PI * tool_spindleSpeed"
+            },
+            {
+              "name": "tool_rampSpindleSpeed",
+              "expression": "tool_spindleSpeed"
+            },
+            {
+              "name": "tool_feedCutting",
+              "expression": "1613.05979381443308"
+            },
+            {
+              "name": "tool_feedPerTooth",
+              "expression": "tool_spindleSpeed > 0 ? tool_feedCutting/(tool_spindleSpeed * tool_numberOfFlutes) : 0.0"
+            },
+            {
+              "name": "tool_feedEntry",
+              "expression": "tool_type == 'probe' || tool_isDepositing ? 1000mmpm : tool_feedCutting"
+            },
+            {
+              "name": "tool_feedExit",
+              "expression": "tool_isDepositing ? 1000mmpm : tool_feedCutting"
+            },
+            {
+              "name": "tool_feedTransition",
+              "expression": "tool_feedCutting"
+            },
+            {
+              "name": "tool_feedRamp",
+              "expression": "1613.05979381443285"
+            },
+            {
+              "name": "tool_feedPlunge",
+              "expression": "(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)"
+            },
+            {
+              "name": "tool_feedPerRevolution",
+              "expression": "tool_spindleSpeed > 0 ? tool_feedPlunge/tool_spindleSpeed : 0.0"
+            },
+            {
+              "name": "tool_feedRetract",
+              "expression": "tool_feedPlunge"
+            },
+            {
+              "name": "tool_clockwise",
+              "expression": "true"
+            },
+            {
+              "name": "tool_coolant",
+              "expression": "'flood'"
+            },
+            {
+              "name": "featureOperationId",
+              "expression": "'none'"
+            },
+            {
+              "name": "surfaceZHigh",
+              "expression": "-1."
+            },
+            {
+              "name": "surfaceZLow",
+              "expression": "-101."
+            },
+            {
+              "name": "surfaceXLow",
+              "expression": "1."
+            },
+            {
+              "name": "surfaceXHigh",
+              "expression": "301."
+            },
+            {
+              "name": "surfaceYLow",
+              "expression": "-301."
+            },
+            {
+              "name": "surfaceYHigh",
+              "expression": "-1."
+            },
+            {
+              "name": "stockZHigh",
+              "expression": "0.0"
+            },
+            {
+              "name": "stockZLow",
+              "expression": "-101."
+            },
+            {
+              "name": "stockXLow",
+              "expression": "0.0"
+            },
+            {
+              "name": "stockXHigh",
+              "expression": "302."
+            },
+            {
+              "name": "stockYLow",
+              "expression": "-302."
+            },
+            {
+              "name": "stockYHigh",
+              "expression": "0.0"
+            },
+            {
+              "name": "machiningTypeGroup",
+              "expression": "true"
+            },
+            {
+              "name": "multiAxisMachiningType",
+              "expression": "'three_axis'"
+            },
+            {
+              "name": "overrideToolView",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_mode",
+              "expression": "'axesZX'"
+            },
+            {
+              "name": "view_orientation_axisZ",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_flipZ",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_axesZX_unselected_default",
+              "expression": "'wcs'"
+            },
+            {
+              "name": "view_orientation_axesZY_unselected_default",
+              "expression": "'wcs'"
+            },
+            {
+              "name": "view_orientation_axesXY_unselected_default",
+              "expression": "'wcs'"
+            },
+            {
+              "name": "view_orientation_cSys",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_surfaceNormal",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_axisX",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_flipX",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_axisY",
+              "expression": "false"
+            },
+            {
+              "name": "view_orientation_flipY",
+              "expression": "false"
+            },
+            {
+              "name": "view_align_to_view_direction",
+              "expression": "false"
+            },
+            {
+              "name": "view_select_angles",
+              "expression": "'turn_and_tilt'"
+            },
+            {
+              "name": "view_turn_from_recipe",
+              "expression": "0.0"
+            },
+            {
+              "name": "view_tilt_from_recipe",
+              "expression": "0.0"
+            },
+            {
+              "name": "view_origin_mode",
+              "expression": "(view_orientation_mode == 'surfaceNormalX' || view_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+            },
+            {
+              "name": "view_origin_point",
+              "expression": "false"
+            },
+            {
+              "name": "view_model_point",
+              "expression": "true"
+            },
+            {
+              "name": "view_origin_boxPoint",
+              "expression": "'top center'"
+            },
+            {
+              "name": "view_stock_point",
+              "expression": "true"
+            },
+            {
+              "name": "show_machine",
+              "expression": "false"
+            },
+            {
+              "name": "wrapGroup",
+              "expression": "true"
+            },
+            {
+              "name": "unwrap",
+              "expression": "true"
+            },
+            {
+              "name": "wrap_cylinder",
+              "expression": "false"
+            },
+            {
+              "name": "wrap_cylinder_radius",
+              "expression": "0mm"
+            },
+            {
+              "name": "wrap_nominalRadius_offset",
+              "expression": "0mm"
+            },
+            {
+              "name": "wrap_nominalRadius_value",
+              "expression": "wrap_cylinder_radius + wrap_nominalRadius_offset"
+            },
+            {
+              "name": "leadLean",
+              "expression": "true"
+            },
+            {
+              "name": "tiltTool",
+              "expression": "false"
+            },
+            {
+              "name": "polarMachiningGroup",
+              "expression": "true"
+            },
+            {
+              "name": "usePolarWhenNecessary",
+              "expression": "true"
+            },
+            {
+              "name": "polarMode",
+              "expression": "'automatic'"
+            },
+            {
+              "name": "polarLineAngle",
+              "expression": "0deg"
+            },
+            {
+              "name": "group_geometry",
+              "expression": "true"
+            },
+            {
+              "name": "canBeFallbackOperation",
+              "expression": "true"
+            },
+            {
+              "name": "isFallbackOperation",
+              "expression": "false"
+            },
+            {
+              "name": "isContourGeometry",
+              "expression": "false"
+            },
+            {
+              "name": "geometryType",
+              "expression": "'chains'"
+            },
+            {
+              "name": "pockets",
+              "expression": "true"
+            },
+            {
+              "name": "pockets_detectOpenPockets",
+              "expression": "true"
+            },
+            {
+              "name": "pockets_connectOpenPockets",
+              "expression": "true"
+            },
+            {
+              "name": "pockets_errorCheck",
+              "expression": "true"
+            },
+            {
+              "name": "pockets_detectOverlaps",
+              "expression": "false"
+            },
+            {
+              "name": "auto_holeTopDiameter",
+              "expression": "unavailable"
+            },
+            {
+              "name": "useRestMachining",
+              "expression": "false"
+            },
+            {
+              "name": "restMaterialCutterDiameter",
+              "expression": "tool_diameter * 2"
+            },
+            {
+              "name": "restMaterialCornerRadius",
+              "expression": "0 mm"
+            },
+            {
+              "name": "restMaterialTaperAngle",
+              "expression": "0deg"
+            },
+            {
+              "name": "restMaterialShoulderLength",
+              "expression": "restMaterialCutterDiameter"
+            },
+            {
+              "name": "restMaterialStockToLeave",
+              "expression": "0mm"
+            },
+            {
+              "name": "restMaterialTool",
+              "expression": "''"
+            },
+            {
+              "name": "useStockContours",
+              "expression": "rampType == 'disabled'"
+            },
+            {
+              "name": "stockContours",
+              "expression": "false"
+            },
+            {
+              "name": "isClearanceAreaEnabled",
+              "expression": "false"
+            },
+            {
+              "name": "clearanceHeight_group",
+              "expression": "true"
+            },
+            {
+              "name": "clearanceHeight_mode",
+              "expression": "'from retract height'"
+            },
+            {
+              "name": "clearanceHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "clearanceHeightFromHighest_checkStock",
+              "expression": "'top'"
+            },
+            {
+              "name": "clearanceHeightFromLowest_checkStock",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "clearanceHeightFromHighest_checkModel",
+              "expression": "'top'"
+            },
+            {
+              "name": "clearanceHeightFromLowest_checkModel",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "clearanceHeightFromHighest_checkFixture",
+              "expression": "'top'"
+            },
+            {
+              "name": "clearanceHeightFromLowest_checkFixture",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "clearanceHeight_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "clearanceHeight_value",
+              "expression": "15."
+            },
+            {
+              "name": "clearanceHeight_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "retractHeight_group",
+              "expression": "true"
+            },
+            {
+              "name": "retractHeight_mode",
+              "expression": "'from stock top'"
+            },
+            {
+              "name": "retractHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "retractHeightFromHighest_checkStock",
+              "expression": "'top'"
+            },
+            {
+              "name": "retractHeightFromLowest_checkStock",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "retractHeightFromHighest_checkModel",
+              "expression": "'top'"
+            },
+            {
+              "name": "retractHeightFromLowest_checkModel",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "retractHeightFromHighest_checkFixture",
+              "expression": "'top'"
+            },
+            {
+              "name": "retractHeightFromLowest_checkFixture",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "retractHeight_offset",
+              "expression": "5mm"
+            },
+            {
+              "name": "retractHeight_value",
+              "expression": "5."
+            },
+            {
+              "name": "retractHeight_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "feedHeight_group",
+              "expression": "true"
+            },
+            {
+              "name": "feedHeight_mode",
+              "expression": "'from top'"
+            },
+            {
+              "name": "feedHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "feedHeightFromHighest_checkStock",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "feedHeightFromLowest_checkStock",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "feedHeightFromHighest_checkModel",
+              "expression": "'top'"
+            },
+            {
+              "name": "feedHeightFromLowest_checkModel",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "feedHeightFromHighest_checkFixture",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "feedHeightFromLowest_checkFixture",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "feedHeight_offset",
+              "expression": "5mm"
+            },
+            {
+              "name": "feedHeight_value",
+              "expression": "5."
+            },
+            {
+              "name": "useZFeed",
+              "expression": "(feedHeight_mode == 'disabled') ? false : true"
+            },
+            {
+              "name": "feedHeight_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "topHeight_group",
+              "expression": "true"
+            },
+            {
+              "name": "topHeight_mode",
+              "expression": "'from stock top'"
+            },
+            {
+              "name": "topHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "topHeightFromHighest_checkStock",
+              "expression": "'top'"
+            },
+            {
+              "name": "topHeightFromLowest_checkStock",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "topHeightFromHighest_checkModel",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "topHeightFromLowest_checkModel",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "topHeightFromHighest_checkFixture",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "topHeightFromLowest_checkFixture",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "topHeight_offset",
+              "expression": "0mm"
+            },
+            {
+              "name": "topHeight_value",
+              "expression": "0.0"
+            },
+            {
+              "name": "topHeight_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "bottomHeight_group",
+              "expression": "true"
+            },
+            {
+              "name": "bottomHeight_mode",
+              "expression": "'from contour'"
+            },
+            {
+              "name": "bottomHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "bottomHeightFromHighest_checkStock",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "bottomHeightFromLowest_checkStock",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "bottomHeightFromHighest_checkModel",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "bottomHeightFromLowest_checkModel",
+              "expression": "'bottom'"
+            },
+            {
+              "name": "bottomHeightFromHighest_checkFixture",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "bottomHeightFromLowest_checkFixture",
+              "expression": "'ignore'"
+            },
+            {
+              "name": "bottomHeight_offset",
+              "expression": "0mm"
+            },
+            {
+              "name": "bottomHeight_value",
+              "expression": "0.0"
+            },
+            {
+              "name": "bottomHeight_absolute",
+              "expression": "false"
+            },
+            {
+              "name": "group_passes",
+              "expression": "true"
+            },
+            {
+              "name": "tolerance",
+              "expression": "0.1mm"
+            },
+            {
+              "name": "contourTolerance",
+              "expression": "tolerance * 0.5"
+            },
+            {
+              "name": "calculationTolerance",
+              "expression": "tolerance"
+            },
+            {
+              "name": "thinningTolerance",
+              "expression": "0.01*calculationTolerance"
+            },
+            {
+              "name": "chainingTolerance",
+              "expression": "0.01mm"
+            },
+            {
+              "name": "gougingTolerance",
+              "expression": "calculationTolerance"
+            },
+            {
+              "name": "compensation",
+              "expression": "'left'"
+            },
+            {
+              "name": "rightCompensation",
+              "expression": "compensation == 'right'"
+            },
+            {
+              "name": "minimumCuttingRadius",
+              "expression": "0.0"
+            },
+            {
+              "name": "fragmentExtensionDistance",
+              "expression": "0"
+            },
+            {
+              "name": "preserveOrder",
+              "expression": "false"
+            },
+            {
+              "name": "bothWays",
+              "expression": "false"
+            },
+            {
+              "name": "maximumStepover",
+              "expression": "2mm"
+            },
+            {
+              "name": "minimumCuttingRadiusJl",
+              "expression": "minimumCuttingRadius"
+            },
+            {
+              "name": "useMorphedSpiralMachining",
+              "expression": "false"
+            },
+            {
+              "name": "minimumRoughingStepover",
+              "expression": "0.1 * maximumStepover"
+            },
+            {
+              "name": "allowStepoverCusps",
+              "expression": "false"
+            },
+            {
+              "name": "flatTipRadius",
+              "expression": "tool_type == 'tapered mill' ? (tool_taperedType =='tapered_ball' ? tool_diameter / 2 : tool_diameter/2 - tool_cornerRadius) : tool_diameter/2 - tool_cornerRadius"
+            },
+            {
+              "name": "maximumEnsureCutRadius",
+              "expression": "((tool_type == 'chamfer mill') || (tool_type == 'counter sink') ) ? 0.4875*tool_tipDiameter : 0.4875*tool_diameter"
+            },
+            {
+              "name": "ensureCutRadius",
+              "expression": "allowStepoverCusps ? maximumEnsureCutRadius : Math.min(flatTipRadius ; maximumEnsureCutRadius)"
+            },
+            {
+              "name": "applyFinalSmoothingDeviation",
+              "expression": "false"
+            },
+            {
+              "name": "smoothingDeviation",
+              "expression": "0.1mm"
+            },
+            {
+              "name": "minimumFinishingStepover",
+              "expression": "0.25*finishingStepover"
+            },
+            {
+              "name": "spiralCircularPockets",
+              "expression": "rampType != 'profile'"
+            },
+            {
+              "name": "doMultipleDepths",
+              "expression": "true"
+            },
+            {
+              "name": "maximumStepdown",
+              "expression": "5mm"
+            },
+            {
+              "name": "numberOfFinishingStepdowns",
+              "expression": "0"
+            },
+            {
+              "name": "finishingStepdown",
+              "expression": "0.2mm"
+            },
+            {
+              "name": "slopeAngle",
+              "expression": "tool_taperAngle"
+            },
+            {
+              "name": "wallTaperAngle",
+              "expression": "doMultipleDepths ? slopeAngle : (tool_taperAngle > 0 ? tool_taperAngle : tool_tipAngle*0.5)"
+            },
+            {
+              "name": "onlyFinishFinal",
+              "expression": "false"
+            },
+            {
+              "name": "roughFinal",
+              "expression": "true"
+            },
+            {
+              "name": "useEvenStepdowns",
+              "expression": "true"
+            },
+            {
+              "name": "orderByDepth",
+              "expression": "false"
+            },
+            {
+              "name": "orderByStep",
+              "expression": "false"
+            },
+            {
+              "name": "doFinishingPasses",
+              "expression": "false"
+            },
+            {
+              "name": "compensationType",
+              "expression": "'computer'"
+            },
+            {
+              "name": "compensationTypeProxy",
+              "expression": "'computer'"
+            },
+            {
+              "name": "compensationDeltaRadius",
+              "expression": "(numberOfFinishingStepovers > 0) ? Math.min(tool_diameter * 0.05; finishingStepover * 0.95) : (tool_diameter * 0.05)"
+            },
+            {
+              "name": "finishingSmoothingDeviation",
+              "expression": "0mm"
+            },
+            {
+              "name": "numberOfFinishingStepovers",
+              "expression": "1"
+            },
+            {
+              "name": "finishingStepover",
+              "expression": "Math.min(tool_diameter * 0.1; maximumStepover)"
+            },
+            {
+              "name": "leadsForAllFinishingPasses",
+              "expression": "compensationType != 'computer'"
+            },
+            {
+              "name": "finishFeedrate",
+              "expression": "tool_feedCutting"
+            },
+            {
+              "name": "nullPass",
+              "expression": "false"
+            },
+            {
+              "name": "finishingOverlap",
+              "expression": "0mm"
+            },
+            {
+              "name": "useStockToLeave",
+              "expression": "false"
+            },
+            {
+              "name": "stockToLeave",
+              "expression": "0.5mm"
+            },
+            {
+              "name": "verticalStockToLeave",
+              "expression": "stockToLeave"
+            },
+            {
+              "name": "simpleStockToLeave",
+              "expression": "false"
+            },
+            {
+              "name": "useCombinedFilter",
+              "expression": "true"
+            },
+            {
+              "name": "useDMKSmoothing",
+              "expression": "true"
+            },
+            {
+              "name": "smoothingFilter",
+              "expression": "true"
+            },
+            {
+              "name": "smoothingFilterMode",
+              "expression": "'fitArcs'"
+            },
+            {
+              "name": "smoothingFilterMaxSpacing",
+              "expression": "0.5mm"
+            },
+            {
+              "name": "smoothingFilterMaxAngle",
+              "expression": "3deg"
+            },
+            {
+              "name": "smoothingFilterTolerance",
+              "expression": "tolerance * 0.1"
+            },
+            {
+              "name": "useFeedOptimization",
+              "expression": "true"
+            },
+            {
+              "name": "reducedFeedChange",
+              "expression": "25deg"
+            },
+            {
+              "name": "reducedFeedRadius",
+              "expression": "tool_diameter * 0.05"
+            },
+            {
+              "name": "reducedFeedDistance",
+              "expression": "tool_diameter * 0.2"
+            },
+            {
+              "name": "reducedFeedrate",
+              "expression": "tool_feedCutting * 0.25"
+            },
+            {
+              "name": "reduceOnlyInnerCorners",
+              "expression": "true"
+            },
+            {
+              "name": "surfaceSpeedOnArcs",
+              "expression": "false"
+            },
+            {
+              "name": "maximumReducedFeedrateInternalArcFinishing",
+              "expression": "100"
+            },
+            {
+              "name": "maximumIncreasedFeedrateExternalArcFinishing",
+              "expression": "100"
+            },
+            {
+              "name": "maximumReducedFeedrateInternalArc",
+              "expression": "100"
+            },
+            {
+              "name": "maximumIncreasedFeedrateExternalArc",
+              "expression": "100"
+            },
+            {
+              "name": "group_linking",
+              "expression": "true"
+            },
+            {
+              "name": "highFeedrateMode",
+              "expression": "'disabled'"
+            },
+            {
+              "name": "highFeedrateModeProxy",
+              "expression": "'always'"
+            },
+            {
+              "name": "highFeedrate",
+              "expression": "machine.defined && machine.maxFeedrate > 0 ? machine.maxFeedrate : Math.max(tool_feedCutting; Math.max(tool_feedEntry; tool_feedExit))"
+            },
+            {
+              "name": "allowRapidRetract",
+              "expression": "true"
+            },
+            {
+              "name": "safeDistance",
+              "expression": "4mm"
+            },
+            {
+              "name": "keepToolDown",
+              "expression": "true"
+            },
+            {
+              "name": "stayDownDistance",
+              "expression": "50mm"
+            },
+            {
+              "name": "liftHeight",
+              "expression": "0mm"
+            },
+            {
+              "name": "group_leadsTranstions",
+              "expression": "true"
+            },
+            {
+              "name": "smoothTransitions",
+              "expression": "true"
+            },
+            {
+              "name": "doLeadIn",
+              "expression": "true"
+            },
+            {
+              "name": "entry_radius",
+              "expression": "tool_diameter * 0.1"
+            },
+            {
+              "name": "entry_sweep",
+              "expression": "90.0deg"
+            },
+            {
+              "name": "entry_distance",
+              "expression": "tool_diameter * 0.1"
+            },
+            {
+              "name": "entry_perpendicular",
+              "expression": "false"
+            },
+            {
+              "name": "entry_verticalRadius",
+              "expression": "entry_radius"
+            },
+            {
+              "name": "leadInRadius",
+              "expression": "entry_radius"
+            },
+            {
+              "name": "leadInVerticalRadius",
+              "expression": "entry_verticalRadius"
+            },
+            {
+              "name": "doLeadOut",
+              "expression": "true"
+            },
+            {
+              "name": "exit_sameAsEntry",
+              "expression": "true"
+            },
+            {
+              "name": "exit_radius",
+              "expression": "tool_diameter * 0.1"
+            },
+            {
+              "name": "exit_sweep",
+              "expression": "90.0deg"
+            },
+            {
+              "name": "exit_distance",
+              "expression": "tool_diameter * 0.1"
+            },
+            {
+              "name": "exit_perpendicular",
+              "expression": "false"
+            },
+            {
+              "name": "exit_verticalRadius",
+              "expression": "exit_radius"
+            },
+            {
+              "name": "leadOutRadius",
+              "expression": "exit_radius"
+            },
+            {
+              "name": "leadOutVerticalRadius",
+              "expression": "exit_verticalRadius"
+            },
+            {
+              "name": "doRamp",
+              "expression": "true"
+            },
+            {
+              "name": "rampType",
+              "expression": "'helix'"
+            },
+            {
+              "name": "allowPlungingOutsideStockJl",
+              "expression": "(rampType == 'disabled')"
+            },
+            {
+              "name": "rampAngle",
+              "expression": "tool_rampAngle"
+            },
+            {
+              "name": "maximumRampZStepdown",
+              "expression": "maximumStepdown > 0 ? maximumStepdown : tool_fluteLength"
+            },
+            {
+              "name": "rampClearanceHeight",
+              "expression": "2.5mm"
+            },
+            {
+              "name": "rampRadialClearance",
+              "expression": "0"
+            },
+            {
+              "name": "helicalRampDiameter",
+              "expression": "Math.max((tool_diameter - 2 * tool_cornerRadius) * 0.95; tool_diameter * 0.25)"
+            },
+            {
+              "name": "minimumRampDiameter",
+              "expression": "Math.max((tool_diameter - 2 * tool_cornerRadius) * 0.5; tool_diameter * 0.25)"
+            },
+            {
+              "name": "smoothRampJl",
+              "expression": "false"
+            },
+            {
+              "name": "allowPlunging",
+              "expression": "(rampType == 'plunge')"
+            },
+            {
+              "name": "allowHelicalRamps",
+              "expression": "rampType == 'helix'"
+            },
+            {
+              "name": "allowContourRamps",
+              "expression": "(rampType == 'helix') || (rampType == 'smooth profile')"
+            },
+            {
+              "name": "allowSmoothContourRamps",
+              "expression": "(rampType == 'helix') || (rampType == 'smooth profile')"
+            },
+            {
+              "name": "allowZigZagRamps",
+              "expression": "rampType == 'zigzag'"
+            },
+            {
+              "name": "group_entry_drill_positions",
+              "expression": "true"
+            },
+            {
+              "name": "predrillPositions",
+              "expression": "false"
+            },
+            {
+              "name": "entryPositions",
+              "expression": "false"
+            },
+            {
+              "name": "exitPositions",
+              "expression": "false"
+            },
+            {
+              "name": "connections",
+              "expression": "true"
+            },
+            {
+              "name": "generate_connections",
+              "expression": "false"
+            },
+            {
+              "name": "connections_retraction_type",
+              "expression": "'full'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_group",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaType",
+              "expression": "'plane'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_orientation_mode",
+              "expression": "'toolAxisZ'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_origin_mode",
+              "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+            },
+            {
+              "name": "connectionMoveClearanceArea_origin_point",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_mode",
+              "expression": "'from stock top'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_ref",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_value",
+              "expression": "10."
+            },
+            {
+              "name": "connectionMoveClearanceAreaHeight_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+              "expression": "'from stock od'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+              "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_value",
+              "expression": "10."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_mode",
+              "expression": "'from stock od'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_ref",
+              "expression": "false"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+              "expression": "'outer diameter'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_direct",
+              "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_value",
+              "expression": "10."
+            },
+            {
+              "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboid_mode",
+              "expression": "'from stock box'"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+              "expression": "true"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosX_value",
+              "expression": "312."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegX_value",
+              "expression": "10."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosY_value",
+              "expression": "10."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegY_value",
+              "expression": "312."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+              "expression": "10."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+              "expression": "111."
+            },
+            {
+              "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+              "expression": "10mm"
+            },
+            {
+              "name": "use_tool_stepdown",
+              "expression": "true"
+            },
+            {
+              "name": "tool_stepdown",
+              "expression": "10.5"
+            },
+            {
+              "name": "tool_finishingStepdown",
+              "expression": "0.2mm"
+            },
+            {
+              "name": "use_tool_stepover",
+              "expression": "true"
+            },
+            {
+              "name": "tool_stepover",
+              "expression": "0.66101144573423"
+            },
+            {
+              "name": "tool_finishingStepover",
+              "expression": "tool_diameter * 0.1"
+            },
+            {
+              "name": "tool_rampType",
+              "expression": "'helix'"
+            },
+            {
+              "name": "tool_rampAngle",
+              "expression": "2deg"
+            },
+            {
+              "name": "associatedView",
+              "expression": "false"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

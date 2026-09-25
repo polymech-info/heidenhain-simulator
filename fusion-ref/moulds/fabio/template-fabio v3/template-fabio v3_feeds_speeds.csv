@@ -1,0 +1,17 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+male,Face3 (8),face,#23 - Ø80mm face,4000 rpm,2500 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+male,Horizontal1,horizontal,#17 - Ø12mm flat (14 flat),10000.,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+male,Scallop1,scallop,#13 - Ø10mm ball (10 Ball Endmill),10000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+male,Scallop1 (2),scallop,#13 - Ø10mm ball (10 Ball Endmill),10000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+male,Scallop1 (3),scallop,#13 - Ø10mm ball (10 Ball Endmill),10000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+male,Drill1 (15),drill,#3 - Ø7mm drill,1247.41097111339309,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+male,Drill1 (16),drill,#7 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+male,2D Contour3 (25),contour2d,#6 - Ø7.96mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+female,Face3 (9),face,#23 - Ø80mm face,4000 rpm,2500 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+female,Horizontal1 (2),horizontal,#17 - Ø12mm flat (14 flat),10000.,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+female,Scallop1 (4),scallop,#13 - Ø10mm ball (10 Ball Endmill),10000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+female,Scallop1 (5),scallop,#13 - Ø10mm ball (10 Ball Endmill),10000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+female,Scallop1 (6),scallop,#13 - Ø10mm ball (10 Ball Endmill),10000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+female,Drill1 (17),drill,#3 - Ø7mm drill,1247.41097111339309,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+female,Drill1 (18),drill,#7 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+female,2D Contour3 (26),contour2d,#6 - Ø7.96mm flat (14 flat),8000.,3176.7199999999998,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.

@@ -1,0 +1,6 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup - Right,Drill1,drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup - Right,Drill1 (2),drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup - Right,2D Pocket1,pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup - Right Left,Drill1 (3),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup - Right Left,Drill1 (4),drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

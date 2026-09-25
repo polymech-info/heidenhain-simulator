@@ -1,0 +1,42 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Top,Face-Top,face,#23 - Ø80mm face,4000 rpm,2000 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top,2D Contour2 (8),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Top,2D Contour2 (9),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Top,2D Contour2 (10),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Top,2D Pocket6 (5),pocket2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Top,2D Contour2 (11),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Top,2D Contour2 (12),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Top,Drill1 (2),drill,#7 - Ø10mm drill (spot-m10),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,Face-Top (2),face,#23 - Ø80mm face,4000 rpm,2000 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,2D Pocket6 (6),pocket2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom,2D Contour2 (13),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Bottom,2D Contour2 (14),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Bottom,2D Contour2 (16),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom,2D Contour2 (17),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom,Drill1 (3),drill,#7 - Ø10mm drill (spot-m10),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom,Probe WCS3 (2),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (2),Probe WCS3 (3),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (2),Face-Top (3),face,#23 - Ø80mm face,4000 rpm,2000 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (2),2D Pocket6 (7),pocket2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (2),2D Contour2 (15),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Bottom (2),2D Contour2 (18),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Bottom (2),2D Contour2 (19),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (2),2D Contour2 (20),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (2),Drill1 (4),drill,#7 - Ø10mm drill (spot-m10),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top-Post,Probe WCS3 (5),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top-Post,Bore1 (10),bore,#10 - Ø29.5mm flat (32-Facehead),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Top-Post,Face-Top (5),face,#23 - Ø80mm face,4000 rpm,2000 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Top-Post,2D Pocket6 (9),pocket2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Top-Post,2D Contour2 (26),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Top-Post,2D Contour2 (27),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Top-Post,2D Contour2 (28),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Top-Post,Drill1 (6),drill,#7 - Ø10mm drill (spot-m10),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (3),Probe WCS3 (4),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (3),Face-Top (4),face,#23 - Ø80mm face,4000 rpm,2000 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Bottom (3),2D Pocket6 (8),pocket2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (3),2D Contour2 (21),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Bottom (3),2D Contour2 (22),contour2d,#36 - Ø20mm flat (20-2F),6702.09 rpm,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Bottom (3),2D Contour2 (23),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (3),2D Contour2 (24),contour2d,#27 - Ø14mm flat (14mm Flat HSS-2F),6702.09 rpm,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (3),2D Contour2 (25),contour2d,#27 - Ø13.95mm flat (14mm Flat HSS-2F),9702.08533088192962,3205.73902987043402,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Bottom (3),Drill1 (5),drill,#7 - Ø10mm drill (spot-m10),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm

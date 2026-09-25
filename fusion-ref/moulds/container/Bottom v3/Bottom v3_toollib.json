@@ -1,0 +1,631 @@
+{
+    "data": [
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 7,
+                "HAND": true,
+                "LB": 72.54,
+                "LCF": 70,
+                "NOF": 1,
+                "NT": 1,
+                "OAL": 75.08,
+                "RE": 0,
+                "SFDM": 7,
+                "SIG": 118,
+                "TP": 0,
+                "assemblyGaugeLength": 173.225,
+                "shoulder-length": 70,
+                "thread-profile-angle": 60,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "71d08f7b-0f27-4a96-9482-714a24c6ed54",
+            "holder": {
+                "description": "Maritool CAT40-APU13 Drill Chuck",
+                "gaugeLength": 100.68499999999999,
+                "guid": "",
+                "product-id": "CAT40-APU13",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 12.7,
+                        "lower-diameter": 13.462,
+                        "upper-diameter": 22.86
+                    },
+                    {
+                        "height": 20,
+                        "lower-diameter": 38.1,
+                        "upper-diameter": 49.2999
+                    },
+                    {
+                        "height": 4.96,
+                        "lower-diameter": 49.2999,
+                        "upper-diameter": 49.2999
+                    },
+                    {
+                        "height": 0.599999,
+                        "lower-diameter": 49.2999,
+                        "upper-diameter": 50.5
+                    },
+                    {
+                        "height": 22.15,
+                        "lower-diameter": 50.5,
+                        "upper-diameter": 50.5
+                    },
+                    {
+                        "height": 1.25,
+                        "lower-diameter": 50.5,
+                        "upper-diameter": 47.9999
+                    },
+                    {
+                        "height": 16.5,
+                        "lower-diameter": 47.9999,
+                        "upper-diameter": 47.9999
+                    },
+                    {
+                        "height": 3.5,
+                        "lower-diameter": 38.1,
+                        "upper-diameter": 38.1
+                    },
+                    {
+                        "height": 0.762,
+                        "lower-diameter": 62.0268,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 3.683,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 2.0066,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 56.261
+                    },
+                    {
+                        "height": 2.9972,
+                        "lower-diameter": 56.261,
+                        "upper-diameter": 56.261
+                    },
+                    {
+                        "height": 2.0066,
+                        "lower-diameter": 56.261,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 3.6322,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 0.762,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 62.0268
+                    },
+                    {
+                        "height": 3.175,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Maritool"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 4,
+                "length-offset": 4,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 4,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Aluminum",
+                        "f_z": 0,
+                        "guid": "1ca6332f-17ae-43ce-95a6-d8992b562459",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4158.0365703779735,
+                        "name": "Aluminum - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 91.43999999999997,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 436.5938398896874,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 436.5938398896874,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Brass",
+                        "f_z": 0,
+                        "guid": "0f1a8e3c-a4b6-41ef-9224-04a60a56cd6b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 2772.024380251984,
+                        "name": "Brass - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.96000000000003,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 291.0625599264584,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 291.0625599264584,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Copper",
+                        "f_z": 0,
+                        "guid": "fc1457d4-bb96-4dd7-901a-523205adb401",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4158.0365703779735,
+                        "name": "Copper - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 91.43999999999997,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 436.5938398896874,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 436.5938398896874,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "515f090d-6b9a-41fd-a150-0b20c94a23be",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1247.4109711133924,
+                        "name": "Low Carbon Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 27.432,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 130.97815196690618,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 130.97815196690618,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "08364700-3adc-4c1a-8625-1f369df26687",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 623.7054855566962,
+                        "name": "High Carbon Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.716,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 65.48907598345309,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 65.48907598345309,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Plastics",
+                        "f_z": 0,
+                        "guid": "ed8a2db1-95ee-460d-8141-c30fe7b23b4d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 2772.024380251984,
+                        "name": "Plastics - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.96000000000003,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 291.0625599264584,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 291.0625599264584,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Stainless Steel",
+                        "f_z": 0,
+                        "guid": "ef3c9215-6b2f-4f78-993e-0887a2acdfb4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 623.7054855566962,
+                        "name": "Stainless Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.716,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 65.48907598345309,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 65.48907598345309,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Titanium",
+                        "f_z": 0,
+                        "guid": "32f13844-5ad0-4dcf-aa73-e9b6245c188c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 554.4048760503969,
+                        "name": "Titanium - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 12.192000000000005,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 58.21251198529164,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 58.21251198529164,
+                        "v_f_transition": 0
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "Tap-M8",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 72.54,
+                "LCF": 70,
+                "NOF": 1,
+                "NT": 1,
+                "OAL": 75.08,
+                "RE": 0,
+                "SFDM": 8,
+                "SIG": 0,
+                "TP": 1.25,
+                "assemblyGaugeLength": 173.225,
+                "shoulder-length": 70,
+                "thread-profile-angle": 60,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "d84aad5e-086e-4a0d-8cdb-d347f6e98bc3",
+            "holder": {
+                "description": "Maritool CAT40-APU13 Drill Chuck",
+                "gaugeLength": 100.68499999999999,
+                "guid": "",
+                "product-id": "CAT40-APU13",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 12.7,
+                        "lower-diameter": 13.462,
+                        "upper-diameter": 22.86
+                    },
+                    {
+                        "height": 20,
+                        "lower-diameter": 38.1,
+                        "upper-diameter": 49.2999
+                    },
+                    {
+                        "height": 4.96,
+                        "lower-diameter": 49.2999,
+                        "upper-diameter": 49.2999
+                    },
+                    {
+                        "height": 0.599999,
+                        "lower-diameter": 49.2999,
+                        "upper-diameter": 50.5
+                    },
+                    {
+                        "height": 22.15,
+                        "lower-diameter": 50.5,
+                        "upper-diameter": 50.5
+                    },
+                    {
+                        "height": 1.25,
+                        "lower-diameter": 50.5,
+                        "upper-diameter": 47.9999
+                    },
+                    {
+                        "height": 16.5,
+                        "lower-diameter": 47.9999,
+                        "upper-diameter": 47.9999
+                    },
+                    {
+                        "height": 3.5,
+                        "lower-diameter": 38.1,
+                        "upper-diameter": 38.1
+                    },
+                    {
+                        "height": 0.762,
+                        "lower-diameter": 62.0268,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 3.683,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 2.0066,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 56.261
+                    },
+                    {
+                        "height": 2.9972,
+                        "lower-diameter": 56.261,
+                        "upper-diameter": 56.261
+                    },
+                    {
+                        "height": 2.0066,
+                        "lower-diameter": 56.261,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 3.6322,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 0.762,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 62.0268
+                    },
+                    {
+                        "height": 3.175,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Maritool"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 8,
+                "length-offset": 8,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 8,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Aluminum",
+                        "f_z": 0,
+                        "guid": "1ca6332f-17ae-43ce-95a6-d8992b562459",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4158.0365703779735,
+                        "name": "Aluminum - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 104.50285714285711,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Brass",
+                        "f_z": 0,
+                        "guid": "0f1a8e3c-a4b6-41ef-9224-04a60a56cd6b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 2772.024380251984,
+                        "name": "Brass - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 69.66857142857145,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Copper",
+                        "f_z": 0,
+                        "guid": "fc1457d4-bb96-4dd7-901a-523205adb401",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4158.0365703779735,
+                        "name": "Copper - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 104.50285714285711,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "515f090d-6b9a-41fd-a150-0b20c94a23be",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1247.410971113393,
+                        "name": "Low Carbon Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 31.350857142857162,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "08364700-3adc-4c1a-8625-1f369df26687",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 623.705485556697,
+                        "name": "High Carbon Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 15.675428571428592,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Plastics",
+                        "f_z": 0,
+                        "guid": "ed8a2db1-95ee-460d-8141-c30fe7b23b4d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 2772.024380251984,
+                        "name": "Plastics - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 69.66857142857145,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Stainless Steel",
+                        "f_z": 0,
+                        "guid": "ef3c9215-6b2f-4f78-993e-0887a2acdfb4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 623.705485556697,
+                        "name": "Stainless Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 15.675428571428592,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Titanium",
+                        "f_z": 0,
+                        "guid": "32f13844-5ad0-4dcf-aa73-e9b6245c188c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 554.4048760503973,
+                        "name": "Titanium - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.933714285714304,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 36
+}

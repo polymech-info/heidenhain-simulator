@@ -1,0 +1,36 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Face-Tests,Face-Top,face,#23 - Ø80mm face,500 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Face-Tests,Face-Top (2),face,#23 - Ø80mm face,2500 rpm,1800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Face-Tests,Face-Top (3),face,#23 - Ø80mm face,2500 rpm,1800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Stock-Bore,Parallel2 (5),parallel,#13 - Ø9.75mm ball (10 Ball Endmill),8000 rpm,1176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Stock-Bore,Parallel2 (6),parallel,#13 - Ø9.75mm ball (10 Ball Endmill),8000 rpm,8176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Stock-Bore,2D Contour1 (6),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Lower-Bottom--2650,2D Contour1 (7),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+upper-top,Drill1 (12),drill,#5 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+upper-top,2D Contour3,contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,852.453 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+upper-top,2D Contour3 (9),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-top,2D Pocket1,pocket2d,#27 - Ø14mm flat (14 flat),8000 rpm,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+upper-top,Pocket2,pocket_clearing,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+upper-top,Scallop1,scallop,#13 - Ø6mm ball (10 Ball Endmill),8000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+upper-top (2),2D Contour12,contour2d,#27 - Ø14mm flat (14 flat),2425.5213327204915,201.98646423490257,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.8
+upper-bottom-2,Probe WCS1,probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+upper-bottom-2,2D Contour3 (4),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-bottom-2,2D Contour3 (5),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-bottom-2 (2),Probe WCS1 (2),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+upper-bottom-2 (2),2D Contour3 (6),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-bottom-2 (2),2D Contour3 (7),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-top1,Probe WCS1 (3),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+upper-top1,2D Contour3 (8),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-top1,2D Contour3 (10),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-top1,contour-laser,contour2d,#27 - Ø14mm flat (14 flat),2425.5213327204915,181.84868589417613,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+upper-top1,contour-laser (2),contour2d,#27 - Ø14mm flat (14 flat),2425.5213327204915,181.84868589417613,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+Setup9,Drill1 (13),drill,#7 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup9,2D Pocket2,pocket2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup9,2D Contour14 (2),contour2d,#27 - Ø13.88mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup9 (3),Drill1 (15),drill,#5 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup9 (3),Drill1 (16),drill,#5 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup9 (3),2D Contour14 (3),contour2d,#27 - Ø14mm flat (14 flat),8000 rpm,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+sides,Drill1 (14),drill,#7 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+sides,2D Pocket2 (2),pocket2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom,2D Contour16,contour2d,#13 - Ø9.75mm ball (10 Ball Endmill),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom,2D Adaptive1,adaptive2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622

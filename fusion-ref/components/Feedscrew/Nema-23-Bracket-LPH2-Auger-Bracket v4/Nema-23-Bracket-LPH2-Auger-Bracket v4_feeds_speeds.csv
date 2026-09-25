@@ -1,0 +1,19 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Drill1,drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Drill1 (3),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Drill1 (2),drill,#5 - Ø8mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,2D Pocket1,pocket2d,#12 - Ø10mm flat (10mm Flat Endmill),5000 rpm,1920.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,2D Pocket2,pocket2d,#12 - Ø10mm flat (10mm Flat Endmill),5000 rpm,1920.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+mounts,Drill1 (4),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+mounts,Drill1 (7),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+mounts,Drill1 (5),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+mounts,Drill1 (6),drill,#5 - Ø8mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Drill1 (10),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Drill1 (11),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Drill1 (12),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Drill1 (13),drill,#5 - Ø8mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Probe WCS1,probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Drill1 (8),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+hopper-mount,Drill1 (9),drill,#4 - Ø7mm 90° spot drill (7mm Spot Drill),5000 rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Drill2,drill,#3 - Ø5mm 90° spot drill (5mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,2D Pocket3,pocket2d,#2 - Ø8mm flat (8mm Flat Endmill),10000.,300.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

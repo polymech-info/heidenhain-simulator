@@ -1,0 +1,237 @@
+{
+    "data": [
+        {
+            "BMC": "unspecified",
+            "GRADE": "Mill Generic",
+            "description": "6mm Flat Endmill",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 22.5,
+                "LCF": 20,
+                "NOF": 3,
+                "NT": 1,
+                "OAL": 63,
+                "RE": 0,
+                "SFDM": 6,
+                "TA": 0,
+                "TP": 0,
+                "assemblyGaugeLength": 85.3396,
+                "shoulder-diameter": 6,
+                "shoulder-length": 20,
+                "thread-profile-angle": 60,
+                "tip-diameter": 6,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "{ad98f126-aa98-4a1a-9e2a-63fe1aeb1f7e}",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "gaugeLength": 62.8396,
+                "guid": "",
+                "product-id": "CAT40-ER32-2.35",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 3.7592,
+                        "lower-diameter": 38.1,
+                        "upper-diameter": 50.038
+                    },
+                    {
+                        "height": 21.2344,
+                        "lower-diameter": 50.038,
+                        "upper-diameter": 50.038
+                    },
+                    {
+                        "height": 4.4704,
+                        "lower-diameter": 39.878,
+                        "upper-diameter": 39.878
+                    },
+                    {
+                        "height": 2.286,
+                        "lower-diameter": 39.878,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 10.795,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    },
+                    {
+                        "height": 1.27,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 46.99
+                    },
+                    {
+                        "height": 0.762,
+                        "lower-diameter": 62.0268,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 3.683,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 2.0066,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 56.261
+                    },
+                    {
+                        "height": 2.9972,
+                        "lower-diameter": 56.261,
+                        "upper-diameter": 56.261
+                    },
+                    {
+                        "height": 2.0066,
+                        "lower-diameter": 56.261,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 3.6322,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 63.5508
+                    },
+                    {
+                        "height": 0.762,
+                        "lower-diameter": 63.5508,
+                        "upper-diameter": 62.0268
+                    },
+                    {
+                        "height": 3.175,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": "Maritool"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.003,
+                        "f_z": 0.048,
+                        "guid": "de6f88cd-465d-14e2-0375-64ae6e22f946",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default Preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 188.4955592153876,
+                        "v_f": 1440,
+                        "v_f_leadIn": 1440,
+                        "v_f_leadOut": 1440,
+                        "v_f_plunge": 30,
+                        "v_f_ramp": 1440,
+                        "v_f_transition": 1440
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "VNMT Right Hand",
+            "geometry": {
+                "EPSR": 0,
+                "INSD": 9.68703,
+                "LH": 0,
+                "OAL": 30,
+                "RA": 0,
+                "RE": 0.2,
+                "S": 3.96875,
+                "SC": "V",
+                "SCTY": "T",
+                "SIZE_SPECIFICATION_MODE": "IC",
+                "TC": "M",
+                "tool_grooveWidth": 0,
+                "tool_insertWidth": 0,
+                "tool_internalThread": false
+            },
+            "guid": "{fb5d09b6-8cbf-407b-8458-3c871af5893b}",
+            "holder": {
+                "CW": 25,
+                "H": 20,
+                "HAND": "R",
+                "LH": 32,
+                "MTP": "D",
+                "OAL": 125,
+                "THSC": "L",
+                "W": 20,
+                "tool_endCutting": true,
+                "tool_leadingAngle": 0,
+                "tool_roundShank": false,
+                "tool_sideCutting": true,
+                "tool_trailingAngle": 0
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "compensation-offset": 0,
+                "manual-tool-change": false,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "setup": {
+                "HAND": true,
+                "angle": 0,
+                "compensation": "tip tangent",
+                "tool_grooveCompOppositeEdge": false,
+                "tool_shaftAxisAngle": 0
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.127,
+                        "f_n_leadIn": 0.127,
+                        "f_n_leadOut": 0.127,
+                        "guid": "d19adbfb-4902-34c6-2e1f-8e842b8ed2a0",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-constant-surface-speed": true,
+                        "use-depth-of-cut": false,
+                        "use-feed-per-revolution": true,
+                        "v_c": 91.44
+                    }
+                ]
+            },
+            "type": "turning general",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 36
+}

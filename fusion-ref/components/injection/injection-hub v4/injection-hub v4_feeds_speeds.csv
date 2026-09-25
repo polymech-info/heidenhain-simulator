@@ -1,0 +1,9 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Drill1,drill,#10 - Ø7mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,2D Pocket1,pocket2d,#12 - Ø10mm flat (12mm Roughing),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Setup1,2D Pocket3,pocket2d,#12 - Ø10mm flat (12mm Roughing),4042.53555453414492,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup1 (3),Drill1 (4),drill,#10 - Ø7mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1 (3),2D Pocket1 (3),pocket2d,#12 - Ø10mm flat (12mm Roughing),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Setup1 (3),2D Pocket3 (2),pocket2d,#12 - Ø10mm flat (12mm Roughing),4042.53555453414492,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Myriad - SM - Hub,2D Pocket1 (4),pocket2d,#12 - Ø10mm flat (10mm Roughing),4042.53555453414674,494.9638857347332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Myriad - SM - Hub,2D Pocket1 (5),pocket2d,#17 - Ø12mm flat (12mm Roughing),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394

@@ -1,0 +1,5 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Bore-25,Probe WCS1,probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Bore-25,2D Pocket1,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,494.5555836900644,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,3.67728711746083,24.
+Bore-25,2D Pocket1 (2),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,494.5555836900644,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,3.67728711746083,24.
+Bore-25,2D Pocket1 (3),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,494.5555836900644,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,3.67728711746083,24.

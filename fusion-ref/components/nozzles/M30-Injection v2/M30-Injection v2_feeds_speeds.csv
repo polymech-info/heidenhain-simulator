@@ -1,0 +1,4 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Probe WCS1,probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Spiral1,spiral,#15 - Ø10mm ball (10mm Ball Endmill),1940.4170661763892,201.67778788913347,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.5
+Setup1,Pocket1,pocket_clearing,#15 - Ø10mm ball (10mm Ball Endmill),1940.41706617638943,201.67778788913347,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.5

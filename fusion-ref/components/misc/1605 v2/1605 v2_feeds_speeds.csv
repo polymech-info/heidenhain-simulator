@@ -1,0 +1,2 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup2,2D Pocket2,pocket2d,#1 - Ø12mm flat (12mm Flat Endmill - 4flute),8090.,2330.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

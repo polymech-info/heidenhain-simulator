@@ -1,0 +1,11 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup2,Probe WCS1,probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Probe WCS2,probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Probe WCS2 (2),probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Drill1,drill,#7 - Ø5mm drill,873.18767977937478,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Slot1,slot,#3 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup2 (2),Probe WCS1 (2),probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2 (2),Probe WCS2 (3),probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2 (2),Probe WCS2 (4),probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2 (2),Drill1 (2),drill,#7 - Ø5mm drill,873.18767977937478,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2 (2),Drill1 (3),drill,#7 - Ø6x1mm right tap,4851.04266544096936,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

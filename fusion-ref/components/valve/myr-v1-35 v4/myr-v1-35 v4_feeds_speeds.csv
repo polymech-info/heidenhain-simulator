@@ -1,0 +1,15 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Top,Bore1,bore,#27 - Ø16mm flat (16mm Flat Endmill),8085.07110906828439,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Top,Bore1 (2),bore,#27 - Ø16mm flat (16mm Flat Endmill),4042.53555453414174,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,Bore1 (3),bore,#15 - Ø10mm ball (10mm Ball Endmill),6063.80333180121215,632.46956570473219,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.98634629434207,24.
+Top,Drill1 (2),drill,#5 - Ø8mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Top,2D Pocket1,pocket2d,#27 - Ø16mm flat (16mm Flat Endmill),4042.53555453414174,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Pocket1 (2),pocket2d,#17 - Ø12mm flat (12mm Flat Endmill),4042.53555453414174,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Top,2D Pocket2,pocket2d,#27 - Ø16mm flat (16mm Flat Endmill),4042.53555453414174,631.69152347516933,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.
+Top,2D Pocket4,pocket2d,#27 - Ø16mm flat (16mm Flat Endmill),4042.53555453414492,494.96388573473337,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup2,2D Pocket3,pocket2d,#12 - Ø10mm flat (10mm Roughing),4042.53555453414174,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Setup2,Drill1,drill,#5 - Ø8mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Drill1 (3),drill,#13 - Ø8mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup3,Probe WCS1,probe,#100 - Ø6mm probe,,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup3,2D Contour1,contour2d,#17 - Ø12mm flat (12mm Flat Endmill),1617.01422181365774,581.645 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup3,2D Contour1 (2),contour2d,#17 - Ø11.55mm flat (12mm Flat Endmill),1617.01422181365751,231.7579132017037,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.

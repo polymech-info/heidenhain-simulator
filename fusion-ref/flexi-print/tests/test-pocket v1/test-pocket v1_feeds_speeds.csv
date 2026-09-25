@@ -1,0 +1,2 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Pocket1,pocket2d,#1 - Ø4mm flat (4mm Flat Endmill),12000.,1613.05979381443308,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.66101144573423,10.5

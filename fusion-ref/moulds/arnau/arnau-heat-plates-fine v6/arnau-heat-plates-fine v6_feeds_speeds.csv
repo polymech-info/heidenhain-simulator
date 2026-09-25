@@ -1,0 +1,19 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Contours - 650-BR,Drill1 (9),drill,#5 - Ø6.8mm drill,450,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Contours - 650-BR,2D Contour7,contour2d,#27 - Ø14mm flat (24),2800 rpm,1206.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Contours - 650-BR (2),Drill1 (10),drill,#5 - Ø6.8mm drill,450,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Contours - 650-BR (2),2D Contour7 (2),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Contours - 650-BR (2),2D Contour7 (3),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30,Drill1 (11),drill,#5 - Ø6.8mm drill,400 rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+340-30,2D Contour7 (4),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30,2D Contour7 (5),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (2),Drill1 (12),drill,#5 - Ø6.8mm drill,400 rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+340-30 (2),2D Contour7 (6),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (2),2D Contour7 (8),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (2),2D Contour7 (7),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (3),2D Contour7 (9),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (3),2D Contour7 (10),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (3),2D Contour7 (11),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (4),2D Contour7 (12),contour2d,#27 - Ø13.8mm flat (24),2500 rpm,1523.88000000000011,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (4),2D Contour7 (13),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+340-30 (4),2D Contour7 (14),contour2d,#27 - Ø14mm flat (24),2800 rpm,800 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

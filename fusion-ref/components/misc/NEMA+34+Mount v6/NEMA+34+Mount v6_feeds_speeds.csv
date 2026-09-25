@@ -1,0 +1,11 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Adaptive1,adaptive2d,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,2D Pocket2,pocket2d,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Drill1,drill,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,2D Contour1,contour2d,#1 - Ø9.9mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1 (2),2D Adaptive1 (2),adaptive2d,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1 (2),2D Pocket2 (2),pocket2d,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1 (2),Drill1 (2),drill,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1 (2),2D Contour1 (2),contour2d,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup3,Drill3,drill,#2 - Ø6mm 90° spot drill (6mm Spot Drill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup4,2D Pocket4,pocket2d,#3 - Ø4mm flat (5mm Flat Endmill),10000.,1200.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

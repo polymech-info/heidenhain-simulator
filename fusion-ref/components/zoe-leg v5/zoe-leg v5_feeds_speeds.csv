@@ -1,0 +1,5 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Drill1,drill,#10 - Ø9mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Drill1 (3),drill,#7 - Ø11mm drill,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Drill1 (2),drill,#7 - Ø10x1.5mm right tap,1247.41097111339241,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,2D Contour1,contour2d,#4 - Ø15.5mm flat (12mm Flat Endmill),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394

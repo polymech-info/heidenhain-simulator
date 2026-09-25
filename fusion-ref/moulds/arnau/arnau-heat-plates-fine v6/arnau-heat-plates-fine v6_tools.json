@@ -1,0 +1,2084 @@
+[
+  {
+    "description": "#5 - Ø6.8mm drill",
+    "toolData": {"BMC":"unspecified","GRADE":"generic","description":"","expressions":{"tool_diameter":"6.8 mm","tool_number":"5"},"geometry":{"CSP":false,"DC":6.8,"HAND":true,"LB":52.54,"LCF":50,"NOF":1,"NT":1,"OAL":55.08,"RE":0,"SFDM":6.8,"SIG":118,"TP":0,"assemblyGaugeLength":52.54,"shoulder-length":50,"thread-profile-angle":60,"tip-diameter":0,"tip-length":0,"tip-offset":0},"guid":"61730999-0496-41f2-8ee4-ba99a0e0e6f1","post-process":{"break-control":false,"comment":"","diameter-offset":5,"length-offset":5,"live":true,"manual-tool-change":false,"number":5,"turret":0},"product-id":"","product-link":"","start-values":{"presets":[{"description":"SAMPLE preset for drilling with HSS drills in Aluminum","f_z":0,"guid":"e6fe2c5b-72db-4367-93a7-3122d850e7b2","material":{"category":"all","query":"","use-hardness":false},"n":5000,"name":"Default preset","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":106.81415022205296,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":1000,"v_f_ramp":0,"v_f_retract":1000,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Aluminum","f_z":0,"guid":"264daa39-b46e-4ae1-8f94-ddc59cd4fb6d","material":{"category":"all","query":"","use-hardness":false},"n":5821.251198529164,"name":"Aluminum - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":124.35839999999999,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":436.5938398896874,"v_f_ramp":0,"v_f_retract":436.5938398896874,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Brass","f_z":0,"guid":"5a989ac2-7c14-48e4-855d-1468a6da4d3b","material":{"category":"all","query":"","use-hardness":false},"n":3880.8341323527784,"name":"Brass - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":82.90560000000005,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":291.0625599264584,"v_f_ramp":0,"v_f_retract":291.0625599264584,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Copper","f_z":0,"guid":"22fdd1c6-5fda-42a8-af7a-c9c74f65ea78","material":{"category":"all","query":"","use-hardness":false},"n":5821.251198529164,"name":"Copper - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":124.35839999999999,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":436.5938398896874,"v_f_ramp":0,"v_f_retract":436.5938398896874,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Low Carbon Steel","f_z":0,"guid":"bfcec102-c1cc-4434-bad9-528ab6f02015","material":{"category":"all","query":"","use-hardness":false},"n":1746.3753595587496,"name":"Low Carbon Steel - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":37.307520000000004,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":130.9781519669062,"v_f_ramp":0,"v_f_retract":130.9781519669062,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Low Carbon Steel","f_z":0,"guid":"0fa563f2-696b-40f5-9dc7-4cffb91558ff","material":{"category":"all","query":"","use-hardness":false},"n":873.1876797793748,"name":"High Carbon Steel - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":18.653760000000002,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":65.4890759834531,"v_f_ramp":0,"v_f_retract":65.4890759834531,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Plastics","f_z":0,"guid":"0f80c12d-2c0d-4d68-bc43-2cac514bb5a1","material":{"category":"all","query":"","use-hardness":false},"n":3880.8341323527784,"name":"Plastics - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":82.90560000000005,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":291.0625599264584,"v_f_ramp":0,"v_f_retract":291.0625599264584,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Stainless Steel","f_z":0,"guid":"5c661e48-6ee6-4dcc-a9e2-c87901d2c5b1","material":{"category":"all","query":"","use-hardness":false},"n":873.1876797793748,"name":"Stainless Steel - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":18.653760000000002,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":65.4890759834531,"v_f_ramp":0,"v_f_retract":65.4890759834531,"v_f_transition":0},{"description":"SAMPLE preset for drilling with HSS drills in Titanium","f_z":0,"guid":"84fad3c4-97d8-4d68-af90-dafba0f9816b","material":{"category":"all","query":"","use-hardness":false},"n":776.166826470555,"name":"Titanium - Drilling","tool-coolant":"flood","use-feed-per-revolution":false,"v_c":16.58111999999999,"v_f":0,"v_f_leadIn":0,"v_f_leadOut":0,"v_f_plunge":58.21251198529163,"v_f_ramp":0,"v_f_retract":58.21251198529163,"v_f_transition":0}]},"type":"drill","unit":"millimeters","vendor":""},
+    "parameters":     [
+      {
+        "name": "advancedMode",
+        "expression": "false"
+      },
+      {
+        "name": "betaMode",
+        "expression": "false"
+      },
+      {
+        "name": "alphaMode",
+        "expression": "false"
+      },
+      {
+        "name": "isXpress",
+        "expression": "false"
+      },
+      {
+        "name": "licenseMultiaxis",
+        "expression": "true"
+      },
+      {
+        "name": "license3D",
+        "expression": "true"
+      },
+      {
+        "name": "metric",
+        "expression": "true"
+      },
+      {
+        "name": "isAssemblyDocument",
+        "expression": "false"
+      },
+      {
+        "name": "context",
+        "expression": "''"
+      },
+      {
+        "name": "strategy",
+        "expression": "'tool'"
+      },
+      {
+        "name": "operation_description",
+        "expression": "''"
+      },
+      {
+        "name": "group_tool",
+        "expression": "true"
+      },
+      {
+        "name": "isOperationTemplate",
+        "expression": "false"
+      },
+      {
+        "name": "tool_type",
+        "expression": "'drill'"
+      },
+      {
+        "name": "undercut",
+        "expression": "true"
+      },
+      {
+        "name": "tool_isTurning",
+        "expression": "tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'"
+      },
+      {
+        "name": "tool_isMill",
+        "expression": "tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill' || tool_type == 'corner chamfer end mill' || tool_type == 'circle segment taper' || tool_type == 'circle segment barrel' || tool_type == 'circle segment oval' || tool_type == 'circle segment lens'"
+      },
+      {
+        "name": "tool_isDrill",
+        "expression": "tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'"
+      },
+      {
+        "name": "tool_isJet",
+        "expression": "tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'"
+      },
+      {
+        "name": "tool_isDepositing",
+        "expression": "tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'"
+      },
+      {
+        "name": "tool_taperedType",
+        "expression": "'tapered_bull_nose'"
+      },
+      {
+        "name": "tool_unit",
+        "expression": "'millimeters'"
+      },
+      {
+        "name": "tool_number",
+        "expression": "5"
+      },
+      {
+        "name": "tool_diameterOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_lengthOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_compensationOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_turret",
+        "expression": "0"
+      },
+      {
+        "name": "tool_manualToolChange",
+        "expression": "false"
+      },
+      {
+        "name": "tool_breakControl",
+        "expression": "false"
+      },
+      {
+        "name": "tool_live",
+        "expression": "true"
+      },
+      {
+        "name": "tool_material",
+        "expression": "'unspecified'"
+      },
+      {
+        "name": "tool_description",
+        "expression": "''"
+      },
+      {
+        "name": "tool_comment",
+        "expression": "''"
+      },
+      {
+        "name": "tool_vendor",
+        "expression": "''"
+      },
+      {
+        "name": "tool_productId",
+        "expression": "''"
+      },
+      {
+        "name": "tool_productLink",
+        "expression": "''"
+      },
+      {
+        "name": "tool_diameter",
+        "expression": "6.8"
+      },
+      {
+        "name": "tool_maximumCuttingDiameter",
+        "expression": "tool_diameter + 2*tool_fluteLength*Math.tan(tool_taperAngle)"
+      },
+      {
+        "name": "tool_tipDiameter",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_tipOffset",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_cornerRadius",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_inclusiveAngle",
+        "expression": "tool_taperAngle * 2"
+      },
+      {
+        "name": "tool_taperAngle",
+        "expression": "(tool_type == 'face mill') ? 0deg : ((tool_type == 'tapered mill') ? 10deg : ((tool_type == 'chamfer mill') ? 45deg : ((tool_type == 'circle segment taper') ? 20deg : ((tool_type == 'dovetail mill') ? 30deg : ((tool_type == 'center drill') ? 90deg : 5deg)))))"
+      },
+      {
+        "name": "tool_tipAngle",
+        "expression": "118."
+      },
+      {
+        "name": "tool_threadTipType",
+        "expression": "tool_type == 'thread mill' ? 'point' : 'round'"
+      },
+      {
+        "name": "tool_threadTipWidth",
+        "expression": "tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / 8"
+      },
+      {
+        "name": "tool_threadTipRadius",
+        "expression": "(((tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / (tool_internalThread ? 8 : 4))) / 2) / Math.cos(tool_threadProfileAngle / 2 radians)"
+      },
+      {
+        "name": "tool_threadProfileAngle",
+        "expression": "60."
+      },
+      {
+        "name": "tool_tipLength",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_fluteLength",
+        "expression": "50."
+      },
+      {
+        "name": "tool_shoulderLength",
+        "expression": "tool_fluteLength"
+      },
+      {
+        "name": "tool_bodyLength",
+        "expression": "52.54"
+      },
+      {
+        "name": "tool_overallLength",
+        "expression": "55.08"
+      },
+      {
+        "name": "tool_shaftDiameter",
+        "expression": "tool_diameter"
+      },
+      {
+        "name": "tool_segmentHeight",
+        "expression": "tool_shaftDiameter/2"
+      },
+      {
+        "name": "tool_segmentDiameterLower",
+        "expression": "tool_shaftDiameter*2"
+      },
+      {
+        "name": "tool_segmentDiameterUpper",
+        "expression": "tool_shaftDiameter*2"
+      },
+      {
+        "name": "tool_shaftSegmentHeight",
+        "expression": "Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)"
+      },
+      {
+        "name": "tool_shaftSegmentDiameterLower",
+        "expression": "tool_diameter"
+      },
+      {
+        "name": "tool_shaftSegmentDiameterUpper",
+        "expression": "tool_shaftDiameter"
+      },
+      {
+        "name": "tool_threadPitch",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_maximumThreadPitch",
+        "expression": "1.0mm"
+      },
+      {
+        "name": "tool_minimumThreadPitch",
+        "expression": "1.0mm"
+      },
+      {
+        "name": "tool_numberOfTeeth",
+        "expression": "1"
+      },
+      {
+        "name": "tool_numberOfFlutes",
+        "expression": "1"
+      },
+      {
+        "name": "tool_shoulderDiameter",
+        "expression": "(tool_type == 'tapered mill' ? 2 * Math.tan(tool_taperAngle) * tool_fluteLength + tool_diameter : (tool_type == 'face mill' ? 2 * Math.tan(tool_taperAngle) * tool_fluteLength + tool_diameter : (tool_type == 'radius mill' ? tool_diameter + tool_cornerRadius * 2 : (tool_type == 'dovetail mill' ? tool_diameter - 2 * Math.tan(tool_taperAngle) * (tool_fluteLength - tool_cornerRadius * (1 + 1/Math.sin(tool_taperAngle))) - 2 * tool_cornerRadius : (tool_type == 'thread mill' ? tool_diameter - tool_threadPitch / Math.tan(tool_threadProfileAngle / 2) : (tool_type == 'chamfer mill' || tool_type == 'lollipop mill' ? (tool_diameter < tool_shaftDiameter ? tool_diameter : tool_shaftDiameter) : (tool_type == 'bull nose end mill' || tool_type == 'ball end mill' || tool_type == 'flat end mill' || tool_type == 'corner chamfer end mill' ? tool_diameter : ((tool_type == 'circle segment barrel') ? 6mm : ((tool_type == 'circle segment lens') ? 10mm : ((tool_type == 'circle segment taper') ? 16mm : (tool_shaftDiameter_enabled ? tool_shaftDiameter : tool_diameter)))))))))))"
+      },
+      {
+        "name": "tool_upperRadius",
+        "expression": "(tool_type == 'circle segment barrel' ? (tool_diameter / 12) : (tool_type == 'circle segment taper' ? (tool_diameter / 2) : 0mm))"
+      },
+      {
+        "name": "tool_profileRadius",
+        "expression": "(tool_type == 'circle segment taper' ? (tool_diameter * 31.25) : (tool_type == 'circle segment oval' ? (tool_diameter * 15) : (tool_type == 'circle segment barrel' ? (tool_diameter * 4) : (tool_diameter * 0.6))))"
+      },
+      {
+        "name": "tool_lowerRadius",
+        "expression": "(tool_type == 'circle segment taper' ? (tool_upperRadius / 2) : ((tool_type == 'circle segment barrel' ? tool_upperRadius : ((tool_type == 'circle segment lens' ? (tool_diameter): (tool_diameter / 6))))))"
+      },
+      {
+        "name": "tool_axialDistance",
+        "expression": "tool_fluteLength / 2"
+      },
+      {
+        "name": "tool_chamferWidth",
+        "expression": "1mm"
+      },
+      {
+        "name": "tool_chamferAngle",
+        "expression": "45deg"
+      },
+      {
+        "name": "tool_kerfWidth",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_nozzleDiameter",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_headClearance",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_machineQualityControl",
+        "expression": "'manual'"
+      },
+      {
+        "name": "holder_attached",
+        "expression": "false"
+      },
+      {
+        "name": "holder_description",
+        "expression": "''"
+      },
+      {
+        "name": "holder_comment",
+        "expression": "''"
+      },
+      {
+        "name": "holder_vendor",
+        "expression": "''"
+      },
+      {
+        "name": "holder_productId",
+        "expression": "''"
+      },
+      {
+        "name": "holder_productLink",
+        "expression": "''"
+      },
+      {
+        "name": "holder_libraryName",
+        "expression": "''"
+      },
+      {
+        "name": "tool_holderGaugeLength",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_assemblyGaugeLength",
+        "expression": "52.54"
+      },
+      {
+        "name": "group_feedspeed",
+        "expression": "true"
+      },
+      {
+        "name": "tool_spindleSpeed",
+        "expression": "450."
+      },
+      {
+        "name": "tool_stockDiameter",
+        "expression": "tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter"
+      },
+      {
+        "name": "tool_surfaceSpeed",
+        "expression": "tool_diameter * Math.PI * tool_spindleSpeed"
+      },
+      {
+        "name": "tool_rampSpindleSpeed",
+        "expression": "tool_spindleSpeed"
+      },
+      {
+        "name": "tool_useFeedPerRevolution",
+        "expression": "false"
+      },
+      {
+        "name": "tool_feedCutting",
+        "expression": "1000mmpm"
+      },
+      {
+        "name": "tool_feedPerTooth",
+        "expression": "tool_spindleSpeed > 0 ? tool_feedCutting/(tool_spindleSpeed * tool_numberOfFlutes) : 0.0"
+      },
+      {
+        "name": "tool_feedProbeLink",
+        "expression": "3000mmpm"
+      },
+      {
+        "name": "tool_feedEntry",
+        "expression": "tool_type == 'probe' || tool_isDepositing ? 1000mmpm : tool_feedCutting"
+      },
+      {
+        "name": "tool_feedExit",
+        "expression": "tool_isDepositing ? 1000mmpm : tool_feedCutting"
+      },
+      {
+        "name": "tool_feedTransition",
+        "expression": "tool_feedCutting"
+      },
+      {
+        "name": "tool_feedProbeMeasure",
+        "expression": "102mmpm"
+      },
+      {
+        "name": "tool_feedRamp",
+        "expression": "tool_feedPlunge"
+      },
+      {
+        "name": "tool_feedPlunge",
+        "expression": "(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)"
+      },
+      {
+        "name": "tool_feedPerRevolution",
+        "expression": "tool_spindleSpeed > 0 ? tool_feedPlunge/tool_spindleSpeed : 0.0"
+      },
+      {
+        "name": "tool_feedRetract",
+        "expression": "tool_feedRetractPerRevolution * tool_spindleSpeed"
+      },
+      {
+        "name": "tool_feedRetractPerRevolution",
+        "expression": "tool_feedPerRevolution"
+      },
+      {
+        "name": "tool_clockwise",
+        "expression": "true"
+      },
+      {
+        "name": "tool_coolant",
+        "expression": "'flood'"
+      },
+      {
+        "name": "tool_coolantSupport",
+        "expression": "'no'"
+      },
+      {
+        "name": "connections",
+        "expression": "true"
+      },
+      {
+        "name": "generate_connections",
+        "expression": "false"
+      },
+      {
+        "name": "connections_retraction_type",
+        "expression": "'full'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_group",
+        "expression": "true"
+      },
+      {
+        "name": "connectionMoveClearanceAreaType",
+        "expression": "'plane'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_orientation_mode",
+        "expression": "'toolAxisZ'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_origin_mode",
+        "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_origin_point",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_mode",
+        "expression": "'from stock top'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+        "expression": "'from stock od'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+        "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_value",
+        "expression": "1mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_mode",
+        "expression": "'from stock od'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_direct",
+        "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_value",
+        "expression": "1mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboid_mode",
+        "expression": "'from stock box'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+        "expression": "true"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosX_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegX_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosY_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegY_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "tool_presetMaterialCategory",
+        "expression": "'all'"
+      },
+      {
+        "name": "tool_presetMaterialQuery",
+        "expression": "''"
+      },
+      {
+        "name": "tool_presetMaterialUseHardness",
+        "expression": "false"
+      },
+      {
+        "name": "tool_presetMaterialMinimumHardness",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_presetMaterialMaximumHardness",
+        "expression": "100.0"
+      },
+      {
+        "name": "use_tool_stepdown",
+        "expression": "false"
+      },
+      {
+        "name": "tool_stepdown",
+        "expression": "tool_fluteLength * 0.9"
+      },
+      {
+        "name": "tool_finishingStepdown",
+        "expression": "0.2mm"
+      },
+      {
+        "name": "use_tool_stepover",
+        "expression": "false"
+      },
+      {
+        "name": "tool_stepover",
+        "expression": "tool_diameter * 0.3"
+      },
+      {
+        "name": "tool_finishingStepover",
+        "expression": "tool_diameter * 0.1"
+      },
+      {
+        "name": "tool_rampType",
+        "expression": "'helix'"
+      },
+      {
+        "name": "tool_rampAngle",
+        "expression": "2deg"
+      },
+      {
+        "name": "tool_cutHeight",
+        "expression": "(tool_type == 'waterjet' ? 3mm : (tool_type == 'laser cutter' ? 1.0mm : 1.5mm))"
+      },
+      {
+        "name": "tool_cutPower",
+        "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+      },
+      {
+        "name": "tool_pierceHeight",
+        "expression": "(tool_type == 'laser cutter' ? 3.5mm : 4.0mm)"
+      },
+      {
+        "name": "tool_pierceTime",
+        "expression": "1s"
+      },
+      {
+        "name": "tool_piercePower",
+        "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+      },
+      {
+        "name": "tool_assistGas",
+        "expression": "(tool_type == 'laser cutter' ? 'Oxygen' : 'Air')"
+      },
+      {
+        "name": "tool_pressure",
+        "expression": "(tool_type == 'waterjet' ? 4000bar : (tool_type == 'laser cutter' ? 2bar : 4bar))"
+      },
+      {
+        "name": "tool_abrasiveFlowRate",
+        "expression": "1"
+      }
+    ]
+  },
+  {
+    "description": "#27 - Ø14mm flat (24)",
+    "toolData": {"BMC":"unspecified","GRADE":"Mill Generic","description":"24","expressions":{"tool_bodyLength":"70 mm","tool_description":"'24'","tool_diameter":"14 mm","tool_fluteLength":"30 mm","tool_number":"27","tool_overallLength":"80 mm","tool_shoulderLength":"40 mm"},"geometry":{"CSP":false,"DC":14,"HAND":true,"LB":70,"LCF":30,"NOF":3,"NT":1,"OAL":80,"RE":0,"SFDM":14,"TA":0,"TP":0,"assemblyGaugeLength":132.8396,"shoulder-diameter":14,"shoulder-length":40,"thread-profile-angle":60,"tip-diameter":0,"tip-length":0,"tip-offset":0},"guid":"18f500f8-4ef5-48e7-84b4-d8ccc8cc5653","holder":{"description":"Maritool CAT40-ER32-2.35","gaugeLength":62.8396,"guid":"","product-id":"CAT40-ER32-2.35","product-link":"","segments":[{"height":3.7592,"lower-diameter":38.1,"upper-diameter":50.038},{"height":21.2344,"lower-diameter":50.038,"upper-diameter":50.038},{"height":4.4704,"lower-diameter":39.878,"upper-diameter":39.878},{"height":2.286,"lower-diameter":39.878,"upper-diameter":44.45},{"height":10.795,"lower-diameter":44.45,"upper-diameter":44.45},{"height":1.27,"lower-diameter":44.45,"upper-diameter":46.99},{"height":0.762,"lower-diameter":62.0268,"upper-diameter":63.5508},{"height":3.683,"lower-diameter":63.5508,"upper-diameter":63.5508},{"height":2.0066,"lower-diameter":63.5508,"upper-diameter":56.261},{"height":2.9972,"lower-diameter":56.261,"upper-diameter":56.261},{"height":2.0066,"lower-diameter":56.261,"upper-diameter":63.5508},{"height":3.6322,"lower-diameter":63.5508,"upper-diameter":63.5508},{"height":0.762,"lower-diameter":63.5508,"upper-diameter":62.0268},{"height":3.175,"lower-diameter":44.45,"upper-diameter":44.45}],"type":"holder","unit":"millimeters","vendor":"Maritool"},"post-process":{"break-control":false,"comment":"","diameter-offset":27,"length-offset":27,"live":true,"manual-tool-change":false,"number":27,"turret":0},"product-id":"","product-link":"","start-values":{"presets":[{"description":"SAMPLE preset for slotting in Aluminum","f_n":0.06666666666666667,"f_z":0.06666666666666667,"guid":"16ca188b-cb6f-4343-a48c-6e273b4d9263","material":{"category":"all","query":"","use-hardness":false},"n":5000,"n_ramp":5000,"name":"Default preset","ramp-angle":2,"tool-coolant":"flood","use-stepdown":false,"use-stepover":false,"v_c":219.9114857512855,"v_f":1000,"v_f_leadIn":1000,"v_f_leadOut":1000,"v_f_plunge":333.3333333333333,"v_f_ramp":333.3333333333333,"v_f_transition":1000},{"description":"SAMPLE preset for slotting in Aluminum","f_n":0.0335,"f_z":0.0335,"guid":"568a9f2c-cf62-4226-8c5c-d9119c9176de","material":{"category":"metal","query":"Aluminum ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1206,"v_f_leadIn":1206,"v_f_leadOut":1206,"v_f_plunge":402,"v_f_ramp":1206,"v_f_transition":1206},{"description":"SAMPLE preset for roughing in Aluminum","f_n":0.0335,"f_z":0.0335,"guid":"e9c70592-5de6-488a-8b71-9be96294501d","material":{"category":"metal","query":"Aluminum ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1206,"v_f_leadIn":1206,"v_f_leadOut":1206,"v_f_plunge":402,"v_f_ramp":1206,"v_f_transition":1206},{"description":"SAMPLE preset for finishing in Aluminum","f_n":0.04233,"f_z":0.04233,"guid":"976eb50d-e6ab-4e6a-a965-fe1f50c83b1d","material":{"category":"metal","query":"Aluminum ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1523.88,"v_f_leadIn":1523.88,"v_f_leadOut":1523.88,"v_f_plunge":507.96,"v_f_ramp":1523.88,"v_f_transition":1523.88},{"description":"SAMPLE preset for slotting in Brass","f_n":0.02676,"f_z":0.026760000000000006,"guid":"19fe9a6b-8b3d-43ff-9a1a-55adc476735f","material":{"category":"metal","query":"Brass ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":963.3600000000002,"v_f_leadIn":963.3600000000002,"v_f_leadOut":963.3600000000002,"v_f_plunge":321.12,"v_f_ramp":963.3600000000002,"v_f_transition":963.3600000000002},{"description":"SAMPLE preset for roughing in Brass","f_n":0.02676,"f_z":0.026760000000000006,"guid":"11507882-30fc-4d0d-8e79-be1015866d4f","material":{"category":"metal","query":"Brass ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":963.3600000000002,"v_f_leadIn":963.3600000000002,"v_f_leadOut":963.3600000000002,"v_f_plunge":321.12,"v_f_ramp":963.3600000000002,"v_f_transition":963.3600000000002},{"description":"SAMPLE preset for finishing in Brass","f_n":0.03382400000000001,"f_z":0.033824000000000014,"guid":"1f16c3b8-a9af-4a15-b558-a123f636502f","material":{"category":"metal","query":"Brass ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1217.6640000000004,"v_f_leadIn":1217.6640000000004,"v_f_leadOut":1217.6640000000004,"v_f_plunge":405.8880000000001,"v_f_ramp":1217.6640000000004,"v_f_transition":1217.6640000000004},{"description":"SAMPLE preset for slotting in Copper","f_n":0.02675999999999998,"f_z":0.026759999999999996,"guid":"b0f85c44-7d35-4907-91c7-e13db35b33e1","material":{"category":"metal","query":"Copper ","use-hardness":false},"n":7276.563998161459,"n_ramp":7276.563998161459,"name":"Copper - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":320.0400000000002,"v_f":584.1625577724018,"v_f_leadIn":584.1625577724018,"v_f_leadOut":584.1625577724018,"v_f_plunge":194.7208525908005,"v_f_ramp":584.1625577724018,"v_f_transition":584.1625577724018},{"description":"SAMPLE preset for roughing in Copper","f_n":0.02675999999999998,"f_z":0.026759999999999996,"guid":"d18286d4-8438-47b7-a2bd-4cf13b8d1515","material":{"category":"metal","query":"Copper ","use-hardness":false},"n":7276.563998161459,"n_ramp":7276.563998161459,"name":"Copper - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":320.0400000000002,"v_f":584.1625577724018,"v_f_leadIn":584.1625577724018,"v_f_leadOut":584.1625577724018,"v_f_plunge":194.7208525908005,"v_f_ramp":584.1625577724018,"v_f_transition":584.1625577724018},{"description":"SAMPLE preset for finishing in Copper","f_n":0.03382399999999999,"f_z":0.033824,"guid":"eaaf397d-2d5a-4a2d-bd2c-9d00c9b762d8","material":{"category":"metal","query":"Copper ","use-hardness":false},"n":7276.563998161459,"n_ramp":7276.563998161459,"name":"Copper - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":320.0400000000002,"v_f":738.3675020214396,"v_f_leadIn":738.3675020214396,"v_f_leadOut":738.3675020214396,"v_f_plunge":246.1225006738131,"v_f_ramp":738.3675020214396,"v_f_transition":738.3675020214396},{"description":"SAMPLE preset for slotting in Low Carbon Steel","f_n":0.011606,"f_z":0.011606,"guid":"1f1df0cc-854a-423b-9de1-9e5c8dc75226","material":{"category":"metal","query":"Low Carbon Steel ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":417.816,"v_f_leadIn":417.816,"v_f_leadOut":417.816,"v_f_plunge":139.272,"v_f_ramp":417.816,"v_f_transition":417.816},{"description":"SAMPLE preset for roughing in Low Carbon Steel","f_n":0.010380000000000006,"f_z":0.01038,"guid":"766b0a9f-bf7b-4dbe-a77b-62f912e0d929","material":{"category":"metal","query":"Low Carbon Steel ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":373.68,"v_f_leadIn":373.68,"v_f_leadOut":373.68,"v_f_plunge":124.56000000000006,"v_f_ramp":373.68,"v_f_transition":373.68},{"description":"SAMPLE preset for finishing in Low Carbon Steel","f_n":0.013118000000000005,"f_z":0.013118000000000003,"guid":"f59bfbc3-c35b-474a-8d11-6e641694cf9b","material":{"category":"metal","query":"Low Carbon Steel ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":472.2480000000001,"v_f_leadIn":472.2480000000001,"v_f_leadOut":472.2480000000001,"v_f_plunge":157.41600000000005,"v_f_ramp":472.2480000000001,"v_f_transition":472.2480000000001},{"description":"SAMPLE preset for slotting in High Carbon Steel","f_n":0.010542000000000001,"f_z":0.010542000000000004,"guid":"d5fac720-f19d-4de1-84b2-7f7ce7d40d68","material":{"category":"metal","query":"High Carbon Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"High Carbon Steel - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":284.47999999999996,"v_f":204.55876711631487,"v_f_leadIn":204.55876711631487,"v_f_leadOut":204.55876711631487,"v_f_plunge":68.18625570543827,"v_f_ramp":204.55876711631487,"v_f_transition":204.55876711631487},{"description":"SAMPLE preset for roughing in High Carbon Steel","f_n":0.009424000000000005,"f_z":0.009424000000000005,"guid":"8aaab073-90fe-43ca-a62e-e6c1b2745a94","material":{"category":"metal","query":"High Carbon Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"High Carbon Steel - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":284.47999999999996,"v_f":182.86490431646288,"v_f_leadIn":182.86490431646288,"v_f_leadOut":182.86490431646288,"v_f_plunge":60.95496810548763,"v_f_ramp":182.86490431646288,"v_f_transition":182.86490431646288},{"description":"SAMPLE preset for finishing in High Carbon Steel","f_n":0.012146000000000006,"f_z":0.012146000000000002,"guid":"39769e41-65e8-4f5f-897f-9b7e50d19788","material":{"category":"metal","query":"High Carbon Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"High Carbon Steel - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":284.47999999999996,"v_f":235.6830568577841,"v_f_leadIn":235.6830568577841,"v_f_leadOut":235.6830568577841,"v_f_plunge":78.56101895259472,"v_f_ramp":235.6830568577841,"v_f_transition":235.6830568577841},{"description":"SAMPLE preset for slotting in Plastics","f_n":0.0339,"f_z":0.0339,"guid":"893f6295-0ce2-441e-b9ba-3604b9376c6b","material":{"category":"plastic","query":"Plastics ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1220.4,"v_f_leadIn":1220.4,"v_f_leadOut":1220.4,"v_f_plunge":406.8,"v_f_ramp":1220.4,"v_f_transition":1220.4},{"description":"SAMPLE preset for roughing in Plastics","f_n":0.0339,"f_z":0.0339,"guid":"6fbf7fcf-bf24-4183-a381-3a0955810aa1","material":{"category":"plastic","query":"Plastics ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1220.4,"v_f_leadIn":1220.4,"v_f_leadOut":1220.4,"v_f_plunge":406.8,"v_f_ramp":1220.4,"v_f_transition":1220.4},{"description":"SAMPLE preset for finishing in Plastics","f_n":0.04173000000000001,"f_z":0.04173000000000001,"guid":"79e3f03d-5fa6-49c9-aa3a-71ded984ffbe","material":{"category":"plastic","query":"Plastics ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":527.7875658030853,"v_f":1502.2800000000004,"v_f_leadIn":1502.2800000000004,"v_f_leadOut":1502.2800000000004,"v_f_plunge":500.76000000000016,"v_f_ramp":1502.2800000000004,"v_f_transition":1502.2800000000004},{"description":"SAMPLE preset for slotting in Stainless Steel","f_n":0.010542000000000001,"f_z":0.010542000000000004,"guid":"516a0fab-5b5b-475b-88de-e9720b339e5b","material":{"category":"metal","query":"Stainless Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"Stainless Steel - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":284.47999999999996,"v_f":204.55876711631487,"v_f_leadIn":204.55876711631487,"v_f_leadOut":204.55876711631487,"v_f_plunge":68.18625570543827,"v_f_ramp":204.55876711631487,"v_f_transition":204.55876711631487},{"description":"SAMPLE preset for roughing in Stainless Steel","f_n":0.009424000000000005,"f_z":0.009424000000000005,"guid":"8357c450-298a-4cf0-af9c-e85d93b43739","material":{"category":"metal","query":"Stainless Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"Stainless Steel - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":284.47999999999996,"v_f":182.86490431646288,"v_f_leadIn":182.86490431646288,"v_f_leadOut":182.86490431646288,"v_f_plunge":60.95496810548763,"v_f_ramp":182.86490431646288,"v_f_transition":182.86490431646288},{"description":"SAMPLE preset for finishing in Stainless Steel","f_n":0.012146000000000006,"f_z":0.012146000000000002,"guid":"b60f4a99-9a34-4b5c-8bc0-2d4f668340eb","material":{"category":"metal","query":"Stainless Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"Stainless Steel - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":284.47999999999996,"v_f":235.6830568577841,"v_f_leadIn":235.6830568577841,"v_f_leadOut":235.6830568577841,"v_f_plunge":78.56101895259472,"v_f_ramp":235.6830568577841,"v_f_transition":235.6830568577841},{"description":"SAMPLE preset for slotting in Titanium","f_n":0.01716200000000001,"f_z":0.017162000000000007,"guid":"6c5e4953-dbb7-424b-81be-a45c0fb9a1a6","material":{"category":"metal","query":"Titanium ","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Titanium - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":213.35999999999993,"v_f":249.76078267289384,"v_f_leadIn":249.76078267289384,"v_f_leadOut":249.76078267289384,"v_f_plunge":83.25359422429796,"v_f_ramp":249.76078267289384,"v_f_transition":249.76078267289384},{"description":"SAMPLE preset for roughing in Titanium","f_n":0.01696200000000001,"f_z":0.016962000000000005,"guid":"8caddadf-36f6-464d-b422-6c34206709ba","material":{"category":"metal","query":"Titanium ","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Titanium - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":213.35999999999993,"v_f":246.85015707362922,"v_f_leadIn":246.85015707362922,"v_f_leadOut":246.85015707362922,"v_f_plunge":82.28338569120974,"v_f_ramp":246.85015707362922,"v_f_transition":246.85015707362922},{"description":"SAMPLE preset for finishing in Titanium","f_n":0.01716200000000001,"f_z":0.017162000000000007,"guid":"dbdf43b9-f8ed-47b6-861f-cc969f5a40ce","material":{"category":"metal","query":"Titanium ","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Titanium - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.2,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":213.35999999999993,"v_f":249.76078267289384,"v_f_leadIn":249.76078267289384,"v_f_leadOut":249.76078267289384,"v_f_plunge":83.25359422429796,"v_f_ramp":249.76078267289384,"v_f_transition":249.76078267289384}]},"type":"flat end mill","unit":"millimeters","vendor":""},
+    "parameters":     [
+      {
+        "name": "advancedMode",
+        "expression": "false"
+      },
+      {
+        "name": "betaMode",
+        "expression": "false"
+      },
+      {
+        "name": "alphaMode",
+        "expression": "false"
+      },
+      {
+        "name": "isXpress",
+        "expression": "false"
+      },
+      {
+        "name": "licenseMultiaxis",
+        "expression": "true"
+      },
+      {
+        "name": "license3D",
+        "expression": "true"
+      },
+      {
+        "name": "metric",
+        "expression": "true"
+      },
+      {
+        "name": "isAssemblyDocument",
+        "expression": "false"
+      },
+      {
+        "name": "context",
+        "expression": "''"
+      },
+      {
+        "name": "strategy",
+        "expression": "'tool'"
+      },
+      {
+        "name": "operation_description",
+        "expression": "''"
+      },
+      {
+        "name": "group_tool",
+        "expression": "true"
+      },
+      {
+        "name": "isOperationTemplate",
+        "expression": "false"
+      },
+      {
+        "name": "tool_type",
+        "expression": "'flat end mill'"
+      },
+      {
+        "name": "undercut",
+        "expression": "true"
+      },
+      {
+        "name": "tool_isTurning",
+        "expression": "tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'"
+      },
+      {
+        "name": "tool_isMill",
+        "expression": "tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill' || tool_type == 'corner chamfer end mill' || tool_type == 'circle segment taper' || tool_type == 'circle segment barrel' || tool_type == 'circle segment oval' || tool_type == 'circle segment lens'"
+      },
+      {
+        "name": "tool_isDrill",
+        "expression": "tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'"
+      },
+      {
+        "name": "tool_isJet",
+        "expression": "tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'"
+      },
+      {
+        "name": "tool_isDepositing",
+        "expression": "tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'"
+      },
+      {
+        "name": "tool_taperedType",
+        "expression": "'tapered_bull_nose'"
+      },
+      {
+        "name": "tool_unit",
+        "expression": "'millimeters'"
+      },
+      {
+        "name": "tool_number",
+        "expression": "27"
+      },
+      {
+        "name": "tool_diameterOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_lengthOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_compensationOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_turret",
+        "expression": "0"
+      },
+      {
+        "name": "tool_manualToolChange",
+        "expression": "false"
+      },
+      {
+        "name": "tool_breakControl",
+        "expression": "false"
+      },
+      {
+        "name": "tool_live",
+        "expression": "true"
+      },
+      {
+        "name": "tool_material",
+        "expression": "'unspecified'"
+      },
+      {
+        "name": "tool_description",
+        "expression": "'24'"
+      },
+      {
+        "name": "tool_comment",
+        "expression": "''"
+      },
+      {
+        "name": "tool_vendor",
+        "expression": "''"
+      },
+      {
+        "name": "tool_productId",
+        "expression": "''"
+      },
+      {
+        "name": "tool_productLink",
+        "expression": "''"
+      },
+      {
+        "name": "tool_diameter",
+        "expression": "14."
+      },
+      {
+        "name": "tool_maximumCuttingDiameter",
+        "expression": "tool_diameter + 2*tool_fluteLength*Math.tan(tool_taperAngle)"
+      },
+      {
+        "name": "tool_tipDiameter",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_tipOffset",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_cornerRadius",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_inclusiveAngle",
+        "expression": "tool_taperAngle * 2"
+      },
+      {
+        "name": "tool_taperAngle",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_tipAngle",
+        "expression": "(tool_type == 'counter sink') ? 90.0deg : ((tool_type == 'spot drill') ? 120deg : 118.0deg)"
+      },
+      {
+        "name": "tool_threadTipType",
+        "expression": "tool_type == 'thread mill' ? 'point' : 'round'"
+      },
+      {
+        "name": "tool_threadTipWidth",
+        "expression": "tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / 8"
+      },
+      {
+        "name": "tool_threadTipRadius",
+        "expression": "(((tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / (tool_internalThread ? 8 : 4))) / 2) / Math.cos(tool_threadProfileAngle / 2 radians)"
+      },
+      {
+        "name": "tool_threadProfileAngle",
+        "expression": "60."
+      },
+      {
+        "name": "tool_tipLength",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_fluteLength",
+        "expression": "30."
+      },
+      {
+        "name": "tool_shoulderLength",
+        "expression": "40."
+      },
+      {
+        "name": "tool_bodyLength",
+        "expression": "70."
+      },
+      {
+        "name": "tool_overallLength",
+        "expression": "80."
+      },
+      {
+        "name": "tool_shaftDiameter",
+        "expression": "tool_diameter"
+      },
+      {
+        "name": "tool_segmentHeight",
+        "expression": "tool_shaftDiameter/2"
+      },
+      {
+        "name": "tool_segmentDiameterLower",
+        "expression": "tool_shaftDiameter*2"
+      },
+      {
+        "name": "tool_segmentDiameterUpper",
+        "expression": "tool_shaftDiameter*2"
+      },
+      {
+        "name": "tool_shaftSegmentHeight",
+        "expression": "Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)"
+      },
+      {
+        "name": "tool_shaftSegmentDiameterLower",
+        "expression": "tool_diameter"
+      },
+      {
+        "name": "tool_shaftSegmentDiameterUpper",
+        "expression": "tool_shaftDiameter"
+      },
+      {
+        "name": "tool_threadPitch",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_maximumThreadPitch",
+        "expression": "1.0mm"
+      },
+      {
+        "name": "tool_minimumThreadPitch",
+        "expression": "1.0mm"
+      },
+      {
+        "name": "tool_numberOfTeeth",
+        "expression": "1"
+      },
+      {
+        "name": "tool_numberOfFlutes",
+        "expression": "3"
+      },
+      {
+        "name": "tool_shoulderDiameter",
+        "expression": "14."
+      },
+      {
+        "name": "tool_upperRadius",
+        "expression": "(tool_type == 'circle segment barrel' ? (tool_diameter / 12) : (tool_type == 'circle segment taper' ? (tool_diameter / 2) : 0mm))"
+      },
+      {
+        "name": "tool_profileRadius",
+        "expression": "(tool_type == 'circle segment taper' ? (tool_diameter * 31.25) : (tool_type == 'circle segment oval' ? (tool_diameter * 15) : (tool_type == 'circle segment barrel' ? (tool_diameter * 4) : (tool_diameter * 0.6))))"
+      },
+      {
+        "name": "tool_lowerRadius",
+        "expression": "(tool_type == 'circle segment taper' ? (tool_upperRadius / 2) : ((tool_type == 'circle segment barrel' ? tool_upperRadius : ((tool_type == 'circle segment lens' ? (tool_diameter): (tool_diameter / 6))))))"
+      },
+      {
+        "name": "tool_axialDistance",
+        "expression": "tool_fluteLength / 2"
+      },
+      {
+        "name": "tool_chamferWidth",
+        "expression": "1mm"
+      },
+      {
+        "name": "tool_chamferAngle",
+        "expression": "45deg"
+      },
+      {
+        "name": "tool_kerfWidth",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_nozzleDiameter",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_headClearance",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_machineQualityControl",
+        "expression": "'manual'"
+      },
+      {
+        "name": "holder_attached",
+        "expression": "true"
+      },
+      {
+        "name": "holder_description",
+        "expression": "'Maritool CAT40-ER32-2.35'"
+      },
+      {
+        "name": "holder_comment",
+        "expression": "''"
+      },
+      {
+        "name": "holder_vendor",
+        "expression": "'Maritool'"
+      },
+      {
+        "name": "holder_productId",
+        "expression": "'CAT40-ER32-2.35'"
+      },
+      {
+        "name": "holder_productLink",
+        "expression": "''"
+      },
+      {
+        "name": "holder_libraryName",
+        "expression": "''"
+      },
+      {
+        "name": "tool_holderGaugeLength",
+        "expression": "62.8396"
+      },
+      {
+        "name": "tool_assemblyGaugeLength",
+        "expression": "132.83959999999999"
+      },
+      {
+        "name": "group_feedspeed",
+        "expression": "true"
+      },
+      {
+        "name": "tool_spindleSpeed",
+        "expression": "2800."
+      },
+      {
+        "name": "tool_stockDiameter",
+        "expression": "tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter"
+      },
+      {
+        "name": "tool_surfaceSpeed",
+        "expression": "tool_diameter * Math.PI * tool_spindleSpeed"
+      },
+      {
+        "name": "tool_rampSpindleSpeed",
+        "expression": "tool_spindleSpeed"
+      },
+      {
+        "name": "tool_useFeedPerRevolution",
+        "expression": "tool_isTurning"
+      },
+      {
+        "name": "tool_feedCutting",
+        "expression": "1206."
+      },
+      {
+        "name": "tool_feedPerTooth",
+        "expression": "tool_spindleSpeed > 0 ? tool_feedCutting/(tool_spindleSpeed * tool_numberOfFlutes) : 0.0"
+      },
+      {
+        "name": "tool_feedProbeLink",
+        "expression": "3000mmpm"
+      },
+      {
+        "name": "tool_feedEntry",
+        "expression": "tool_type == 'probe' || tool_isDepositing ? 1000mmpm : tool_feedCutting"
+      },
+      {
+        "name": "tool_feedExit",
+        "expression": "tool_isDepositing ? 1000mmpm : tool_feedCutting"
+      },
+      {
+        "name": "tool_feedTransition",
+        "expression": "tool_feedCutting"
+      },
+      {
+        "name": "tool_feedProbeMeasure",
+        "expression": "102mmpm"
+      },
+      {
+        "name": "tool_feedRamp",
+        "expression": "1206."
+      },
+      {
+        "name": "tool_feedPlunge",
+        "expression": "602."
+      },
+      {
+        "name": "tool_feedPerRevolution",
+        "expression": "tool_spindleSpeed > 0 ? tool_feedPlunge/tool_spindleSpeed : 0.0"
+      },
+      {
+        "name": "tool_feedRetract",
+        "expression": "tool_feedPlunge"
+      },
+      {
+        "name": "tool_feedRetractPerRevolution",
+        "expression": "tool_feedPerRevolution"
+      },
+      {
+        "name": "tool_clockwise",
+        "expression": "true"
+      },
+      {
+        "name": "tool_coolant",
+        "expression": "'flood'"
+      },
+      {
+        "name": "tool_coolantSupport",
+        "expression": "'no'"
+      },
+      {
+        "name": "connections",
+        "expression": "true"
+      },
+      {
+        "name": "generate_connections",
+        "expression": "false"
+      },
+      {
+        "name": "connections_retraction_type",
+        "expression": "'full'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_group",
+        "expression": "true"
+      },
+      {
+        "name": "connectionMoveClearanceAreaType",
+        "expression": "'plane'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_orientation_mode",
+        "expression": "'toolAxisZ'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_origin_mode",
+        "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_origin_point",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_mode",
+        "expression": "'from stock top'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+        "expression": "'from stock od'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+        "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_value",
+        "expression": "1mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_mode",
+        "expression": "'from stock od'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_direct",
+        "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_value",
+        "expression": "1mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboid_mode",
+        "expression": "'from stock box'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+        "expression": "true"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosX_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegX_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosY_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegY_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "tool_presetMaterialCategory",
+        "expression": "'all'"
+      },
+      {
+        "name": "tool_presetMaterialQuery",
+        "expression": "''"
+      },
+      {
+        "name": "tool_presetMaterialUseHardness",
+        "expression": "false"
+      },
+      {
+        "name": "tool_presetMaterialMinimumHardness",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_presetMaterialMaximumHardness",
+        "expression": "100.0"
+      },
+      {
+        "name": "use_tool_stepdown",
+        "expression": "true"
+      },
+      {
+        "name": "tool_stepdown",
+        "expression": "27."
+      },
+      {
+        "name": "tool_finishingStepdown",
+        "expression": "0.2mm"
+      },
+      {
+        "name": "use_tool_stepover",
+        "expression": "true"
+      },
+      {
+        "name": "tool_stepover",
+        "expression": "4.2"
+      },
+      {
+        "name": "tool_finishingStepover",
+        "expression": "tool_diameter * 0.1"
+      },
+      {
+        "name": "tool_rampType",
+        "expression": "'helix'"
+      },
+      {
+        "name": "tool_rampAngle",
+        "expression": "2."
+      },
+      {
+        "name": "tool_cutHeight",
+        "expression": "(tool_type == 'waterjet' ? 3mm : (tool_type == 'laser cutter' ? 1.0mm : 1.5mm))"
+      },
+      {
+        "name": "tool_cutPower",
+        "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+      },
+      {
+        "name": "tool_pierceHeight",
+        "expression": "(tool_type == 'laser cutter' ? 3.5mm : 4.0mm)"
+      },
+      {
+        "name": "tool_pierceTime",
+        "expression": "1s"
+      },
+      {
+        "name": "tool_piercePower",
+        "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+      },
+      {
+        "name": "tool_assistGas",
+        "expression": "(tool_type == 'laser cutter' ? 'Oxygen' : 'Air')"
+      },
+      {
+        "name": "tool_pressure",
+        "expression": "(tool_type == 'waterjet' ? 4000bar : (tool_type == 'laser cutter' ? 2bar : 4bar))"
+      },
+      {
+        "name": "tool_abrasiveFlowRate",
+        "expression": "1"
+      }
+    ]
+  },
+  {
+    "description": "#27 - Ø13.8mm flat (24)",
+    "toolData": {"BMC":"unspecified","GRADE":"Mill Generic","description":"24","expressions":{"tool_bodyLength":"70 mm","tool_description":"'24'","tool_diameter":"13.8 mm","tool_fluteLength":"30 mm","tool_number":"27","tool_overallLength":"80 mm","tool_shoulderLength":"40 mm"},"geometry":{"CSP":false,"DC":13.8,"HAND":true,"LB":70,"LCF":30,"NOF":3,"NT":1,"OAL":80,"RE":0,"SFDM":13.8,"TA":0,"TP":0,"assemblyGaugeLength":132.8396,"shoulder-diameter":13.8,"shoulder-length":40,"thread-profile-angle":60,"tip-diameter":0,"tip-length":0,"tip-offset":0},"guid":"19fbcfc5-4310-4901-b00e-400c9583bdf8","holder":{"description":"Maritool CAT40-ER32-2.35","gaugeLength":62.8396,"guid":"","product-id":"CAT40-ER32-2.35","product-link":"","segments":[{"height":3.7592,"lower-diameter":38.1,"upper-diameter":50.038},{"height":21.2344,"lower-diameter":50.038,"upper-diameter":50.038},{"height":4.4704,"lower-diameter":39.878,"upper-diameter":39.878},{"height":2.286,"lower-diameter":39.878,"upper-diameter":44.45},{"height":10.795,"lower-diameter":44.45,"upper-diameter":44.45},{"height":1.27,"lower-diameter":44.45,"upper-diameter":46.99},{"height":0.762,"lower-diameter":62.0268,"upper-diameter":63.5508},{"height":3.683,"lower-diameter":63.5508,"upper-diameter":63.5508},{"height":2.0066,"lower-diameter":63.5508,"upper-diameter":56.261},{"height":2.9972,"lower-diameter":56.261,"upper-diameter":56.261},{"height":2.0066,"lower-diameter":56.261,"upper-diameter":63.5508},{"height":3.6322,"lower-diameter":63.5508,"upper-diameter":63.5508},{"height":0.762,"lower-diameter":63.5508,"upper-diameter":62.0268},{"height":3.175,"lower-diameter":44.45,"upper-diameter":44.45}],"type":"holder","unit":"millimeters","vendor":"Maritool"},"post-process":{"break-control":false,"comment":"","diameter-offset":27,"length-offset":27,"live":true,"manual-tool-change":false,"number":27,"turret":0},"product-id":"","product-link":"","start-values":{"presets":[{"description":"SAMPLE preset for slotting in Aluminum","f_n":0.06666666666666667,"f_z":0.06666666666666667,"guid":"16ca188b-cb6f-4343-a48c-6e273b4d9263","material":{"category":"all","query":"","use-hardness":false},"n":5000,"n_ramp":5000,"name":"Default preset","ramp-angle":2,"tool-coolant":"flood","use-stepdown":false,"use-stepover":false,"v_c":216.76989309769573,"v_f":1000,"v_f_leadIn":1000,"v_f_leadOut":1000,"v_f_plunge":333.3333333333333,"v_f_ramp":333.3333333333333,"v_f_transition":1000},{"description":"SAMPLE preset for slotting in Aluminum","f_n":0.0335,"f_z":0.0335,"guid":"568a9f2c-cf62-4226-8c5c-d9119c9176de","material":{"category":"metal","query":"Aluminum ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1206,"v_f_leadIn":1206,"v_f_leadOut":1206,"v_f_plunge":402,"v_f_ramp":1206,"v_f_transition":1206},{"description":"SAMPLE preset for roughing in Aluminum","f_n":0.0335,"f_z":0.0335,"guid":"e9c70592-5de6-488a-8b71-9be96294501d","material":{"category":"metal","query":"Aluminum ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1206,"v_f_leadIn":1206,"v_f_leadOut":1206,"v_f_plunge":402,"v_f_ramp":1206,"v_f_transition":1206},{"description":"SAMPLE preset for finishing in Aluminum","f_n":0.04233,"f_z":0.04233,"guid":"976eb50d-e6ab-4e6a-a965-fe1f50c83b1d","material":{"category":"metal","query":"Aluminum ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Aluminum - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1523.88,"v_f_leadIn":1523.88,"v_f_leadOut":1523.88,"v_f_plunge":507.96,"v_f_ramp":1523.88,"v_f_transition":1523.88},{"description":"SAMPLE preset for slotting in Brass","f_n":0.02676,"f_z":0.026760000000000006,"guid":"19fe9a6b-8b3d-43ff-9a1a-55adc476735f","material":{"category":"metal","query":"Brass ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":963.3600000000002,"v_f_leadIn":963.3600000000002,"v_f_leadOut":963.3600000000002,"v_f_plunge":321.12,"v_f_ramp":963.3600000000002,"v_f_transition":963.3600000000002},{"description":"SAMPLE preset for roughing in Brass","f_n":0.02676,"f_z":0.026760000000000006,"guid":"11507882-30fc-4d0d-8e79-be1015866d4f","material":{"category":"metal","query":"Brass ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":963.3600000000002,"v_f_leadIn":963.3600000000002,"v_f_leadOut":963.3600000000002,"v_f_plunge":321.12,"v_f_ramp":963.3600000000002,"v_f_transition":963.3600000000002},{"description":"SAMPLE preset for finishing in Brass","f_n":0.03382400000000001,"f_z":0.033824000000000014,"guid":"1f16c3b8-a9af-4a15-b558-a123f636502f","material":{"category":"metal","query":"Brass ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Brass - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1217.6640000000004,"v_f_leadIn":1217.6640000000004,"v_f_leadOut":1217.6640000000004,"v_f_plunge":405.8880000000001,"v_f_ramp":1217.6640000000004,"v_f_transition":1217.6640000000004},{"description":"SAMPLE preset for slotting in Copper","f_n":0.02675999999999998,"f_z":0.026759999999999996,"guid":"b0f85c44-7d35-4907-91c7-e13db35b33e1","material":{"category":"metal","query":"Copper ","use-hardness":false},"n":7276.563998161459,"n_ramp":7276.563998161459,"name":"Copper - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":315.4680000000002,"v_f":584.1625577724018,"v_f_leadIn":584.1625577724018,"v_f_leadOut":584.1625577724018,"v_f_plunge":194.7208525908005,"v_f_ramp":584.1625577724018,"v_f_transition":584.1625577724018},{"description":"SAMPLE preset for roughing in Copper","f_n":0.02675999999999998,"f_z":0.026759999999999996,"guid":"d18286d4-8438-47b7-a2bd-4cf13b8d1515","material":{"category":"metal","query":"Copper ","use-hardness":false},"n":7276.563998161459,"n_ramp":7276.563998161459,"name":"Copper - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":315.4680000000002,"v_f":584.1625577724018,"v_f_leadIn":584.1625577724018,"v_f_leadOut":584.1625577724018,"v_f_plunge":194.7208525908005,"v_f_ramp":584.1625577724018,"v_f_transition":584.1625577724018},{"description":"SAMPLE preset for finishing in Copper","f_n":0.03382399999999999,"f_z":0.033824,"guid":"eaaf397d-2d5a-4a2d-bd2c-9d00c9b762d8","material":{"category":"metal","query":"Copper ","use-hardness":false},"n":7276.563998161459,"n_ramp":7276.563998161459,"name":"Copper - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":315.4680000000002,"v_f":738.3675020214396,"v_f_leadIn":738.3675020214396,"v_f_leadOut":738.3675020214396,"v_f_plunge":246.1225006738131,"v_f_ramp":738.3675020214396,"v_f_transition":738.3675020214396},{"description":"SAMPLE preset for slotting in Low Carbon Steel","f_n":0.011606,"f_z":0.011606,"guid":"1f1df0cc-854a-423b-9de1-9e5c8dc75226","material":{"category":"metal","query":"Low Carbon Steel ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":417.816,"v_f_leadIn":417.816,"v_f_leadOut":417.816,"v_f_plunge":139.272,"v_f_ramp":417.816,"v_f_transition":417.816},{"description":"SAMPLE preset for roughing in Low Carbon Steel","f_n":0.010380000000000006,"f_z":0.01038,"guid":"766b0a9f-bf7b-4dbe-a77b-62f912e0d929","material":{"category":"metal","query":"Low Carbon Steel ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":373.68,"v_f_leadIn":373.68,"v_f_leadOut":373.68,"v_f_plunge":124.56000000000006,"v_f_ramp":373.68,"v_f_transition":373.68},{"description":"SAMPLE preset for finishing in Low Carbon Steel","f_n":0.013118000000000005,"f_z":0.013118000000000003,"guid":"f59bfbc3-c35b-474a-8d11-6e641694cf9b","material":{"category":"metal","query":"Low Carbon Steel ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Low Carbon Steel - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":472.2480000000001,"v_f_leadIn":472.2480000000001,"v_f_leadOut":472.2480000000001,"v_f_plunge":157.41600000000005,"v_f_ramp":472.2480000000001,"v_f_transition":472.2480000000001},{"description":"SAMPLE preset for slotting in High Carbon Steel","f_n":0.010542000000000001,"f_z":0.010542000000000004,"guid":"d5fac720-f19d-4de1-84b2-7f7ce7d40d68","material":{"category":"metal","query":"High Carbon Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"High Carbon Steel - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":280.41599999999994,"v_f":204.55876711631487,"v_f_leadIn":204.55876711631487,"v_f_leadOut":204.55876711631487,"v_f_plunge":68.18625570543827,"v_f_ramp":204.55876711631487,"v_f_transition":204.55876711631487},{"description":"SAMPLE preset for roughing in High Carbon Steel","f_n":0.009424000000000005,"f_z":0.009424000000000005,"guid":"8aaab073-90fe-43ca-a62e-e6c1b2745a94","material":{"category":"metal","query":"High Carbon Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"High Carbon Steel - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":280.41599999999994,"v_f":182.86490431646288,"v_f_leadIn":182.86490431646288,"v_f_leadOut":182.86490431646288,"v_f_plunge":60.95496810548763,"v_f_ramp":182.86490431646288,"v_f_transition":182.86490431646288},{"description":"SAMPLE preset for finishing in High Carbon Steel","f_n":0.012146000000000006,"f_z":0.012146000000000002,"guid":"39769e41-65e8-4f5f-897f-9b7e50d19788","material":{"category":"metal","query":"High Carbon Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"High Carbon Steel - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":280.41599999999994,"v_f":235.6830568577841,"v_f_leadIn":235.6830568577841,"v_f_leadOut":235.6830568577841,"v_f_plunge":78.56101895259472,"v_f_ramp":235.6830568577841,"v_f_transition":235.6830568577841},{"description":"SAMPLE preset for slotting in Plastics","f_n":0.0339,"f_z":0.0339,"guid":"893f6295-0ce2-441e-b9ba-3604b9376c6b","material":{"category":"plastic","query":"Plastics ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1220.4,"v_f_leadIn":1220.4,"v_f_leadOut":1220.4,"v_f_plunge":406.8,"v_f_ramp":1220.4,"v_f_transition":1220.4},{"description":"SAMPLE preset for roughing in Plastics","f_n":0.0339,"f_z":0.0339,"guid":"6fbf7fcf-bf24-4183-a381-3a0955810aa1","material":{"category":"plastic","query":"Plastics ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1220.4,"v_f_leadIn":1220.4,"v_f_leadOut":1220.4,"v_f_plunge":406.8,"v_f_ramp":1220.4,"v_f_transition":1220.4},{"description":"SAMPLE preset for finishing in Plastics","f_n":0.04173000000000001,"f_z":0.04173000000000001,"guid":"79e3f03d-5fa6-49c9-aa3a-71ded984ffbe","material":{"category":"plastic","query":"Plastics ","use-hardness":false},"n":12000,"n_ramp":12000,"name":"Plastics - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":520.2477434344697,"v_f":1502.2800000000004,"v_f_leadIn":1502.2800000000004,"v_f_leadOut":1502.2800000000004,"v_f_plunge":500.76000000000016,"v_f_ramp":1502.2800000000004,"v_f_transition":1502.2800000000004},{"description":"SAMPLE preset for slotting in Stainless Steel","f_n":0.010542000000000001,"f_z":0.010542000000000004,"guid":"516a0fab-5b5b-475b-88de-e9720b339e5b","material":{"category":"metal","query":"Stainless Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"Stainless Steel - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":280.41599999999994,"v_f":204.55876711631487,"v_f_leadIn":204.55876711631487,"v_f_leadOut":204.55876711631487,"v_f_plunge":68.18625570543827,"v_f_ramp":204.55876711631487,"v_f_transition":204.55876711631487},{"description":"SAMPLE preset for roughing in Stainless Steel","f_n":0.009424000000000005,"f_z":0.009424000000000005,"guid":"8357c450-298a-4cf0-af9c-e85d93b43739","material":{"category":"metal","query":"Stainless Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"Stainless Steel - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":280.41599999999994,"v_f":182.86490431646288,"v_f_leadIn":182.86490431646288,"v_f_leadOut":182.86490431646288,"v_f_plunge":60.95496810548763,"v_f_ramp":182.86490431646288,"v_f_transition":182.86490431646288},{"description":"SAMPLE preset for finishing in Stainless Steel","f_n":0.012146000000000006,"f_z":0.012146000000000002,"guid":"b60f4a99-9a34-4b5c-8bc0-2d4f668340eb","material":{"category":"metal","query":"Stainless Steel ","use-hardness":false},"n":6468.0568872546255,"n_ramp":6468.0568872546255,"name":"Stainless Steel - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":280.41599999999994,"v_f":235.6830568577841,"v_f_leadIn":235.6830568577841,"v_f_leadOut":235.6830568577841,"v_f_plunge":78.56101895259472,"v_f_ramp":235.6830568577841,"v_f_transition":235.6830568577841},{"description":"SAMPLE preset for slotting in Titanium","f_n":0.01716200000000001,"f_z":0.017162000000000007,"guid":"6c5e4953-dbb7-424b-81be-a45c0fb9a1a6","material":{"category":"metal","query":"Titanium ","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Titanium - Slotting","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":210.31199999999995,"v_f":249.76078267289384,"v_f_leadIn":249.76078267289384,"v_f_leadOut":249.76078267289384,"v_f_plunge":83.25359422429796,"v_f_ramp":249.76078267289384,"v_f_transition":249.76078267289384},{"description":"SAMPLE preset for roughing in Titanium","f_n":0.01696200000000001,"f_z":0.016962000000000005,"guid":"8caddadf-36f6-464d-b422-6c34206709ba","material":{"category":"metal","query":"Titanium ","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Titanium - Roughing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":210.31199999999995,"v_f":246.85015707362922,"v_f_leadIn":246.85015707362922,"v_f_leadOut":246.85015707362922,"v_f_plunge":82.28338569120974,"v_f_ramp":246.85015707362922,"v_f_transition":246.85015707362922},{"description":"SAMPLE preset for finishing in Titanium","f_n":0.01716200000000001,"f_z":0.017162000000000007,"guid":"dbdf43b9-f8ed-47b6-861f-cc969f5a40ce","material":{"category":"metal","query":"Titanium ","use-hardness":false},"n":4851.042665440968,"n_ramp":4851.042665440968,"name":"Titanium - Finishing","ramp-angle":2,"stepdown":27,"stepover":4.14,"tool-coolant":"flood","use-stepdown":true,"use-stepover":true,"v_c":210.31199999999995,"v_f":249.76078267289384,"v_f_leadIn":249.76078267289384,"v_f_leadOut":249.76078267289384,"v_f_plunge":83.25359422429796,"v_f_ramp":249.76078267289384,"v_f_transition":249.76078267289384}]},"type":"flat end mill","unit":"millimeters","vendor":""},
+    "parameters":     [
+      {
+        "name": "advancedMode",
+        "expression": "false"
+      },
+      {
+        "name": "betaMode",
+        "expression": "false"
+      },
+      {
+        "name": "alphaMode",
+        "expression": "false"
+      },
+      {
+        "name": "isXpress",
+        "expression": "false"
+      },
+      {
+        "name": "licenseMultiaxis",
+        "expression": "true"
+      },
+      {
+        "name": "license3D",
+        "expression": "true"
+      },
+      {
+        "name": "metric",
+        "expression": "true"
+      },
+      {
+        "name": "isAssemblyDocument",
+        "expression": "false"
+      },
+      {
+        "name": "context",
+        "expression": "''"
+      },
+      {
+        "name": "strategy",
+        "expression": "'tool'"
+      },
+      {
+        "name": "operation_description",
+        "expression": "''"
+      },
+      {
+        "name": "group_tool",
+        "expression": "true"
+      },
+      {
+        "name": "isOperationTemplate",
+        "expression": "false"
+      },
+      {
+        "name": "tool_type",
+        "expression": "'flat end mill'"
+      },
+      {
+        "name": "undercut",
+        "expression": "true"
+      },
+      {
+        "name": "tool_isTurning",
+        "expression": "tool_type == 'turning boring' || tool_type == 'turning general' || tool_type == 'turning threading' || tool_type == 'turning grooving' || tool_type == 'turning custom'"
+      },
+      {
+        "name": "tool_isMill",
+        "expression": "tool_type == 'thread mill' || tool_type == 'form mill' || tool_type == 'tapered mill' || tool_type == 'radius mill' || tool_type == 'dovetail mill' || tool_type == 'face mill' || tool_type == 'bull nose end mill' || tool_type == 'slot mill' || tool_type == 'flat end mill' || tool_type == 'ball end mill' || tool_type == 'lollipop mill' || tool_type == 'chamfer mill' || tool_type == 'corner chamfer end mill' || tool_type == 'circle segment taper' || tool_type == 'circle segment barrel' || tool_type == 'circle segment oval' || tool_type == 'circle segment lens'"
+      },
+      {
+        "name": "tool_isDrill",
+        "expression": "tool_type == 'counter bore' || tool_type == 'boring bar' || tool_type == 'spot drill' || tool_type == 'counter sink' || tool_type == 'center drill' || tool_type == 'tap right hand' || tool_type == 'tap left hand' || tool_type == 'drill' || tool_type == 'reamer' || tool_type == 'block drill'"
+      },
+      {
+        "name": "tool_isJet",
+        "expression": "tool_type == 'laser cutter' || tool_type == 'waterjet' || tool_type == 'plasma cutter'"
+      },
+      {
+        "name": "tool_isDepositing",
+        "expression": "tool_type == 'laser powder' || tool_type == 'laser wire' || tool_type == 'electric arc wire'"
+      },
+      {
+        "name": "tool_taperedType",
+        "expression": "'tapered_bull_nose'"
+      },
+      {
+        "name": "tool_unit",
+        "expression": "'millimeters'"
+      },
+      {
+        "name": "tool_number",
+        "expression": "27"
+      },
+      {
+        "name": "tool_diameterOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_lengthOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_compensationOffset",
+        "expression": "tool_number"
+      },
+      {
+        "name": "tool_turret",
+        "expression": "0"
+      },
+      {
+        "name": "tool_manualToolChange",
+        "expression": "false"
+      },
+      {
+        "name": "tool_breakControl",
+        "expression": "false"
+      },
+      {
+        "name": "tool_live",
+        "expression": "true"
+      },
+      {
+        "name": "tool_material",
+        "expression": "'unspecified'"
+      },
+      {
+        "name": "tool_description",
+        "expression": "'24'"
+      },
+      {
+        "name": "tool_comment",
+        "expression": "''"
+      },
+      {
+        "name": "tool_vendor",
+        "expression": "''"
+      },
+      {
+        "name": "tool_productId",
+        "expression": "''"
+      },
+      {
+        "name": "tool_productLink",
+        "expression": "''"
+      },
+      {
+        "name": "tool_diameter",
+        "expression": "13.8"
+      },
+      {
+        "name": "tool_maximumCuttingDiameter",
+        "expression": "tool_diameter + 2*tool_fluteLength*Math.tan(tool_taperAngle)"
+      },
+      {
+        "name": "tool_tipDiameter",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_tipOffset",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_cornerRadius",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_inclusiveAngle",
+        "expression": "tool_taperAngle * 2"
+      },
+      {
+        "name": "tool_taperAngle",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_tipAngle",
+        "expression": "(tool_type == 'counter sink') ? 90.0deg : ((tool_type == 'spot drill') ? 120deg : 118.0deg)"
+      },
+      {
+        "name": "tool_threadTipType",
+        "expression": "tool_type == 'thread mill' ? 'point' : 'round'"
+      },
+      {
+        "name": "tool_threadTipWidth",
+        "expression": "tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / 8"
+      },
+      {
+        "name": "tool_threadTipRadius",
+        "expression": "(((tool_type == 'thread mill' ? tool_threadPitch / 4 : tool_maximumThreadPitch / (tool_internalThread ? 8 : 4))) / 2) / Math.cos(tool_threadProfileAngle / 2 radians)"
+      },
+      {
+        "name": "tool_threadProfileAngle",
+        "expression": "60."
+      },
+      {
+        "name": "tool_tipLength",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_fluteLength",
+        "expression": "30."
+      },
+      {
+        "name": "tool_shoulderLength",
+        "expression": "40."
+      },
+      {
+        "name": "tool_bodyLength",
+        "expression": "70."
+      },
+      {
+        "name": "tool_overallLength",
+        "expression": "80."
+      },
+      {
+        "name": "tool_shaftDiameter",
+        "expression": "tool_diameter"
+      },
+      {
+        "name": "tool_segmentHeight",
+        "expression": "tool_shaftDiameter/2"
+      },
+      {
+        "name": "tool_segmentDiameterLower",
+        "expression": "tool_shaftDiameter*2"
+      },
+      {
+        "name": "tool_segmentDiameterUpper",
+        "expression": "tool_shaftDiameter*2"
+      },
+      {
+        "name": "tool_shaftSegmentHeight",
+        "expression": "Math.max((tool_bodyLength - tool_shoulderLength)/2; 1.0)"
+      },
+      {
+        "name": "tool_shaftSegmentDiameterLower",
+        "expression": "tool_diameter"
+      },
+      {
+        "name": "tool_shaftSegmentDiameterUpper",
+        "expression": "tool_shaftDiameter"
+      },
+      {
+        "name": "tool_threadPitch",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_maximumThreadPitch",
+        "expression": "1.0mm"
+      },
+      {
+        "name": "tool_minimumThreadPitch",
+        "expression": "1.0mm"
+      },
+      {
+        "name": "tool_numberOfTeeth",
+        "expression": "1"
+      },
+      {
+        "name": "tool_numberOfFlutes",
+        "expression": "3"
+      },
+      {
+        "name": "tool_shoulderDiameter",
+        "expression": "13.8"
+      },
+      {
+        "name": "tool_upperRadius",
+        "expression": "(tool_type == 'circle segment barrel' ? (tool_diameter / 12) : (tool_type == 'circle segment taper' ? (tool_diameter / 2) : 0mm))"
+      },
+      {
+        "name": "tool_profileRadius",
+        "expression": "(tool_type == 'circle segment taper' ? (tool_diameter * 31.25) : (tool_type == 'circle segment oval' ? (tool_diameter * 15) : (tool_type == 'circle segment barrel' ? (tool_diameter * 4) : (tool_diameter * 0.6))))"
+      },
+      {
+        "name": "tool_lowerRadius",
+        "expression": "(tool_type == 'circle segment taper' ? (tool_upperRadius / 2) : ((tool_type == 'circle segment barrel' ? tool_upperRadius : ((tool_type == 'circle segment lens' ? (tool_diameter): (tool_diameter / 6))))))"
+      },
+      {
+        "name": "tool_axialDistance",
+        "expression": "tool_fluteLength / 2"
+      },
+      {
+        "name": "tool_chamferWidth",
+        "expression": "1mm"
+      },
+      {
+        "name": "tool_chamferAngle",
+        "expression": "45deg"
+      },
+      {
+        "name": "tool_kerfWidth",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_nozzleDiameter",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_headClearance",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_machineQualityControl",
+        "expression": "'manual'"
+      },
+      {
+        "name": "holder_attached",
+        "expression": "true"
+      },
+      {
+        "name": "holder_description",
+        "expression": "'Maritool CAT40-ER32-2.35'"
+      },
+      {
+        "name": "holder_comment",
+        "expression": "''"
+      },
+      {
+        "name": "holder_vendor",
+        "expression": "'Maritool'"
+      },
+      {
+        "name": "holder_productId",
+        "expression": "'CAT40-ER32-2.35'"
+      },
+      {
+        "name": "holder_productLink",
+        "expression": "''"
+      },
+      {
+        "name": "holder_libraryName",
+        "expression": "''"
+      },
+      {
+        "name": "tool_holderGaugeLength",
+        "expression": "62.8396"
+      },
+      {
+        "name": "tool_assemblyGaugeLength",
+        "expression": "132.83959999999999"
+      },
+      {
+        "name": "group_feedspeed",
+        "expression": "true"
+      },
+      {
+        "name": "tool_spindleSpeed",
+        "expression": "2500."
+      },
+      {
+        "name": "tool_stockDiameter",
+        "expression": "tool_isTurning ? (tool_unit == 'millimeters' ? 25mm : 1.0in) : tool_diameter"
+      },
+      {
+        "name": "tool_surfaceSpeed",
+        "expression": "tool_diameter * Math.PI * tool_spindleSpeed"
+      },
+      {
+        "name": "tool_rampSpindleSpeed",
+        "expression": "tool_spindleSpeed"
+      },
+      {
+        "name": "tool_useFeedPerRevolution",
+        "expression": "tool_isTurning"
+      },
+      {
+        "name": "tool_feedCutting",
+        "expression": "1523.87999999999988"
+      },
+      {
+        "name": "tool_feedPerTooth",
+        "expression": "tool_spindleSpeed > 0 ? tool_feedCutting/(tool_spindleSpeed * tool_numberOfFlutes) : 0.0"
+      },
+      {
+        "name": "tool_feedProbeLink",
+        "expression": "3000mmpm"
+      },
+      {
+        "name": "tool_feedEntry",
+        "expression": "tool_type == 'probe' || tool_isDepositing ? 1000mmpm : tool_feedCutting"
+      },
+      {
+        "name": "tool_feedExit",
+        "expression": "tool_isDepositing ? 1000mmpm : tool_feedCutting"
+      },
+      {
+        "name": "tool_feedTransition",
+        "expression": "tool_feedCutting"
+      },
+      {
+        "name": "tool_feedProbeMeasure",
+        "expression": "102mmpm"
+      },
+      {
+        "name": "tool_feedRamp",
+        "expression": "1523.87999999999988"
+      },
+      {
+        "name": "tool_feedPlunge",
+        "expression": "(tool_type=='drill' || tool_type=='reamer' || tool_isDepositing)?(1000mmpm):(tool_feedCutting/3)"
+      },
+      {
+        "name": "tool_feedPerRevolution",
+        "expression": "tool_spindleSpeed > 0 ? tool_feedPlunge/tool_spindleSpeed : 0.0"
+      },
+      {
+        "name": "tool_feedRetract",
+        "expression": "tool_feedPlunge"
+      },
+      {
+        "name": "tool_feedRetractPerRevolution",
+        "expression": "tool_feedPerRevolution"
+      },
+      {
+        "name": "tool_clockwise",
+        "expression": "true"
+      },
+      {
+        "name": "tool_coolant",
+        "expression": "'flood'"
+      },
+      {
+        "name": "tool_coolantSupport",
+        "expression": "'no'"
+      },
+      {
+        "name": "connections",
+        "expression": "true"
+      },
+      {
+        "name": "generate_connections",
+        "expression": "false"
+      },
+      {
+        "name": "connections_retraction_type",
+        "expression": "'full'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_group",
+        "expression": "true"
+      },
+      {
+        "name": "connectionMoveClearanceAreaType",
+        "expression": "'plane'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_orientation_mode",
+        "expression": "'toolAxisZ'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_origin_mode",
+        "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+      },
+      {
+        "name": "connectionMoveClearanceArea_origin_point",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_mode",
+        "expression": "'from stock top'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaHeight_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+        "expression": "'from stock od'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+        "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_value",
+        "expression": "1mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_mode",
+        "expression": "'from stock od'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_ref",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+        "expression": "'outer diameter'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_direct",
+        "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_value",
+        "expression": "1mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+        "expression": "false"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboid_mode",
+        "expression": "'from stock box'"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+        "expression": "true"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosX_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegX_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosY_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegY_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+        "expression": "0mm"
+      },
+      {
+        "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+        "expression": "10mm"
+      },
+      {
+        "name": "tool_presetMaterialCategory",
+        "expression": "'all'"
+      },
+      {
+        "name": "tool_presetMaterialQuery",
+        "expression": "''"
+      },
+      {
+        "name": "tool_presetMaterialUseHardness",
+        "expression": "false"
+      },
+      {
+        "name": "tool_presetMaterialMinimumHardness",
+        "expression": "0.0"
+      },
+      {
+        "name": "tool_presetMaterialMaximumHardness",
+        "expression": "100.0"
+      },
+      {
+        "name": "use_tool_stepdown",
+        "expression": "true"
+      },
+      {
+        "name": "tool_stepdown",
+        "expression": "27."
+      },
+      {
+        "name": "tool_finishingStepdown",
+        "expression": "0.2mm"
+      },
+      {
+        "name": "use_tool_stepover",
+        "expression": "true"
+      },
+      {
+        "name": "tool_stepover",
+        "expression": "4.14"
+      },
+      {
+        "name": "tool_finishingStepover",
+        "expression": "tool_diameter * 0.1"
+      },
+      {
+        "name": "tool_rampType",
+        "expression": "'helix'"
+      },
+      {
+        "name": "tool_rampAngle",
+        "expression": "2."
+      },
+      {
+        "name": "tool_cutHeight",
+        "expression": "(tool_type == 'waterjet' ? 3mm : (tool_type == 'laser cutter' ? 1.0mm : 1.5mm))"
+      },
+      {
+        "name": "tool_cutPower",
+        "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+      },
+      {
+        "name": "tool_pierceHeight",
+        "expression": "(tool_type == 'laser cutter' ? 3.5mm : 4.0mm)"
+      },
+      {
+        "name": "tool_pierceTime",
+        "expression": "1s"
+      },
+      {
+        "name": "tool_piercePower",
+        "expression": "(tool_type == 'laser cutter' ? 800 : 30)"
+      },
+      {
+        "name": "tool_assistGas",
+        "expression": "(tool_type == 'laser cutter' ? 'Oxygen' : 'Air')"
+      },
+      {
+        "name": "tool_pressure",
+        "expression": "(tool_type == 'waterjet' ? 4000bar : (tool_type == 'laser cutter' ? 2bar : 4bar))"
+      },
+      {
+        "name": "tool_abrasiveFlowRate",
+        "expression": "1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,913 @@
+{
+    "data": [
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "16mm Spot Drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 16,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 30,
+                "NOF": 3,
+                "NT": 1,
+                "OAL": 100,
+                "RE": 0,
+                "SFDM": 16,
+                "SIG": 90,
+                "TP": 0,
+                "assemblyGaugeLength": 92,
+                "shoulder-length": 50,
+                "thread-profile-angle": 60,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "{59a66bd1-05ae-41e2-b9ec-cd9f1d7a7fb5}",
+            "holder": {
+                "description": "HSK63 - Blank",
+                "gaugeLength": 42,
+                "guid": "",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 50.4,
+                        "upper-diameter": 52.4
+                    },
+                    {
+                        "height": 15,
+                        "lower-diameter": 52.4,
+                        "upper-diameter": 52.4
+                    },
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 62,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 3.5,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 59.536
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 58.036,
+                        "upper-diameter": 58.036
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 59.536,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 17.5,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 63,
+                        "upper-diameter": 62
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "SAMPLE preset for finishing in Aluminum",
+                        "f_z": 0.22218567010309279,
+                        "guid": "9d51e391-733f-468c-a737-f2e51ce899b7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 6063.803331801212,
+                        "name": "Aluminum - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 304.8,
+                        "v_f": 4041.870619948857,
+                        "v_f_leadIn": 4041.870619948857,
+                        "v_f_leadOut": 4041.870619948857,
+                        "v_f_plunge": 1347.290206649619,
+                        "v_f_ramp": 4041.870619948857,
+                        "v_f_retract": 1347.290206649619,
+                        "v_f_transition": 4041.870619948857
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Aluminum",
+                        "f_z": 0.24000000000000005,
+                        "guid": "da049748-b5f4-41f5-9e33-e9dfc4505029",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1819.1409995403644,
+                        "name": "Aluminum - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 91.44000000000003,
+                        "v_f": 1309.7815196690626,
+                        "v_f_leadIn": 1309.7815196690626,
+                        "v_f_leadOut": 1309.7815196690626,
+                        "v_f_plunge": 436.5938398896872,
+                        "v_f_ramp": 1309.7815196690626,
+                        "v_f_retract": 436.5938398896872,
+                        "v_f_transition": 1309.7815196690626
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Brass",
+                        "f_z": 0.1777621443298969,
+                        "guid": "2a3ef079-bdfc-4086-b145-66e920bac15b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3031.901665900605,
+                        "name": "Brass - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.39999999999995,
+                        "v_f": 1616.8720245836348,
+                        "v_f_leadIn": 1616.8720245836348,
+                        "v_f_leadOut": 1616.8720245836348,
+                        "v_f_plunge": 538.9573415278785,
+                        "v_f_ramp": 1616.8720245836348,
+                        "v_f_retract": 538.9573415278785,
+                        "v_f_transition": 1616.8720245836348
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Brass",
+                        "f_z": 0.23999999999999982,
+                        "guid": "3f970f82-c63b-4cda-a8b7-b9d7f86602f4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "Brass - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 873.1876797793745,
+                        "v_f_leadIn": 873.1876797793749,
+                        "v_f_leadOut": 873.1876797793749,
+                        "v_f_plunge": 291.0625599264582,
+                        "v_f_ramp": 873.1876797793749,
+                        "v_f_retract": 291.0625599264582,
+                        "v_f_transition": 873.1876797793745
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Copper",
+                        "f_z": 0.17776214432989687,
+                        "guid": "15f8ef6d-fc68-4bda-a302-f7ef882798f7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1364.355749655273,
+                        "name": "Copper - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 68.58000000000001,
+                        "v_f": 727.5924110626358,
+                        "v_f_leadIn": 727.5924110626358,
+                        "v_f_leadOut": 727.5924110626358,
+                        "v_f_plunge": 242.5308036875453,
+                        "v_f_ramp": 727.5924110626358,
+                        "v_f_retract": 242.5308036875453,
+                        "v_f_transition": 727.5924110626358
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Copper",
+                        "f_z": 0.24000000000000005,
+                        "guid": "d48045b5-8a10-4121-9ca7-083ab3563772",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1819.1409995403644,
+                        "name": "Copper - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 91.44000000000003,
+                        "v_f": 1309.7815196690626,
+                        "v_f_leadIn": 1309.7815196690626,
+                        "v_f_leadOut": 1309.7815196690626,
+                        "v_f_plunge": 436.5938398896872,
+                        "v_f_ramp": 1309.7815196690626,
+                        "v_f_retract": 436.5938398896872,
+                        "v_f_transition": 1309.7815196690626
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Low Carbon Steel",
+                        "f_z": 0.06940665979381445,
+                        "guid": "850d1988-e01c-4e82-8579-a547717c9562",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3031.901665900605,
+                        "name": "Low Carbon Steel - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.39999999999995,
+                        "v_f": 631.3025023603878,
+                        "v_f_leadIn": 631.3025023603878,
+                        "v_f_leadOut": 631.3025023603878,
+                        "v_f_plunge": 210.4341674534626,
+                        "v_f_ramp": 631.3025023603878,
+                        "v_f_retract": 210.4341674534626,
+                        "v_f_transition": 631.3025023603878
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0.24000000000000013,
+                        "guid": "8ec30a92-599f-4785-852c-3ebebc4308fc",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 545.742299862109,
+                        "name": "Low Carbon Steel - Drilling",
+                        "tool-coolant": "disabled",
+                        "use-feed-per-revolution": false,
+                        "v_c": 27.43199999999999,
+                        "v_f": 392.93445590071866,
+                        "v_f_leadIn": 392.93445590071866,
+                        "v_f_leadOut": 392.93445590071866,
+                        "v_f_plunge": 130.97815196690618,
+                        "v_f_ramp": 392.93445590071866,
+                        "v_f_retract": 130.97815196690618,
+                        "v_f_transition": 392.93445590071866
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in High Carbon Steel",
+                        "f_z": 0.06360991752577319,
+                        "guid": "601716f0-beec-4021-9fee-5174a1586943",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "High Carbon Steel - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 231.43081789703044,
+                        "v_f_leadIn": 231.43081789703044,
+                        "v_f_leadOut": 231.43081789703044,
+                        "v_f_plunge": 77.14360596567681,
+                        "v_f_ramp": 231.43081789703044,
+                        "v_f_retract": 77.14360596567681,
+                        "v_f_transition": 231.43081789703044
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0.24000000000000027,
+                        "guid": "e0904cf8-03fe-4dc9-84a3-edbfb59c8d48",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 272.8711499310545,
+                        "name": "High Carbon Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.715999999999996,
+                        "v_f": 196.46722795035944,
+                        "v_f_leadIn": 196.46722795035944,
+                        "v_f_leadOut": 196.46722795035944,
+                        "v_f_plunge": 65.48907598345309,
+                        "v_f_ramp": 196.46722795035944,
+                        "v_f_retract": 65.48907598345309,
+                        "v_f_transition": 196.46722795035944
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Plastics",
+                        "f_z": 0.2223897938144329,
+                        "guid": "06186d09-e730-4422-838f-f81b53d2db37",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4547.852498850912,
+                        "name": "Plastics - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 228.6000000000001,
+                        "v_f": 3034.187938553723,
+                        "v_f_leadIn": 3034.187938553723,
+                        "v_f_leadOut": 3034.187938553723,
+                        "v_f_plunge": 1011.3959795179078,
+                        "v_f_ramp": 3034.187938553723,
+                        "v_f_retract": 1011.3959795179078,
+                        "v_f_transition": 3034.187938553723
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Plastics",
+                        "f_z": 0.23999999999999982,
+                        "guid": "ee2922c1-3657-4ecc-95a4-7a866d693748",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "Plastics - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 873.1876797793745,
+                        "v_f_leadIn": 873.1876797793749,
+                        "v_f_leadOut": 873.1876797793749,
+                        "v_f_plunge": 291.0625599264582,
+                        "v_f_ramp": 873.1876797793749,
+                        "v_f_retract": 291.0625599264582,
+                        "v_f_transition": 873.1876797793745
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Stainless Steel",
+                        "f_z": 0.06360991752577319,
+                        "guid": "83c4ecf2-c133-4340-b349-7b93cd542328",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "Stainless Steel - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 231.43081789703044,
+                        "v_f_leadIn": 231.43081789703044,
+                        "v_f_leadOut": 231.43081789703044,
+                        "v_f_plunge": 77.14360596567681,
+                        "v_f_ramp": 231.43081789703044,
+                        "v_f_retract": 77.14360596567681,
+                        "v_f_transition": 231.43081789703044
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Stainless Steel",
+                        "f_z": 0.24000000000000027,
+                        "guid": "86a54ee8-e1f2-4ac8-bdfb-a49bc8dade2f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 272.8711499310545,
+                        "name": "Stainless Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.715999999999996,
+                        "v_f": 196.46722795035944,
+                        "v_f_leadIn": 196.46722795035944,
+                        "v_f_leadOut": 196.46722795035944,
+                        "v_f_plunge": 65.48907598345309,
+                        "v_f_ramp": 196.46722795035944,
+                        "v_f_retract": 65.48907598345309,
+                        "v_f_transition": 196.46722795035944
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Titanium",
+                        "f_z": 0.09730632989690714,
+                        "guid": "f97e95f8-291e-4d93-8b20-78237be7bd0f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 909.5704997701827,
+                        "name": "Titanium - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 45.720000000000034,
+                        "v_f": 265.5209013453963,
+                        "v_f_leadIn": 265.5209013453963,
+                        "v_f_leadOut": 265.5209013453963,
+                        "v_f_plunge": 88.50696711513211,
+                        "v_f_ramp": 265.5209013453963,
+                        "v_f_retract": 88.50696711513211,
+                        "v_f_transition": 265.5209013453963
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Titanium",
+                        "f_z": 0.24000000000000002,
+                        "guid": "a3da877d-d7fc-4773-9f08-2a21f8f66e04",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 242.5521332720485,
+                        "name": "Titanium - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 12.192,
+                        "v_f": 174.63753595587494,
+                        "v_f_leadIn": 174.63753595587494,
+                        "v_f_leadOut": 174.63753595587494,
+                        "v_f_plunge": 58.21251198529164,
+                        "v_f_ramp": 174.63753595587494,
+                        "v_f_retract": 58.21251198529164,
+                        "v_f_transition": 174.63753595587494
+                    }
+                ]
+            },
+            "type": "spot drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "GRADE": "generic",
+            "description": "tapp",
+            "geometry": {
+                "CSP": false,
+                "DC": 16,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 30,
+                "NOF": 3,
+                "NT": 1,
+                "OAL": 100,
+                "RE": 0,
+                "SFDM": 16,
+                "SIG": 0,
+                "TP": 1.5,
+                "assemblyGaugeLength": 92,
+                "shoulder-length": 50,
+                "thread-profile-angle": 60,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "9ea0f143-6d5d-4da7-858e-42c001dc96a7",
+            "holder": {
+                "description": "HSK63 - Blank",
+                "gaugeLength": 42,
+                "guid": "",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 50.4,
+                        "upper-diameter": 52.4
+                    },
+                    {
+                        "height": 15,
+                        "lower-diameter": 52.4,
+                        "upper-diameter": 52.4
+                    },
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 62,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 3.5,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 59.536
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 58.036,
+                        "upper-diameter": 58.036
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 59.536,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 17.5,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 0.5,
+                        "lower-diameter": 63,
+                        "upper-diameter": 62
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": true,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "SAMPLE preset for finishing in Aluminum",
+                        "f_z": 0,
+                        "guid": "9d51e391-733f-468c-a737-f2e51ce899b7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 6063.803331801212,
+                        "name": "Aluminum - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 304.8,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Aluminum",
+                        "f_z": 0,
+                        "guid": "da049748-b5f4-41f5-9e33-e9dfc4505029",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1819.1409995403649,
+                        "name": "Aluminum - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 91.44000000000005,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Brass",
+                        "f_z": 0,
+                        "guid": "2a3ef079-bdfc-4086-b145-66e920bac15b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3031.901665900605,
+                        "name": "Brass - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.39999999999995,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Brass",
+                        "f_z": 0,
+                        "guid": "3f970f82-c63b-4cda-a8b7-b9d7f86602f4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "Brass - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Copper",
+                        "f_z": 0,
+                        "guid": "15f8ef6d-fc68-4bda-a302-f7ef882798f7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1364.355749655273,
+                        "name": "Copper - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 68.58000000000001,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Copper",
+                        "f_z": 0,
+                        "guid": "d48045b5-8a10-4121-9ca7-083ab3563772",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1819.1409995403649,
+                        "name": "Copper - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 91.44000000000005,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "850d1988-e01c-4e82-8579-a547717c9562",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3031.901665900605,
+                        "name": "Low Carbon Steel - Finishing",
+                        "tool-coolant": "disabled",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.39999999999995,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "8ec30a92-599f-4785-852c-3ebebc4308fc",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 545.742299862109,
+                        "name": "Low Carbon Steel - Drilling",
+                        "tool-coolant": "disabled",
+                        "use-feed-per-revolution": false,
+                        "v_c": 27.43199999999999,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in High Carbon Steel",
+                        "f_z": 0,
+                        "guid": "601716f0-beec-4021-9fee-5174a1586943",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "High Carbon Steel - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Low Carbon Steel",
+                        "f_z": 0,
+                        "guid": "e0904cf8-03fe-4dc9-84a3-edbfb59c8d48",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 272.8711499310545,
+                        "name": "High Carbon Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.715999999999996,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Plastics",
+                        "f_z": 0,
+                        "guid": "06186d09-e730-4422-838f-f81b53d2db37",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4547.852498850913,
+                        "name": "Plastics - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 228.6000000000002,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Plastics",
+                        "f_z": 0,
+                        "guid": "ee2922c1-3657-4ecc-95a4-7a866d693748",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "Plastics - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Stainless Steel",
+                        "f_z": 0,
+                        "guid": "83c4ecf2-c133-4340-b349-7b93cd542328",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1212.7606663602432,
+                        "name": "Stainless Steel - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 60.960000000000036,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Stainless Steel",
+                        "f_z": 0,
+                        "guid": "86a54ee8-e1f2-4ac8-bdfb-a49bc8dade2f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 272.8711499310545,
+                        "name": "Stainless Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 13.715999999999996,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for finishing in Titanium",
+                        "f_z": 0,
+                        "guid": "f97e95f8-291e-4d93-8b20-78237be7bd0f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 909.5704997701827,
+                        "name": "Titanium - Finishing",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 45.720000000000034,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    },
+                    {
+                        "description": "SAMPLE preset for drilling with HSS drills in Titanium",
+                        "f_z": 0,
+                        "guid": "a3da877d-d7fc-4773-9f08-2a21f8f66e04",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 242.5521332720485,
+                        "name": "Titanium - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 12.192,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0,
+                        "v_f_transition": 0
+                    }
+                ]
+            },
+            "type": "tap right hand",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 36
+}

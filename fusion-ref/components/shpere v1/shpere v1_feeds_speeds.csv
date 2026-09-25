@@ -1,0 +1,4 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Steep and Shallow1,steep_and_shallow,#2 - Ø7.8mm ball (8mm Ball Endmill),12000.,4014.18927835051682,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.98634629434207,24.
+Setup1,Adaptive1,adaptive,#5 - Ø10mm flat (10mm Flat Endmill),9702.08533088193872,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup1,Scallop1,scallop,#2 - Ø7.8mm ball (8mm Ball Endmill),8000.00000000000182,3176.72164948453701,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622

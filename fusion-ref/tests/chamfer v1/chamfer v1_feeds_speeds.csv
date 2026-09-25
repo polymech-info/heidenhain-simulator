@@ -1,0 +1,2 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Chamfer1,chamfer2d,#1 - Ø3mm 60° chamfer (10mm x 45 Chamfer Tool),9702.08533088194054,4050.8736800337997,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.

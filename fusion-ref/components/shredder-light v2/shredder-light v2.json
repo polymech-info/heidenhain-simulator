@@ -1,0 +1,952 @@
+{
+  "exportVersion": "2.0",
+  "exportDate": "2026-03-14T09:50:00",
+  "source": {
+    "documentName": "shredder-light v2",
+    "fusionVersion": "2606.1.36",
+    "hostname": "DESKTOP-QH14L5F",
+    "user": "zx",
+    "exportPlugin": "CAMExporter v2.0",
+    "dateCreated": "2021-12-20T13:35:44Z",
+    "dateModified": "2021-12-20T13:35:50Z",
+    "versionNumber": 2,
+    "latestVersionNumber": 2,
+    "versionId": "urn:adsk.wipprod:fs.file:vf.bYK1WxHaRv2AKvTF5TLTtQ?version=2",
+    "dataFileId": "urn:adsk.wipprod:dm.lineage:bYK1WxHaRv2AKvTF5TLTtQ",
+    "description": "User Saved",
+    "fileExtension": "f3d",
+    "createdBy": "Plastic Hub",
+    "lastUpdatedBy": "Plastic Hub",
+    "fusionWebURL": "https://gmail1832214.autodesk360.com/g/projects/20240713783239801/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28udUZKeDdJNTZURzJ0bjVKWjdzVFpxdw/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOmJZSzFXeEhhUnYyQUt2VEY1VExUdFE",
+    "isMilestone": false,
+    "hasChildReferences": false,
+    "hasParentReferences": false,
+    "isReadOnly": false,
+    "creationId": "db13edf6-3c21-42c1-8434-1f493381cdd5",
+    "lastSavedWithVersion": "2.0.11894",
+    "isUpToDate": true
+  },
+  "output": {
+    "jsonFile": "C:/Users/zx/Desktop/fusion-export\\components\\shredder-light v2\\shredder-light v2.json",
+    "setupSheets": "C:/Users/zx/Desktop/fusion-export\\components\\shredder-light v2\\setup-sheets",
+    "stepFile": "C:/Users/zx/Desktop/fusion-export\\components\\shredder-light v2\\geometry\\shredder-light v2.step",
+    "f3dArchive": "C:/Users/zx/Desktop/fusion-export\\components\\shredder-light v2\\geometry\\shredder-light v2.f3d"
+  },
+  "setupCount": 1,
+  "setups": [
+    {
+      "name": "Setup1",
+      "operationId": 2,
+      "strategy": "setup",
+      "isSuppressed": false,
+      "hasWarning": false,
+      "hasError": false,
+      "notes": "",
+      "templateXML": "",
+      "parameters":       [
+        {
+          "name": "advancedMode",
+          "expression": "false"
+        },
+        {
+          "name": "betaMode",
+          "expression": "false"
+        },
+        {
+          "name": "alphaMode",
+          "expression": "false"
+        },
+        {
+          "name": "isXpress",
+          "expression": "false"
+        },
+        {
+          "name": "licenseMultiaxis",
+          "expression": "true"
+        },
+        {
+          "name": "license3D",
+          "expression": "true"
+        },
+        {
+          "name": "metric",
+          "expression": "true"
+        },
+        {
+          "name": "isAssemblyDocument",
+          "expression": "true"
+        },
+        {
+          "name": "strategy",
+          "expression": "'setup'"
+        },
+        {
+          "name": "operation_description",
+          "expression": "''"
+        },
+        {
+          "name": "isOperationTemplate",
+          "expression": "false"
+        },
+        {
+          "name": "surfaceZHigh",
+          "expression": "0.0"
+        },
+        {
+          "name": "surfaceZLow",
+          "expression": "-6."
+        },
+        {
+          "name": "surfaceXLow",
+          "expression": "0.0"
+        },
+        {
+          "name": "surfaceXHigh",
+          "expression": "94.99999999999999"
+        },
+        {
+          "name": "surfaceYLow",
+          "expression": "-94.99999999999999"
+        },
+        {
+          "name": "surfaceYHigh",
+          "expression": "0.0"
+        },
+        {
+          "name": "stockZHigh",
+          "expression": "0.0"
+        },
+        {
+          "name": "stockZLow",
+          "expression": "-6."
+        },
+        {
+          "name": "stockXLow",
+          "expression": "0.0"
+        },
+        {
+          "name": "stockXHigh",
+          "expression": "94.99999999999999"
+        },
+        {
+          "name": "stockYLow",
+          "expression": "-94.99999999999999"
+        },
+        {
+          "name": "stockYHigh",
+          "expression": "0.0"
+        },
+        {
+          "name": "modelDiameter",
+          "expression": "NaN"
+        },
+        {
+          "name": "modelDiameterInner",
+          "expression": "NaN"
+        },
+        {
+          "name": "modelLength",
+          "expression": "6."
+        },
+        {
+          "name": "stockDiameter",
+          "expression": "NaN"
+        },
+        {
+          "name": "stockDiameterInner",
+          "expression": "NaN"
+        },
+        {
+          "name": "stockLength",
+          "expression": "NaN"
+        },
+        {
+          "name": "arrange_checkbox",
+          "expression": "true"
+        },
+        {
+          "name": "job_machine",
+          "expression": "true"
+        },
+        {
+          "name": "job_groupSetup",
+          "expression": "true"
+        },
+        {
+          "name": "job_type",
+          "expression": "'milling'"
+        },
+        {
+          "name": "job_enableWCSForAdditive",
+          "expression": "false"
+        },
+        {
+          "name": "arrange_setup",
+          "expression": "false"
+        },
+        {
+          "name": "job_boolArrange",
+          "expression": "arrange_setup ? false : true"
+        },
+        {
+          "name": "job_spindle",
+          "expression": "'primary'"
+        },
+        {
+          "name": "machineMaxTilt",
+          "expression": "90"
+        },
+        {
+          "name": "machineMaxTiltValidation",
+          "expression": "180"
+        },
+        {
+          "name": "machine_dimension_x",
+          "expression": "-1"
+        },
+        {
+          "name": "machine_dimension_y",
+          "expression": "-1"
+        },
+        {
+          "name": "machine_dimension_z",
+          "expression": "-1"
+        },
+        {
+          "name": "job_groupWCS",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_orientation_mode",
+          "expression": "'axesXY'"
+        },
+        {
+          "name": "job_rotaryAxis",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axisZ",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_flipZ",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axesZX_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_axesZY_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_axesXY_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_axesXZ_unselected_default",
+          "expression": "'model'"
+        },
+        {
+          "name": "wcs_orientation_cSys",
+          "expression": "false"
+        },
+        {
+          "name": "job_axisXPosition",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axisX",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_orientation_flipX",
+          "expression": "false"
+        },
+        {
+          "name": "wcs_orientation_axisY",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_orientation_flipY",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_origin_turning",
+          "expression": "'stock front'"
+        },
+        {
+          "name": "wcs_origin_mode",
+          "expression": "'point'"
+        },
+        {
+          "name": "wcs_origin_point",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_model_point",
+          "expression": "true"
+        },
+        {
+          "name": "wcs_origin_boxPoint",
+          "expression": "'top center'"
+        },
+        {
+          "name": "wcs_stock_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_homePosition",
+          "expression": "jobSafeZ_value"
+        },
+        {
+          "name": "job_safeZ_group",
+          "expression": "true"
+        },
+        {
+          "name": "jobSafeZ_mode",
+          "expression": "'stock front'"
+        },
+        {
+          "name": "jobSafeZ_offset",
+          "expression": "stockZHigh + 5mm"
+        },
+        {
+          "name": "jobSafeZ_value",
+          "expression": "5."
+        },
+        {
+          "name": "jobSafeZ_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "chuckFront_mode",
+          "expression": "'model back'"
+        },
+        {
+          "name": "chuckFront_offset",
+          "expression": "-10mm"
+        },
+        {
+          "name": "chuckFront_value",
+          "expression": "-16."
+        },
+        {
+          "name": "chuckFront_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "chuckFront_ref",
+          "expression": "false"
+        },
+        {
+          "name": "job_groupMachine",
+          "expression": "true"
+        },
+        {
+          "name": "job_machine_manufacturer",
+          "expression": "'renishaw'"
+        },
+        {
+          "name": "job_machine_type",
+          "expression": "'renishaw250'"
+        },
+        {
+          "name": "job_machine_configuration",
+          "expression": "'titanium1'"
+        },
+        {
+          "name": "job_machine_configuration_id",
+          "expression": "''"
+        },
+        {
+          "name": "job_machine_build_strategy_id",
+          "expression": "''"
+        },
+        {
+          "name": "job_groupWorkflow",
+          "expression": "true"
+        },
+        {
+          "name": "job_slmOptimized",
+          "expression": "false"
+        },
+        {
+          "name": "job_useModel",
+          "expression": "true"
+        },
+        {
+          "name": "job_workingModel",
+          "expression": "'default'"
+        },
+        {
+          "name": "job_model",
+          "expression": "true"
+        },
+        {
+          "name": "job_useSpunProfile",
+          "expression": "true"
+        },
+        {
+          "name": "job_spunProfileTolerance",
+          "expression": "0.01mm"
+        },
+        {
+          "name": "job_spunProfileSmoothing",
+          "expression": "true"
+        },
+        {
+          "name": "job_spunProfileConvertToSketch",
+          "expression": "false"
+        },
+        {
+          "name": "job_fixtureGroup",
+          "expression": "true"
+        },
+        {
+          "name": "job_fixture",
+          "expression": "false"
+        },
+        {
+          "name": "radialFixtureClearanceSetup",
+          "expression": "5 mm"
+        },
+        {
+          "name": "axialFixtureClearanceSetup",
+          "expression": "5 mm"
+        },
+        {
+          "name": "job_fixtureAttachment",
+          "expression": "false"
+        },
+        {
+          "name": "job_enableStockSimForAdditive",
+          "expression": "false"
+        },
+        {
+          "name": "job_groupStock",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockMode",
+          "expression": "'solid'"
+        },
+        {
+          "name": "job_groundStockModelOrigin",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockOffsetMode",
+          "expression": "'simple'"
+        },
+        {
+          "name": "job_isSameComponent",
+          "expression": "true"
+        },
+        {
+          "name": "job_continueMachining",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockSolid",
+          "expression": "true"
+        },
+        {
+          "name": "job_boundingSolid",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockOffsetSides",
+          "expression": "1mm"
+        },
+        {
+          "name": "job_stockOffsetTop",
+          "expression": "1mm"
+        },
+        {
+          "name": "job_stockOffsetBottom",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetXBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetXFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetYBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetYFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetZBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetZFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockFixedX",
+          "expression": "Math.ceilto(surfaceXHigh - surfaceXLow; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockFixedXMode",
+          "expression": "job_groundStockModelOrigin ? 'model' : 'center'"
+        },
+        {
+          "name": "job_stockFixedXOffset",
+          "expression": "(job_stockFixedX - (surfaceXHigh - surfaceXLow)) / 2"
+        },
+        {
+          "name": "job_stockFixedY",
+          "expression": "Math.ceilto(surfaceYHigh - surfaceYLow; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockFixedYMode",
+          "expression": "job_groundStockModelOrigin ? 'model' : 'center'"
+        },
+        {
+          "name": "job_stockFixedYOffset",
+          "expression": "(job_stockFixedY - (surfaceYHigh - surfaceYLow)) / 2"
+        },
+        {
+          "name": "job_stockFixedZ",
+          "expression": "Math.ceilto(surfaceZHigh - surfaceZLow; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockFixedZMode",
+          "expression": "job_groundStockModelOrigin ? 'model' : 'center'"
+        },
+        {
+          "name": "job_stockFixedZOffset",
+          "expression": "(job_stockFixedZ - (surfaceZHigh - surfaceZLow)) / 2"
+        },
+        {
+          "name": "job_stockOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockHeight",
+          "expression": "10mm"
+        },
+        {
+          "name": "job_stockAxisEnabled",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockAxis",
+          "expression": "false"
+        },
+        {
+          "name": "job_stockDiameter",
+          "expression": "Math.ceilto(modelDiameter; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockDiameterInner",
+          "expression": "Math.floorto(modelDiameterInner; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockLength",
+          "expression": "Math.ceilto(modelLength; job_stockFixedRoundingValue)"
+        },
+        {
+          "name": "job_stockLengthMode",
+          "expression": "'center'"
+        },
+        {
+          "name": "job_stockLengthOffset",
+          "expression": "0"
+        },
+        {
+          "name": "job_stockRadialOffset",
+          "expression": "1mm"
+        },
+        {
+          "name": "job_stockOffsetFront",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockOffsetBack",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_stockFixedRoundingValue",
+          "expression": "((job_stockMode == 'default') || (job_stockMode == 'relativecylinder') || (job_stockMode == 'relativetube')) ? 0.0mm : 10mm"
+        },
+        {
+          "name": "job_groupCuttingForce",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockSpecificCuttingForce",
+          "expression": "1500.0"
+        },
+        {
+          "name": "job_stockSpecificCuttingForceUnit",
+          "expression": "'N/mm2'"
+        },
+        {
+          "name": "job_stockInitialToolWear",
+          "expression": "0.0"
+        },
+        {
+          "name": "job_stockInitialToolWearUnit",
+          "expression": "'J'"
+        },
+        {
+          "name": "job_stockCuttingForceOutputFolder",
+          "expression": "''"
+        },
+        {
+          "name": "job_groupStockMaterial",
+          "expression": "true"
+        },
+        {
+          "name": "job_groupStockInfo",
+          "expression": "true"
+        },
+        {
+          "name": "job_stockInfoDiameter",
+          "expression": "stockDiameter"
+        },
+        {
+          "name": "job_stockInfoLength",
+          "expression": "stockLength"
+        },
+        {
+          "name": "job_stockInfoDimensionX",
+          "expression": "stockXHigh - stockXLow"
+        },
+        {
+          "name": "job_stockInfoDimensionY",
+          "expression": "stockYHigh - stockYLow"
+        },
+        {
+          "name": "job_stockInfoDimensionZ",
+          "expression": "stockZHigh - stockZLow"
+        },
+        {
+          "name": "job_groupModelInfo",
+          "expression": "true"
+        },
+        {
+          "name": "job_modelInfoDiameter",
+          "expression": "modelDiameter"
+        },
+        {
+          "name": "job_modelInfoLength",
+          "expression": "modelLength"
+        },
+        {
+          "name": "job_modelInfoDimensionX",
+          "expression": "surfaceXHigh - surfaceXLow"
+        },
+        {
+          "name": "job_modelInfoDimensionY",
+          "expression": "surfaceYHigh - surfaceYLow"
+        },
+        {
+          "name": "job_modelInfoDimensionZ",
+          "expression": "surfaceZHigh - surfaceZLow"
+        },
+        {
+          "name": "job_position",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionReference_origin_mode",
+          "expression": "'fixturePoint'"
+        },
+        {
+          "name": "job_positionReference_origin_point",
+          "expression": "false"
+        },
+        {
+          "name": "job_positionReference_model_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionReference_origin_boxPoint",
+          "expression": "'bottom center'"
+        },
+        {
+          "name": "job_positionReference_fixture_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionReference_stock_point",
+          "expression": "true"
+        },
+        {
+          "name": "job_positionAttach",
+          "expression": "false"
+        },
+        {
+          "name": "job_positionXOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_positionYOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "job_positionZOffset",
+          "expression": "0mm"
+        },
+        {
+          "name": "connections",
+          "expression": "true"
+        },
+        {
+          "name": "generate_connections",
+          "expression": "false"
+        },
+        {
+          "name": "connections_retraction_type",
+          "expression": "'full'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_group",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaType",
+          "expression": "'plane'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_orientation_mode",
+          "expression": "'toolAxisZ'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_origin_mode",
+          "expression": "(connectionMoveClearanceArea_orientation_mode == 'surfaceNormalX' || connectionMoveClearanceArea_orientation_mode == 'surfaceNormalY') ? 'surfacePointOrigin' : 'jobOrigin'"
+        },
+        {
+          "name": "connectionMoveClearanceArea_origin_point",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_mode",
+          "expression": "'from stock top'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_ref",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaHeight_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_mode",
+          "expression": "'from stock od'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_ref",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkStock",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkModel",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadiusFromOutermost_checkFixture",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_direct",
+          "expression": "connectionMoveClearanceAreaCylinderRadius_mode == 'radius' ? connectionMoveClearanceAreaCylinderRadius_value : connectionMoveClearanceAreaCylinderRadius_value * 2"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCylinderRadius_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_mode",
+          "expression": "'from stock od'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_ref",
+          "expression": "false"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkStock",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkModel",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadiusFromOutermost_checkFixture",
+          "expression": "'outer diameter'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_direct",
+          "expression": "connectionMoveClearanceAreaSphereRadius_mode == 'radius' ? connectionMoveClearanceAreaSphereRadius_value : connectionMoveClearanceAreaSphereRadius_value * 2"
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaSphereRadius_absolute",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboid_mode",
+          "expression": "'from stock box'"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboid_symmetricalOffsets",
+          "expression": "true"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosX_value",
+          "expression": "104.99999999999999"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosX_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegX_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegX_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosY_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosY_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegY_value",
+          "expression": "104.99999999999999"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegY_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosZ_value",
+          "expression": "10."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidPosZ_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegZ_value",
+          "expression": "16."
+        },
+        {
+          "name": "connectionMoveClearanceAreaCuboidNegZ_offset",
+          "expression": "10mm"
+        },
+        {
+          "name": "job_groupPostVars",
+          "expression": "true"
+        },
+        {
+          "name": "job_programName",
+          "expression": "'1001'"
+        },
+        {
+          "name": "job_programComment",
+          "expression": "''"
+        },
+        {
+          "name": "job_groupMachineWCS",
+          "expression": "true"
+        },
+        {
+          "name": "job_workOffset",
+          "expression": "0"
+        },
+        {
+          "name": "job_probeWorkOffset",
+          "expression": "job_workOffset"
+        },
+        {
+          "name": "job_multipleWorkOffsets",
+          "expression": "false"
+        },
+        {
+          "name": "job_numberOfWorkDuplicates",
+          "expression": "1"
+        },
+        {
+          "name": "job_workOffsetIncrement",
+          "expression": "1"
+        },
+        {
+          "name": "job_workOrder",
+          "expression": "'default'"
+        },
+        {
+          "name": "platformVisibilityState",
+          "expression": "true"
+        },
+        {
+          "name": "noBuildZoneVisibilityState",
+          "expression": "true"
+        },
+        {
+          "name": "outOfBoundsModels",
+          "expression": "false"
+        },
+        {
+          "name": "lastKnownCollisions",
+          "expression": "false"
+        },
+        {
+          "name": "additiveMachineTechnology",
+          "expression": "'UNKNOWN'"
+        },
+        {
+          "name": "associatedView",
+          "expression": "false"
+        }
+      ],
+      "operations": [
+      ]
+    }
+  ]
+}

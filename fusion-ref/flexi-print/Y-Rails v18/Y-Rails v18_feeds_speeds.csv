@@ -1,0 +1,38 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+XY-Rail-Mount,Drill1 (2),drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+XY-Rail-Mount,2D Pocket1,pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-Rail-Mount,2D Pocket1 (2),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-Rail-Mount,2D Pocket1 (3),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-Rail-Mount,BFK-Slot,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-Rail-Mount,2D Pocket1 (5),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-Rail-Mount,Drill1,drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Z-Rail-Mount,2D Pocket1 (6),pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Z-Rail-Mount,2D Pocket1 (7),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Z-Rail-Mount,2D Pocket1 (8),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Z-Rail-Mount,Drill1 (4),drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Z-Rail-Mount,2D Contour8,contour2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096845,351.186 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-MountPlate,2D Pocket6,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),4851.04266544096936,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+XY-MountPlate,2D Pocket6 (2),pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),9702.08533088194054,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+XY-MountPlate,Drill3,drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),5821.25119852916396,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+XY-MountPlate,Drill3 (3),drill,#2 - Ø5mm 90° spot drill (5mm Spot Drill),5821.25119852916396,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+XY-MountPlate,Drill3 (2),drill,#7 - Ø4mm 90° spot drill (4mm Drill),5821.25119852916396,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+XY-MountPlate,2D Pocket8,pocket2d,#7 - Ø6mm flat (6mm Flat Endmill),9702.08533088194054,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+XY-MountPlate,2D Pocket8 (2),pocket2d,#7 - Ø6mm flat (6mm Flat Endmill),9702.08533088194054,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+XY-MountPlate,2D Pocket9,pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),9702.08533088194054,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,18.75
+Mount-Plate-450,2D Pocket10,pocket2d,#7 - Ø5.7mm flat (6mm Flat Endmill),9702.08533088193326,3205.73902987043039,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Mount-Plate-450,2D Pocket10 (2),pocket2d,#7 - Ø5.7mm flat (6mm Flat Endmill),9702.08533088194054,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Mount-Plate-450,2D Contour1,contour2d,#7 - Ø5.7mm flat (6mm Flat Endmill),9702.08533088194054,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,18.75
+Mount-Plate-450,Drill3 (4),drill,#7 - Ø4mm 90° spot drill (4mm Drill),5821.25119852916396,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+Mount-Plate-450,Drill3 (5),drill,#7 - Ø4mm 90° spot drill (4mm Drill),5821.25119852916396,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75
+BK12Mount,2D Contour2,contour2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,549.73765860996559,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,14.,5.21025245555646
+BK12Mount,2D Pocket13,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,549.73765860996548,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,14.,5.21025245555646
+BK12Mount,2D Contour4,contour2d,#3 - Ø5.8mm flat (6mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+BK12Mount,Drill6,drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+BK12Mount,2D Pocket15,pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup4 (2),Drill6 (2),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup4 (2),2D Pocket15 (2),pocket2d,#15 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Y-Rail-Link-BK12,Drill8,drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Y-Rail-Link-BK12,2D Contour2 (2),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,549.73765860996559,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,14.,5.21025245555646
+Y-Rail-Link-BK12,2D Contour4 (2),contour2d,#3 - Ø5mm flat (6mm Flat Endmill),4851.04266544096845,551.18576986172332,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Y-Rail-Link-BF12,Drill8 (2),drill,#7 - Ø5mm 90° spot drill (5mm Spot Drill),1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Y-Rail-Link-BF12,2D Contour2 (3),contour2d,#27 - Ø14mm flat (14mm Flat Endmill),3465.03047531497896,549.73765860996559,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,14.,5.21025245555646

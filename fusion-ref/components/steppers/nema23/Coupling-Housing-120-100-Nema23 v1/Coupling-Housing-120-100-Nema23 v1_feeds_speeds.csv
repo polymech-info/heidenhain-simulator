@@ -1,0 +1,22 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Stock - Facing,Face-Top,face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Stock - Facing - 650,Face-Top (3),face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Stock - Facing - 650,Face-Top (4),face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Stock - Facing - 650,Face-Top (5),face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Pockets,2D Contour2,contour2d,#36 - Ø20mm flat (20-2F),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Pockets,2D Contour2 (2),contour2d,#36 - Ø20mm flat (20-2F),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Pockets,2D Pocket6,pocket2d,#36 - Ø20mm flat (20-2F),9702.08533088193326,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Pockets (3),2D Contour2 (3),contour2d,#36 - Ø20mm flat (20-2F),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Pockets (3),2D Contour2 (4),contour2d,#36 - Ø20mm flat (20-2F),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Pockets (3),2D Pocket6 (2),pocket2d,#36 - Ø20mm flat (20-2F),9702.08533088193326,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Pockets (4),2D Contour2 (6),contour2d,#36 - Ø20mm flat (20-2F),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Pockets (4),2D Pocket6 (3),pocket2d,#36 - Ø20mm flat (20-2F),9702.08533088193326,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Pockets (4),Probe WCS3,probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Pockets (5),2D Contour2 (7),contour2d,#36 - Ø20mm flat (20-2F),9702.0853308819369,3205.73902987043084,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,3.03973536813053
+Pockets (5),2D Pocket6 (4),pocket2d,#36 - Ø20mm flat (20-2F),9702.08533088193326,3205.7390298704313,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Pockets (5),Probe WCS3 (2),probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Pockets (5),Drill1 (3),drill,#7 - Ø10mm drill (spot-m10),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Pockets (5),Face-Top (2),face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Pockets (2),2D Pocket1 (4),pocket2d,#27 - Ø14mm flat (14mm Flat HSS-2F),9702.08533088192962,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.
+Holes,Drill1,drill,#5 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Holes,Drill1 (4),drill,#18 - Ø6mm drill (6mm),4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm

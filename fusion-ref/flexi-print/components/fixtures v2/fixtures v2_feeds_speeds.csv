@@ -1,0 +1,4 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+600-bar,Face1,face,#23 - Ø80mm face,955.,460.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+600-bar,Face1 (2),face,#23 - Ø80mm face,955.,460.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+600-bar,2D Contour1,contour2d,#15 - Ø10mm flat (10mm Flat Endmill),4851.04266544096845,495.53550859726897,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.23699163893173,18.75

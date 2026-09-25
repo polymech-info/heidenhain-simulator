@@ -1,0 +1,7 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Lower-Half - Bottom,Face1,face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Lower-Half - Bottom,Adaptive1,adaptive,#4 - Ø14.62mm flat (14.6 mm Flat Endmill - Finish),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Lower-Half - Bottom,Adaptive1 (2),adaptive,#4 - Ø14.62mm flat (14.6 mm Flat Endmill - Finish),8085.07110906828348,3202.56334730078379,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Lower-Half - Bottom,2D Pocket1,pocket2d,#1 - Ø6mm flat (6 mm Flat Endmill - Finish),8085.07110906828348,3202.56334730078424,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Lower-Half - Bottom,Flow1,flow,#1 - Ø6mm ball (6mm Ball Endmill),7000,3018.06556701030968,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.671572367887,18.
+Lower-Half - Bottom,Scallop1 (2),scallop,#1 - Ø6mm flat (6 mm Flat Endmill - Finish),8085.07110906828348,4046.87231999604819,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.75226885299131,36.

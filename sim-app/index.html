@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>WS212 wrapper sim</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: #f3f3f3;
+        color: #333;
+      }
+      html.dark body {
+        background: #1e1e1e;
+        color: #d4d4d4;
+      }
+      .pm-boot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-size: 13px;
+        opacity: 0.72;
+      }
+    </style>
+    <script>
+      (function () {
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var q = params.get("theme");
+          var stored = localStorage.getItem("pm-3d-wrapper.theme");
+          var dark =
+            q === "dark" ? true : q === "light" ? false : stored === "dark" ? true : stored === "light" ? false : window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.classList.toggle("dark", dark);
+          document.documentElement.classList.toggle("light", !dark);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="pm-boot" aria-live="polite">Loading 3D wrapper…</div>
+    </div>
+  </body>
+</html>

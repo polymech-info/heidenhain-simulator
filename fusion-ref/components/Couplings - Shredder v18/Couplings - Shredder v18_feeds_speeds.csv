@@ -1,0 +1,26 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Pocket1,pocket2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1,2D Adaptive1,adaptive2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1,2D Adaptive1 (2),adaptive2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1,2D Adaptive2,adaptive2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (2),2D Pocket1 (2),pocket2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (2),2D Adaptive1 (3),adaptive2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (2),2D Adaptive1 (4),adaptive2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (2),2D Adaptive2 (2),adaptive2d,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+spider,2D Adaptive3,adaptive2d,#3 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+spider,2D Contour2,contour2d,#1 - Ø6mm ball (6mm Ball Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+spider,Face2,face,#4 - Ø10mm flat (10mm Flat Endmill),9700.,2328.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+spider,Drill1,drill,#3 - Ø6mm flat (6mm Flat Endmill),10000.,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup3,2D Adaptive4,adaptive2d,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088193326,3205.73902987042993,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup3,2D Contour3,contour2d,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088192962,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.
+Setup3,Adaptive1,adaptive,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088193326,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.
+Setup3,Drill2,drill,#13 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup3,Drill2 (2),drill,#13 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup3,Drill2 (3),drill,#13 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup3 (2),2D Adaptive4 (2),adaptive2d,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088193326,3205.73902987042993,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup3 (2),2D Adaptive4 (3),adaptive2d,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088193326,3205.73902987042993,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup3 (2),2D Contour3 (2),contour2d,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088192962,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.
+Setup3 (2),Adaptive1 (2),adaptive,#12 - Ø10mm flat (10 mm Flat Endmill),9702.08533088193326,4050.87368003380016,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.
+Setup3 (2),Drill2 (4),drill,#13 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup3 (2),Drill2 (5),drill,#13 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup3 (2),Drill2 (6),drill,#13 - Ø10mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm

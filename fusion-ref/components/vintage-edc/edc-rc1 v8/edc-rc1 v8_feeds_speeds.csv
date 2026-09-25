@@ -1,0 +1,18 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Mount-Plate1,Drill1 (4),drill,#2 - Ø6.8mm drill,3000 rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Mount-Plate1,Drill1 (5),drill,#7 - Ø10mm drill,3000.08 rpm,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Mount-Plate1,2D Contour4 (4),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+EDC-STD-SMALL,2D Contour4 (6),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+EDC-STD-SMALL,2D Contour4 (5),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+EDC-STD-SMALL (2),2D Contour4 (7),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+EDC-STD-SMALL (2),2D Contour4 (9),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+EDC-STD-SMALL (2),2D Contour4 (8),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+Die-82,Parallel1,parallel,#13 - Ø10mm ball (10mm Flat Endmill),9702.08533088193872,3205.73902987042948,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Die-82,Flow1,flow2,#13 - Ø10mm ball (10mm Flat Endmill),9702.08533088194054,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Die-82,2D Pocket1,pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Die-130,Parallel1 (2),parallel,#13 - Ø10mm ball (10mm Flat Endmill),9702.08533088193872,3205.73902987042948,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Die-130,Flow1 (2),flow2,#13 - Ø10mm ball (10mm Flat Endmill),9702.08533088194054,3205.73902987042902,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Die-130,2D Pocket1 (2),pocket2d,#27 - Ø14mm flat (14mm Flat Endmill),tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup6,2D Contour4 (10),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+Setup6,2D Contour4 (11),contour2d,#1 - Ø4mm flat (4),3000.56 rpm,180.73 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.17123954866466
+Side-Plate-Contour,2D Contour9,contour2d,#6 - Ø7mm flat (8mm),1940.4170661763892,232.01958944544239,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

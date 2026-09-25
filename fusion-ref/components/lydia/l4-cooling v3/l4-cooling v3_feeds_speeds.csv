@@ -1,0 +1,12 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Adaptive1,adaptive,#12 - Ø16mm ball (8mm Ball Endmill),8000 rpm,4014.18927835051636,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.98634629434207,24.
+Setup1,Adaptive1 (2),adaptive,#2 - Ø8mm ball (8mm Ball Endmill),12000.,3176.72164948453701,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup1,Drill1,drill,#10 - Ø7mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Drill1 (2),drill,#7 - Ø8x1.25mm right tap,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,Contour1,contour3d,#2 - Ø8mm ball (8mm Ball Endmill),9000 rpm,4014.18927835051682,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.98634629434207,24.
+Setup1,Scallop1,scallop,#2 - Ø8mm ball (8mm Ball Endmill),9000.,4014.18927835051682,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,0.98634629434207,24.
+Setup1,Morph1,morph,#2 - Ø8mm ball (8mm Ball Endmill),7000 rpm,3176.72164948453701,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup2,Pocket3,pocket_clearing,#2 - Ø8mm ball (8mm Ball Endmill),7000.,3176.72164948453656,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup2,Adaptive4,adaptive,#2 - Ø8mm ball (8mm Ball Endmill),7000.,3176.7216494845361,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup2,2D Contour1,contour2d,#2 - Ø8mm ball (8mm Ball Endmill),7000.,3176.72164948453565,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Setup2,Drill2,drill,#10 - Ø7mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

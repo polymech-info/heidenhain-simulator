@@ -1,0 +1,4 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Bore2,bore,#10 - Ø31.76mm flat (32-Facehead),9702.0853308819369,4205.74 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,10.,3.03973536813053
+Setup1,Probe WCS7,probe,#100 - Ø6mm probe (TS640 50x6),,1000mmpm,,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup1,2D Contour1,contour2d,#27 - Ø16mm flat (16mm Flat HSS-2F),4851.04266544097391,632.00274036699602,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.34657845604351,30.

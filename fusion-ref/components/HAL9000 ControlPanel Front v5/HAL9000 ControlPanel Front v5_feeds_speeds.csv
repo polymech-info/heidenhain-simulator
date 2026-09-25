@@ -1,0 +1,2 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Pocket1,pocket2d,#1 - Ø5.5mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

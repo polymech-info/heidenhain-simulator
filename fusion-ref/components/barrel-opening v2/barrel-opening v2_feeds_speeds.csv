@@ -1,0 +1,16 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Elena-XMAX,2D Pocket1,pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453414492,494.96388573473337,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+elena-35,2D Pocket1 (4),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453414492,494.96388573473337,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+elena-35 (2),2D Pocket1 (6),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453414492,494.96388573473337,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup1 (2),2D Pocket1 (2),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453414992,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+Setup1 (3),2D Pocket1 (3),pocket2d,#12 - Ø10mm flat (10mm Flat Endmill),1617.01422181365729,201.47200365862059,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+myriad-36-m,2D Pocket1 (7),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453415038,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+myriad-35,2D Pocket1 (10),pocket2d,#31 - Ø10mm flat (10mm Roughing),4042.53555453414992,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+myriad-35,2D Pocket1 (11),pocket2d,#17 - Ø12mm flat (12mm Roughing Endmill),4042.53555453414947,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+elena-zmax,2D Pocket1 (8),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453415038,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+elena-zmax,2D Pocket1 (9),pocket2d,#27 - Ø14mm flat (14mm),4042.53555453414992,550.34103829819799,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+elena-zmax,2D Pocket1 (12),pocket2d,#17 - Ø12mm flat (12mm Roughing Endmill),4042.53555453414947,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+Lydia-4.6,2D Pocket1 (15),pocket2d,#17 - Ø12mm flat (12mm Roughing Endmill),4042.53555453414947,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897394
+zoe,2D Pocket1 (5),pocket2d,#17 - Ø12mm flat (12mm Roughing Endmill),4042.53555453414947,494.96388573473371,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+feedscrew-23-36,2D Pocket1 (13),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453415038,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393
+katbot-pro-rc1 (2),2D Pocket1 (14),pocket2d,#17 - Ø12mm flat (10mm Roughing),4042.53555453415038,550.3410382981981,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,12.,4.05680655897393

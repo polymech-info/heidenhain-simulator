@@ -1,0 +1,27 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+reserve,Drill1 (12),drill,#5 - Ø8mm drill,4158.03657037797439,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+reserve,2D Contour3 (2),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,852.453 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+reserve,2D Contour3 (9),contour2d,#6 - Ø8mm flat (14 flat),8000 rpm,3176.72 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+reserve,2D Pocket1 (2),pocket2d,#27 - Ø14mm flat (14 flat),8000 rpm,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+reserve,Pocket2,pocket_clearing,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+reserve,2D Contour3,contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,852.453 mm/min,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+reserve,Scallop1,scallop,#13 - Ø10mm ball (10 Ball Endmill),8000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+Init,Face1,face,#23 - Ø80mm face,tool_type == 'probe' ? 0 : tool_type == 'tap right hand' || tool_type == 'tap left hand' ? 500rpm : 5000rpm,1000.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+bottom,Parallel2 (7),parallel,#13 - Ø9.72mm ball (10 Ball Endmill),12000.,3176.72164948453474,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom,Parallel2 (8),parallel,#13 - Ø9.72mm ball (10 Ball Endmill),8000 rpm,3176.72164948453519,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom,Drill1 (10),drill,#5 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+bottom,2D Contour1 (8),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom (2),2D Contour1 (9),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom (2),Drill1 (11),drill,#5 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+bottom (2),2D Pocket1,pocket2d,#13 - Ø10mm flat (10 Ball Endmill),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom (3),2D Contour1 (10),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+bottom (3),Drill1 (13),drill,#5 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+bottom (3),2D Pocket1 (3),pocket2d,#13 - Ø10mm flat (10 Ball Endmill),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+cabinet,2D Contour1 (11),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+cabinet,Drill1 (14),drill,#5 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+cabinet,2D Pocket1 (4),pocket2d,#12 - Ø10mm flat (10 Ball Endmill),6063.80333180121215,496.39294289107301,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+cabinet,2D Contour4,contour2d,#12 - Ø10mm flat (10 Ball Endmill),6063.80333180121215,496.39294289107301,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+cross-bar,2D Contour1 (12),contour2d,#27 - Ø14mm flat (14 flat),6063.80333180121215,552.45286720701131,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,8.,2.15903888302622
+cross-bar,Drill1 (15),drill,#5 - Ø8mm drill,4158.03657037797348,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+cross-bar,2D Pocket1 (5),pocket2d,#12 - Ø10mm flat (10 Ball Endmill),6063.80333180121215,496.39294289107301,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.
+cross-bar,2D Contour4 (2),contour2d,#12 - Ø10mm flat (10 Ball Endmill),6063.80333180121215,496.39294289107301,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,1.63373650458641,24.

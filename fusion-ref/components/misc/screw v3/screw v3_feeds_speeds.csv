@@ -1,0 +1,3 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Adaptive1,adaptive2d,#1 - Ø6mm flat (6mm Flat Endmill),10000.,1440.,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Profile1,turning_profile,#2 - VNMT?T302 VNMT Right Hand,500rpm,1000mmpm,91440.,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9

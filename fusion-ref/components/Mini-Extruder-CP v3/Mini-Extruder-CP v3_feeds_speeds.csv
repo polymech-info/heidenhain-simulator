@@ -1,0 +1,3 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Pocket1,pocket2d,#3 - Ø10mm flat (10mm Roughing),4042.53555453414174,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup1,2D Pocket1 (2),pocket2d,#3 - Ø10mm flat (10mm Roughing),4042.53555453414174,494.96388573473297,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.

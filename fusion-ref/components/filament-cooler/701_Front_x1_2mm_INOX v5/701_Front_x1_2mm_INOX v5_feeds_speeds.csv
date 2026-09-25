@@ -1,0 +1,5 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,2D Contour1,contour2d,#12 - Ø10mm flat (10mm Roughing),1617.01422181365751,181.64544220971945,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup1,2D Contour1 (2),contour2d,#12 - Ø10mm flat (10mm Roughing),1617.01422181365751,181.64544220971945,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup1 (2),2D Contour1 (3),contour2d,#12 - Ø10mm flat (10mm Roughing),1617.01422181365751,181.64544220971945,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.
+Setup1 (2),2D Contour1 (4),contour2d,#12 - Ø10mm flat (10mm Roughing),1617.01422181365751,181.64544220971945,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,2.91817517655654,36.

@@ -1,0 +1,5 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup1,Drill1,drill,#2 - Ø5mm drill,1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1,Drill1 (2),drill,#7 - Ø6x1mm right tap,1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (2),Drill1 (3),drill,#2 - Ø5mm drill,1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm
+Setup1 (2),Drill1 (4),drill,#7 - Ø6x1mm right tap,1746.37535955874955,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.5,1.0mm

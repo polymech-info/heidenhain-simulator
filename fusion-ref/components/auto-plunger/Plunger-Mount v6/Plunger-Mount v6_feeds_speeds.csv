@@ -1,0 +1,3 @@
+Setup,Operation,Strategy,Tool,RPM,Feed,CuttingSpeed,DepthOfCut,StepOver,StepDown
+Setup2,Drill1,drill,#1 - Ø16mm 90° spot drill (16mm Spot Drill),6063.80333180121215,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
+Setup2,Drill2,drill,#1 - Ø16x1.5mm right tap (tapp),6063.80333180121215,1000mmpm,tool_diameter * Math.PI * tool_spindleSpeed,tool_fluteLength / 2,tool_diameter * 0.3,tool_fluteLength * 0.9
