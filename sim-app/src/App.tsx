@@ -1,4 +1,5 @@
 ﻿import { useCallback, useEffect, useRef, useState, type CSSProperties, type DragEvent } from "react";
+import { useNavigate, useRouterState } from "@tanstack/react-router";
 import { Moon, MousePointer2, Move, Pause, Play, RotateCcw, SkipBack, SkipForward, Sun, Upload, ZoomIn } from "lucide-react";
 import { parseKlartext } from "@/lang/parse";
 import type { Vec3 } from "@/machine/machine";
@@ -6,13 +7,23 @@ import type { Trace } from "@/machine/machine";
 import { runProgram } from "@/machine/run";
 import { loadViewPrefs, saveViewPrefs } from "@/prefs";
 import { PathView, blockAt, type NavMode } from "@/scene/PathView";
-import { DEFAULT_SAMPLE, sampleUrl } from "@/samples";
+import { DEFAULT_SAMPLE, isSampleFile, sampleUrl } from "@/samples";
 import { applyTheme } from "@/theme";
 import { BlockPanel } from "@/ui/BlockPanel";
 import { ProgramPanel } from "@/ui/ProgramPanel";
 import { SampleBrowser } from "@/ui/SampleBrowser";
 
 const ORIGIN: Vec3 = { x: 0, y: 0, z: 0 };
+
+function sampleFromPath(pathname: string): string | null {
+  if (!pathname.startsWith("/file/")) return null;
+  try {
+    const file = decodeURIComponent(pathname.slice("/file/".length)).replace(/^\/+/, "");
+    return file || null;
+  } catch {
+    return null;
+  }
+}
 
 export function App() {
   const [isDark, setIsDark] = useState(() => document.documentElement.classList.contains("dark"));
@@ -32,6 +43,11 @@ export function App() {
   const [error, setError] = useState("");
   const seekToken = useRef(0);
   const scrubbing = useRef(false);
+  const booted = useRef(false);
+  const dropped = useRef(false);
+  const navigate = useNavigate();
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
+  const urlFile = sampleFromPath(pathname);
   const blockRef = useRef(0);
   const traceRef = useRef<Trace | null>(null);
   blockRef.current = block;
@@ -101,12 +117,14 @@ export function App() {
       if (!file) return;
       try {
         setSampleFile(null);
+        dropped.current = true;
         loadText(file.name, await file.text());
+        void navigate({ to: "/" });
       } catch (err) {
         setError(err instanceof Error ? err.message : String(err));
       }
     },
-    [loadText],
+    [loadText, navigate],
   );
 
   const loadSample = useCallback(
@@ -124,8 +142,24 @@ export function App() {
   );
 
   useEffect(() => {
+    if (urlFile) {
+      dropped.current = false;
+      if (!isSampleFile(urlFile)) {
+        setError(`No sample ${urlFile}`);
+        return;
+      }
+      void loadSample(urlFile);
+      return;
+    }
+    if (dropped.current) {
+      dropped.current = false;
+      booted.current = true;
+      return;
+    }
+    if (booted.current) return;
+    booted.current = true;
     if (DEFAULT_SAMPLE) void loadSample(DEFAULT_SAMPLE);
-  }, [loadSample]);
+  }, [urlFile, loadSample]);
 
   const onDrop = (event: DragEvent) => {
     event.preventDefault();
@@ -284,7 +318,12 @@ export function App() {
       </header>
 
       <div className="sim-body relative flex min-h-0 flex-1">
-        <SampleBrowser active={sampleFile} onOpen={(file) => void loadSample(file)} />
+        <SampleBrowser
+          active={sampleFile}
+          onOpen={(file) => {
+            void navigate({ to: "/file/$", params: { _splat: file } });
+          }}
+        />
         <div className="relative min-h-0 min-w-0 flex-1">
           <PathView
             trace={trace}

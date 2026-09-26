@@ -16,7 +16,7 @@ export default (env = {}, argv = {}) => {
     entry: path.resolve(__dirname, "src/main.tsx"),
     output: {
       path: path.resolve(__dirname, "dist"),
-      publicPath: "auto",
+      publicPath: "/",
       filename: "heidenhain.bundle.js",
       chunkFilename: "heidenhain.[name].js",
       assetModuleFilename: "heidenhain.[name][ext]",
@@ -108,6 +108,10 @@ export default (env = {}, argv = {}) => {
             directory: sampleDir,
             publicPath: "/samples",
             watch: true,
+          },
+          historyApiFallback: {
+            disableDotRule: true,
+            htmlAcceptHeaders: ["text/html", "application/xhtml+xml"],
           },
         }
       : undefined,

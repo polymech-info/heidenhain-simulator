@@ -76,7 +76,9 @@ export function stampSegment(grid: HeightGrid, a: Vec3, b: Vec3, radius: number,
       const ddx = x - px;
       const ddy = y - py;
       if (ddx * ddx + ddy * ddy > r2) continue;
-      const z = Math.max(grid.zBot, a.z + (b.z - a.z) * t);
+      // A vertical move has no point along its length in XY. The face cuts to the lower end.
+      const zCut = len2 <= 1e-12 ? Math.min(a.z, b.z) : a.z + (b.z - a.z) * t;
+      const z = Math.max(grid.zBot, zCut);
       const k = j * grid.nx + i;
       if (z < grid.h[k]) grid.h[k] = z;
     }

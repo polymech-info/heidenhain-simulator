@@ -1,0 +1,82 @@
+0  BEGIN PGM flange-cutout-60-60 MM 
+1  BLK FORM 0.1 Z  X+0  Y-90  Z-10
+2  BLK FORM 0.2  X+160  Y+0  Z+0
+3  ;-------------------------------------
+4  ;T12 D=+10 CR=+0 - ZMIN=-11 - flat end mill
+5  ;T27 D=+14 CR=+0 - ZMIN=-11 - flat end mill
+6  ;-------------------------------------
+7  TOOL CALL  Z ;SET TOOL AXIS FOR M140
+8  L M140 MB MAX
+9  ;-------------------------------------
+10 * - 2D Contour8 (3)
+11 TOOL CALL 27 Z S4043
+12 TOOL DEF 12
+13 L M140 MB MAX
+14 M3
+15 L  X+80  Y-45 R0 FMAX
+16 L  Z+15 R0 FMAX
+17 M8
+18 CYCL DEF 32.0 TOLERANCE
+19 CYCL DEF 32.1
+20 L  Z+5 FMAX
+21 L  Z-11 F550
+22 CC  X+80  Y-44.3
+23 CP IPA+90 DR+
+24 L  X+80.7  Y-22.7
+25 CC  X+80  Y-22.7
+26 CP IPA+90 DR+
+27 L  X+59.8  Y-22
+28 L  X+57 F138
+29 L  Y-65.2 F550
+30 L  Y-68 F138
+31 L  X+100.2 F550
+32 L  X+103 F138
+33 L  Y-24.8 F550
+34 L  Y-22 F138
+35 L  X+75 F550
+36 CC  X+75  Y-23.4
+37 CP IPA+90 DR+
+38 L  X+73.6  Y-24.8
+39 CC  Y-24.8  Z-9.6
+40 CP IPA-90 DR-
+41 L  Y-26.2  Z+15 FMAX
+42 M9
+43 L M140 MB MAX
+44 ;-------------------------------------
+45 * - 2D Contour8 (4)
+46 M5
+47 M1
+48 TOOL CALL 12 Z S4043
+49 TOOL DEF 27
+50 L M140 MB MAX
+51 M3
+52 L  X+80  Y-45 R0 FMAX
+53 L  Z+15 R0 FMAX
+54 M8
+55 L  Z+5 FMAX
+56 L  Z-11 F550
+57 CC  X+80  Y-44.5
+58 CP IPA+90 DR+
+59 L  X+80.5  Y-20.5
+60 CC  X+80  Y-20.5
+61 CP IPA+90 DR+
+62 L  X+57  Y-20
+63 L  X+55 F138
+64 L  Y-68 F550
+65 L  Y-70 F138
+66 L  X+103 F550
+67 L  X+105 F138
+68 L  Y-22 F550
+69 L  Y-20 F138
+70 L  X+75 F550
+71 CC  X+75  Y-21
+72 CP IPA+90 DR+
+73 L  X+74  Y-22
+74 CC  Y-22  Z-10
+75 CP IPA-90 DR-
+76 L  Y-23  Z+15 FMAX
+77 M9
+78 M5
+79 L M140 MB MAX
+80 M30
+81 END PGM flange-cutout-60-60 MM 

@@ -439,9 +439,16 @@ function Toolpath({
   return <primitive object={drawn.object} />;
 }
 
-function fitCutter(mesh: THREE.Mesh | null, radius: number) {
+/** Stick length so a tool at the bottom of the blank still stands 25% clear of the top. */
+function cutterLength(trace: Trace): number {
+  const stock = trace.stock;
+  if (!stock) return 0;
+  return Math.abs(stock.max.z - stock.min.z) * 1.25;
+}
+
+function fitCutter(mesh: THREE.Mesh | null, radius: number, length: number) {
   if (!mesh || radius <= 0) return;
-  const stick = Math.max(radius * 4, 20);
+  const stick = length > 0 ? length : Math.max(radius * 4, 20);
   mesh.scale.set(radius, stick, radius);
   mesh.position.z = stick / 2;
 }
@@ -494,7 +501,7 @@ function Playback({
   }, [trace]);
 
   useLayoutEffect(() => {
-    fitCutter(cutter.current, toolRadiusMm(trace, blockAt(trace, dist.current)));
+    fitCutter(cutter.current, toolRadiusMm(trace, blockAt(trace, dist.current)), cutterLength(trace));
   }, [trace, seek, dist]);
 
   useEffect(() => {
@@ -530,7 +537,7 @@ function Playback({
     const pose = poseAt(trace, dist.current);
     tool.current?.position.set(pose.x, pose.y, pose.z);
     const block = blockAt(trace, dist.current);
-    fitCutter(cutter.current, toolRadiusMm(trace, block));
+    fitCutter(cutter.current, toolRadiusMm(trace, block), cutterLength(trace));
     const now = performance.now();
     if (block !== lastBlock.current || now - lastHud.current > 80) {
       lastHud.current = now;

@@ -51,6 +51,15 @@ export function SampleBrowser({ active, onOpen }: Props) {
     }
   }, [dir, view]);
 
+  const revealed = useRef<string | null>(null);
+  useEffect(() => {
+    if (!active || revealed.current === active) return;
+    revealed.current = active;
+    const slash = active.lastIndexOf("/");
+    const parent = slash < 0 ? "" : active.slice(0, slash);
+    if (SAMPLE_TREE[parent]) setDir(parent);
+  }, [active]);
+
   const getNode = useCallback(
     (idx: number): SampleNode | null => {
       const offset = canGoUp ? 1 : 0;

@@ -12,10 +12,13 @@ export type Word =
   | { addr: "S"; n: number }
   | { addr: "M"; n: number }
   | { addr: "Q"; q: number; n: number }
+  | { addr: "Q"; q: number; max: true }
   | { addr: "IPA"; n: number }
   | { addr: "DR"; sign: 1 | -1 }
   | { addr: "R"; comp: "0" | "L" | "R" }
   | { addr: "R"; n: number }
+  | { addr: "MB"; max: true }
+  | { addr: "MB"; n: number }
   | { addr: "raw"; text: string };
 
 export type KlartextBlock = {

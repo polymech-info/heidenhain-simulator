@@ -21,7 +21,9 @@ const RE_AXIS = new RegExp(`^([XYZABCUVW])(${NUM})$`);
 const RE_IPA = new RegExp(`^IPA(${NUM})$`);
 const RE_S = new RegExp(`^S(${NUM})$`);
 const RE_M = /^M(\d+)$/;
-const RE_Q = new RegExp(`^Q(\\d+)=(${NUM})$`);
+const RE_Q = new RegExp(`^Q(\\d+)=(${NUM}|MAX)$`);
+const RE_MB = new RegExp(`^MB(?:MAX|(${NUM}))$`);
+const RE_PLAIN = new RegExp(`^${NUM}$`);
 const RE_RCOMP = /^R([0LR])$/;
 const RE_R = new RegExp(`^R(${NUM})$`);
 const RE_FN = /^FN\s+(\d+)\b\s*:?\s*/;
@@ -53,7 +55,10 @@ function classify(token: string): Word | null {
   if (m) return { addr: "M", n: Number(m[1]) };
 
   m = RE_Q.exec(token);
-  if (m) return { addr: "Q", q: Number(m[1]), n: Number(m[2]) };
+  if (m) {
+    if (m[2] === "MAX") return { addr: "Q", q: Number(m[1]), max: true };
+    return { addr: "Q", q: Number(m[1]), n: Number(m[2]) };
+  }
 
   m = RE_RCOMP.exec(token);
   if (m) return { addr: "R", comp: m[1] as "0" | "L" | "R" };
@@ -72,14 +77,56 @@ function splitWords(rest: string): { args: string[]; words: Word[] } {
 
   for (let i = 0; i < tokens.length; i++) {
     const token = tokens[i];
+    const qSplit = /^Q(\d+)=$/.exec(token);
+    const qValue = tokens[i + 1];
+    if (qSplit && qValue === "MAX") {
+      started = true;
+      words.push({ addr: "Q", q: Number(qSplit[1]), max: true });
+      i += 1;
+      continue;
+    }
+    if (qSplit && qValue != null && RE_PLAIN.test(qValue)) {
+      started = true;
+      words.push({ addr: "Q", q: Number(qSplit[1]), n: Number(qValue) });
+      i += 1;
+      continue;
+    }
+
     const qBare = /^Q(\d+)$/.exec(token);
     const eq = tokens[i + 1];
     if (qBare && eq?.startsWith("=")) {
       started = true;
-      const n = Number(eq.slice(1));
-      words.push({ addr: "Q", q: Number(qBare[1]), n: Number.isFinite(n) ? n : 0 });
+      const raw = eq.slice(1);
+      if (raw === "MAX") words.push({ addr: "Q", q: Number(qBare[1]), max: true });
+      else {
+        const n = Number(raw);
+        words.push({ addr: "Q", q: Number(qBare[1]), n: Number.isFinite(n) ? n : 0 });
+      }
       i += 1;
       continue;
+    }
+
+    const mbGlued = RE_MB.exec(token);
+    if (mbGlued) {
+      started = true;
+      if (mbGlued[1] == null) words.push({ addr: "MB", max: true });
+      else words.push({ addr: "MB", n: Number(mbGlued[1]) });
+      continue;
+    }
+    if (token === "MB") {
+      const mbNext = tokens[i + 1];
+      if (mbNext === "MAX") {
+        started = true;
+        words.push({ addr: "MB", max: true });
+        i += 1;
+        continue;
+      }
+      if (mbNext != null && RE_PLAIN.test(mbNext)) {
+        started = true;
+        words.push({ addr: "MB", n: Number(mbNext) });
+        i += 1;
+        continue;
+      }
     }
     const word = classify(token);
     if (word) {
