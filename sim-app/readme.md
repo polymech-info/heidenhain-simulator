@@ -1,5 +1,9 @@
 # Heidenhain sim
 
+[Demo](https://polymech.info/apps/heidenhain-simulator/) | Provided by [Polymech](https://service.polymech.info/) | [Github Sourcecode](https://github.com/polymech-info/heidenhain-simulator)
+
+
+
 Host for native Klartext. The left list loads a few programs straight from `samples/common` (`/samples/…`). Drop any other `.h` on the view. The file is parsed, walked, and drawn as a toolpath. Cycle, probe, and FK specs are not expanded yet — they show up as gaps.
 
 Built-in names live in `samples.json`. Dev serves `samples/common` at `/samples`. A production build copies those files into `dist/samples`. The longer entries are complete programs (`BEGIN PGM` … `END PGM`) with several tools, so each one runs on its own.

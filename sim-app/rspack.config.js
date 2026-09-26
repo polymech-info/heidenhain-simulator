@@ -3,24 +3,28 @@ import { fileURLToPath } from "url";
 import { rspack } from "@rspack/core";
 import { ReactRefreshRspackPlugin } from "@rspack/plugin-react-refresh";
 import { writeSampleIndex } from "./write-sample-index.mjs";
+import { writeWebSeeds } from "./write-web-seeds.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const sampleDir = path.resolve(__dirname, "../samples");
 writeSampleIndex();
+writeWebSeeds();
 
 export default (env = {}, argv = {}) => {
   const isDev = argv.mode !== "production";
+  const web = env.preset === "web";
+  const preset = web ? "web" : "app";
 
   return {
     target: "web",
     entry: path.resolve(__dirname, "src/main.tsx"),
     output: {
-      path: path.resolve(__dirname, "dist"),
-      publicPath: "/",
+      path: path.resolve(__dirname, web ? "dist-web" : "dist"),
+      publicPath: web ? "./" : "/",
       filename: "heidenhain.bundle.js",
       chunkFilename: "heidenhain.[name].js",
       assetModuleFilename: "heidenhain.[name][ext]",
-      clean: true,
+      clean: !web,
     },
     resolve: {
       extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
@@ -71,21 +75,29 @@ export default (env = {}, argv = {}) => {
           PROD: !isDev,
           MODE: isDev ? "development" : "production",
           SSR: false,
+          PRESET: preset,
         }),
         "import.meta.env.DEV": JSON.stringify(isDev),
         "import.meta.env.PROD": JSON.stringify(!isDev),
         "import.meta.env.MODE": JSON.stringify(isDev ? "development" : "production"),
         "import.meta.env.SSR": JSON.stringify(false),
+        "import.meta.env.PRESET": JSON.stringify(preset),
       }),
       new rspack.HtmlRspackPlugin({
         template: path.resolve(__dirname, "index.html"),
         filename: "index.html",
         inject: "body",
-        title: isDev ? "Heidenhain (dev)" : "Heidenhain",
+        title: web ? "Heidenhain Klartext Simulator" : isDev ? "Heidenhain (dev)" : "Heidenhain",
         minify: !isDev,
       }),
       new rspack.NormalModuleReplacementPlugin(/^zustand$/, path.resolve(__dirname, "src/zustand-compat.js")),
+      web &&
+        new rspack.NormalModuleReplacementPlugin(
+          /[/\\]storage[/\\]library$/,
+          path.resolve(__dirname, "src/storage/library.web.ts"),
+        ),
       !isDev &&
+        !web &&
         new rspack.CopyRspackPlugin({
           patterns: [{ from: sampleDir, to: "samples", globOptions: { ignore: ["**/.git/**"] } }],
         }),
@@ -94,7 +106,7 @@ export default (env = {}, argv = {}) => {
     devtool: isDev ? "eval-source-map" : false,
     performance: { hints: false },
     optimization: {
-      splitChunks: isDev ? false : { chunks: "async" },
+      splitChunks: isDev || web ? false : { chunks: "async" },
       runtimeChunk: false,
     },
     devServer: isDev

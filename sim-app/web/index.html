@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Open-Source Heidenhain Post Processor Tools | Polymech</title>
+    <meta
+      name="description"
+      content="Open-source tools for Heidenhain post processor development. Simulate Klartext in the browser while you write posts and other manufacturing software."
+    />
+    <link rel="canonical" href="https://polymech.info/apps/heidenhain-simulator/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Polymech" />
+    <meta property="og:title" content="Open-Source Heidenhain Post Processor Tools | Polymech" />
+    <meta
+      property="og:description"
+      content="Open-source tools for Heidenhain post processor development. Simulate Klartext in the browser while you write posts and other manufacturing software."
+    />
+    <meta property="og:url" content="https://polymech.info/apps/heidenhain-simulator/" />
+    <meta property="og:image" content="https://polymech.info/Color%20logo%20-%20no%20background.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Open-Source Heidenhain Post Processor Tools | Polymech" />
+    <meta
+      name="twitter:description"
+      content="Open-source tools for Heidenhain post processor development. Simulate Klartext in the browser while you write posts and other manufacturing software."
+    />
+    <meta name="twitter:image" content="https://polymech.info/Color%20logo%20-%20no%20background.png" />
+    <link rel="icon" href="https://polymech.info/favicon.ico" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Heidenhain Klartext Simulator",
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Web",
+            "url": "https://polymech.info/apps/heidenhain-simulator/",
+            "description": "Open-source tools for Heidenhain post processor development. Simulate Klartext in the browser while you write posts and other manufacturing software.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Polymech",
+              "url": "https://polymech.info/en/"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Polymech",
+                "item": "https://polymech.info/en/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Heidenhain Klartext Simulator",
+                "item": "https://polymech.info/apps/heidenhain-simulator/"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #ffffff;
+        --line: #e2e6e3;
+        --ink: #1c211e;
+        --muted: #5c6560;
+        --amber: #e8a317;
+        --amber-ink: #1a1408;
+        --link: #8a4b08;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        font-size: 17px;
+        line-height: 1.55;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      a { color: var(--link); text-underline-offset: 3px; }
+      a:hover { color: #5c3204; }
+      .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+      .crumb {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin: 0;
+        padding: 22px 0 8px;
+        color: var(--muted);
+        font-size: 13px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .crumb a { color: var(--muted); text-decoration: none; }
+      .crumb a:hover { color: var(--ink); }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+        gap: 36px;
+        align-items: start;
+        padding: 18px 0 28px;
+      }
+      h1 {
+        margin: 0 0 14px;
+        font-size: clamp(2rem, 4vw, 3.15rem);
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+        font-weight: 650;
+      }
+      .lede { margin: 0 0 22px; max-width: 40rem; color: #2a312d; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 8px; }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 10px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 650;
+      }
+      .btn-go { background: var(--amber); color: var(--amber-ink); }
+      .btn-go:hover { background: #ffd36a; color: var(--amber-ink); }
+      .btn-src { border: 1px solid #c9d0cb; color: var(--ink); background: #fff; }
+      .btn-src:hover { border-color: var(--amber); color: var(--ink); }
+      .tape {
+        margin: 0;
+        padding: 14px 14px 16px;
+        background: #f7f8f6;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        box-shadow: 0 12px 32px rgba(28, 33, 30, 0.06);
+        font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+        font-size: 13px;
+        line-height: 1.65;
+        overflow: auto;
+      }
+      .tape figcaption {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-family: "Segoe UI", system-ui, sans-serif;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .tape ol { list-style: none; margin: 0; padding: 0; }
+      .tape li { display: grid; grid-template-columns: 2.2rem 1fr; gap: 8px; }
+      .tape .n { color: #8b948e; text-align: right; }
+      .tape .hit { color: var(--link); }
+      main { padding-bottom: 48px; }
+      section { padding: 8px 0 22px; border-top: 1px solid var(--line); }
+      h2 { margin: 22px 0 8px; font-size: 1.35rem; letter-spacing: -0.02em; }
+      h3 { margin: 18px 0 6px; font-size: 1.05rem; }
+      p { max-width: 44rem; }
+      .programs { margin: 12px 0 0; padding: 0; list-style: none; }
+      .programs li { padding: 10px 0; border-bottom: 1px solid var(--line); max-width: 44rem; }
+      .programs a { font-family: ui-monospace, Consolas, monospace; font-size: 0.92rem; }
+      footer {
+        border-top: 1px solid var(--line);
+        padding: 18px 0 32px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      @media (max-width: 800px) {
+        .hero { grid-template-columns: 1fr; gap: 22px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <nav aria-label="Breadcrumb">
+        <p class="crumb">
+          <a href="https://polymech.info/en/">Polymech</a>
+          <span aria-hidden="true">/</span>
+          <span>Heidenhain simulator</span>
+        </p>
+      </nav>
+      <header class="hero">
+        <div>
+          <h1>Open-source tools for Heidenhain post processors</h1>
+          <p class="lede">
+            Polymech publishes manufacturing software in the open. This Klartext simulator is one of those tools: run the program a post processor writes, watch the tool, and step through each block while the post is still on the bench.
+          </p>
+          <p class="actions">
+            <a class="btn btn-go" href="./app/">Open the Klartext simulator</a>
+            <a class="btn btn-src" href="https://github.com/polymech-info/heidenhain-simulator">Heidenhain simulator source on GitHub</a>
+          </p>
+        </div>
+        <figure class="tape">
+          <figcaption>drill_7_20.h</figcaption>
+          <ol>
+            <li><span class="n">0</span><span>BEGIN PGM drill_7_20 MM</span></li>
+            <li><span class="n">10</span><span>TOOL CALL 10 Z S1247</span></li>
+            <li><span class="n">18</span><span class="hit">CYCL DEF 200 DRILLING</span></li>
+            <li><span class="n">19</span><span>L FMAX M99</span></li>
+            <li><span class="n">24</span><span>M30</span></li>
+          </ol>
+        </figure>
+      </header>
+      <main>
+        <section aria-labelledby="runs">
+          <h2 id="runs">For post processor development</h2>
+          <p>
+            A post is finished when the Klartext it emits is the motion you meant. Load that file here. Positioning with <code>L</code>, arcs with <code>CC</code> and <code>CP</code>, and the cycles shop programs actually call are drawn as the tool moves. A flat end mill removes stock on feed moves. Rapids do not cut. Tool diameter comes from the <code>; #n D=</code> note in the program.
+          </p>
+          <h3>Cycles</h3>
+          <p>
+            Cycle 200 drilling, cycle 203 universal drilling, and cycle 207 rigid tapping are expanded at <code>M99</code>. Contour lead-in and lead-out arcs stay in the plane the <code>CC</code> block names. <code>M140 MB MAX</code> retracts along the tool axis to the <code>ZMAX</code> published for that tool.
+          </p>
+          <h3>A check, not the control</h3>
+          <p>
+            Datum tables, tilted working planes, and radius compensation are not applied. Use the view to see the posted path, then prove the job on the machine.
+          </p>
+        </section>
+        <section aria-labelledby="included">
+          <h2 id="included">Posted programs from the shop</h2>
+          <p>
+            Five Klartext files from real manufacturing jobs are already loaded. Use them as fixtures when a post changes, or open one to see how a cycle was written.
+          </p>
+          <ul class="programs">
+            <li>
+              <a href="./app/#/file/common/drill_7_20.h">common/drill_7_20.h</a>
+              — one cycle 200 hole with a 7&nbsp;mm drill.
+            </li>
+            <li>
+              <a href="./app/#/file/pellet/motor_mount_plate/11_holes.h">pellet/motor_mount_plate/11_holes.h</a>
+              — cycle 200 pecks across a plate.
+            </li>
+            <li>
+              <a href="./app/#/file/print-head/v5/toolboss/pre-all.h">print-head/v5/toolboss/pre-all.h</a>
+              — cycle 203 universal drilling and an M140 retract.
+            </li>
+            <li>
+              <a href="./app/#/file/lydia-v4/m8_tap.h">lydia-v4/m8_tap.h</a>
+              — cycle 207 rigid tapping, M8 × 1.25.
+            </li>
+            <li>
+              <a href="./app/#/file/moulds/christine/v2-bottom/socket-contour.h">moulds/christine/v2-bottom/socket-contour.h</a>
+              — four contour passes with vertical lead-outs.
+            </li>
+          </ul>
+        </section>
+        <section aria-labelledby="local">
+          <h2 id="local">Programs stay in this browser</h2>
+          <p>
+            Drop a <code>.h</code> file on the simulator and it is saved in the browser’s private file storage for this site. Nothing from that drop is uploaded to Polymech. The next visit on the same browser still has the file. Another browser, or a private window that blocks that storage, starts again from the five programs above.
+          </p>
+        </section>
+        <section aria-labelledby="source">
+          <h2 id="source">Source</h2>
+          <p>
+            The simulator and the sample programs are in the
+            <a href="https://github.com/polymech-info/heidenhain-simulator">Heidenhain simulator repository on GitHub</a>.
+            That repository is part of Polymech’s open-source work on post processors and manufacturing tools for the sheet presses, injectors, and extruders we build.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <a href="https://polymech.info/en/">Polymech</a>
+        ·
+        <a href="./app/">Open the simulator</a>
+        ·
+        <a href="https://github.com/polymech-info/heidenhain-simulator">GitHub</a>
+      </footer>
+    </div>
+  </body>
+</html>

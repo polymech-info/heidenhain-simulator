@@ -1,4 +1,4 @@
-import { Outlet, createRootRoute, createRoute, createRouter } from "@tanstack/react-router";
+import { Outlet, createHashHistory, createRootRoute, createRoute, createRouter } from "@tanstack/react-router";
 import { App } from "@/App";
 
 const rootRoute = createRootRoute({
@@ -24,6 +24,7 @@ export const fileRoute = createRoute({
 
 export const router = createRouter({
   routeTree: rootRoute.addChildren([indexRoute, fileRoute]),
+  ...(import.meta.env.PRESET === "web" ? { history: createHashHistory() } : {}),
 });
 
 declare module "@tanstack/react-router" {

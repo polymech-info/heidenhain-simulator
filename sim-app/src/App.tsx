@@ -7,7 +7,8 @@ import type { Trace } from "@/machine/machine";
 import { runProgram } from "@/machine/run";
 import { loadViewPrefs, saveViewPrefs } from "@/prefs";
 import { PathView, blockAt, type NavMode } from "@/scene/PathView";
-import { DEFAULT_SAMPLE, isSampleFile, sampleUrl } from "@/samples";
+import { openLibrary, type Library } from "@/storage/library";
+import { hasFile } from "@/storage/tree";
 import { applyTheme } from "@/theme";
 import { BlockPanel } from "@/ui/BlockPanel";
 import { ProgramPanel } from "@/ui/ProgramPanel";
@@ -45,6 +46,9 @@ export function App() {
   const scrubbing = useRef(false);
   const booted = useRef(false);
   const dropped = useRef(false);
+  const [library, setLibrary] = useState<Library | null>(null);
+  const libraryRef = useRef<Library | null>(null);
+  const [ready, setReady] = useState(false);
   const navigate = useNavigate();
   const pathname = useRouterState({ select: (state) => state.location.pathname });
   const urlFile = sampleFromPath(pathname);
@@ -116,9 +120,22 @@ export function App() {
     async (file: File | undefined) => {
       if (!file) return;
       try {
+        const text = await file.text();
+        const current = libraryRef.current;
+        if (current?.importFile) {
+          const saved = await current.importFile(file.name, text);
+          const tree = await current.reload();
+          const next = { ...current, tree };
+          libraryRef.current = next;
+          setLibrary(next);
+          setSampleFile(saved);
+          loadText(saved, text);
+          void navigate({ to: "/file/$", params: { _splat: saved } });
+          return;
+        }
         setSampleFile(null);
         dropped.current = true;
-        loadText(file.name, await file.text());
+        loadText(file.name, text);
         void navigate({ to: "/" });
       } catch (err) {
         setError(err instanceof Error ? err.message : String(err));
@@ -129,11 +146,11 @@ export function App() {
 
   const loadSample = useCallback(
     async (file: string) => {
+      const current = libraryRef.current;
+      if (!current) return;
       try {
-        const res = await fetch(sampleUrl(file), { cache: "no-store" });
-        if (!res.ok) throw new Error(`Could not load ${file}`);
         setSampleFile(file);
-        loadText(file, await res.text());
+        loadText(file, await current.read(file));
       } catch (err) {
         setError(err instanceof Error ? err.message : String(err));
       }
@@ -142,10 +159,30 @@ export function App() {
   );
 
   useEffect(() => {
+    let live = true;
+    void openLibrary()
+      .then((next) => {
+        if (!live) return;
+        libraryRef.current = next;
+        setLibrary(next);
+        setReady(true);
+      })
+      .catch((err: unknown) => {
+        if (live) setError(err instanceof Error ? err.message : String(err));
+      });
+    return () => {
+      live = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!ready) return;
+    const current = libraryRef.current;
+    if (!current) return;
     if (urlFile) {
       dropped.current = false;
-      if (!isSampleFile(urlFile)) {
-        setError(`No sample ${urlFile}`);
+      if (!hasFile(current.tree, urlFile)) {
+        setError(`No program ${urlFile}`);
         return;
       }
       void loadSample(urlFile);
@@ -158,8 +195,8 @@ export function App() {
     }
     if (booted.current) return;
     booted.current = true;
-    if (DEFAULT_SAMPLE) void loadSample(DEFAULT_SAMPLE);
-  }, [urlFile, loadSample]);
+    if (current.home) void loadSample(current.home);
+  }, [urlFile, ready, loadSample]);
 
   const onDrop = (event: DragEvent) => {
     event.preventDefault();
@@ -318,12 +355,18 @@ export function App() {
       </header>
 
       <div className="sim-body relative flex min-h-0 flex-1">
-        <SampleBrowser
-          active={sampleFile}
-          onOpen={(file) => {
-            void navigate({ to: "/file/$", params: { _splat: file } });
-          }}
-        />
+        {library ? (
+          <SampleBrowser
+            tree={library.tree}
+            rootName={import.meta.env.PRESET === "web" ? "Files" : "Samples"}
+            active={sampleFile}
+            onOpen={(file) => {
+              void navigate({ to: "/file/$", params: { _splat: file } });
+            }}
+          />
+        ) : (
+          <aside className="sim-samples" />
+        )}
         <div className="relative min-h-0 min-w-0 flex-1">
           <PathView
             trace={trace}

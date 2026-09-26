@@ -1,20 +1,22 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent } from "react";
 import { ArrowUp, FileCode, Folder, LayoutGrid, List } from "lucide-react";
-import { SAMPLE_TREE, type SampleNode } from "@/samples";
+import type { SampleNode, SampleTree } from "@/storage/tree";
 
 const STORE_KEY = "pm-heidenhain.samples";
 
 type BrowserView = "list" | "grid";
 
 type Props = {
+  tree: SampleTree;
   active: string | null;
   onOpen: (file: string) => void;
+  rootName?: string;
 };
 
-function loadBrowser(): { dir: string; view: BrowserView } {
+function loadBrowser(tree: SampleTree): { dir: string; view: BrowserView } {
   try {
     const parsed = JSON.parse(localStorage.getItem(STORE_KEY) || "") as { dir?: unknown; view?: unknown };
-    const dir = typeof parsed.dir === "string" && SAMPLE_TREE[parsed.dir] ? parsed.dir : "";
+    const dir = typeof parsed.dir === "string" && tree[parsed.dir] ? parsed.dir : "";
     const view: BrowserView = parsed.view === "grid" ? "grid" : "list";
     return { dir, view };
   } catch {
@@ -27,8 +29,8 @@ function parentDir(dir: string) {
   return cut < 0 ? "" : dir.slice(0, cut);
 }
 
-export function SampleBrowser({ active, onOpen }: Props) {
-  const stored = useState(loadBrowser)[0];
+export function SampleBrowser({ tree, active, onOpen, rootName = "Samples" }: Props) {
+  const stored = useState(() => loadBrowser(tree))[0];
   const [dir, setDir] = useState(stored.dir);
   const [view, setView] = useState<BrowserView>(stored.view);
   const [focusIdx, setFocusIdx] = useState(0);
@@ -39,7 +41,7 @@ export function SampleBrowser({ active, onOpen }: Props) {
   const buffer = useRef("");
   const timer = useRef(0);
 
-  const nodes = SAMPLE_TREE[dir] ?? [];
+  const nodes = tree[dir] ?? [];
   const canGoUp = dir !== "";
   const itemCount = nodes.length + (canGoUp ? 1 : 0);
 
@@ -57,8 +59,8 @@ export function SampleBrowser({ active, onOpen }: Props) {
     revealed.current = active;
     const slash = active.lastIndexOf("/");
     const parent = slash < 0 ? "" : active.slice(0, slash);
-    if (SAMPLE_TREE[parent]) setDir(parent);
-  }, [active]);
+    if (tree[parent]) setDir(parent);
+  }, [active, tree]);
 
   const getNode = useCallback(
     (idx: number): SampleNode | null => {
@@ -281,7 +283,7 @@ export function SampleBrowser({ active, onOpen }: Props) {
         </button>
         <div className="sim-crumbs">
           <button type="button" onClick={() => { setReturnTo(null); setDir(""); }}>
-            Samples
+            {rootName}
           </button>
           {crumbs.map((part, i) => {
             const path = crumbs.slice(0, i + 1).join("/");

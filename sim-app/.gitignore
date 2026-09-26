@@ -1,2 +1,5 @@
 dist
+dist-web
+dist-site
 node_modules
+deploy-web.mjs
